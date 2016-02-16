@@ -1,0 +1,625 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+# Sidebar
+entries:
+- title: Sidebar
+  subcategories:
+  - title:
+    audience: all
+    platform: all
+    product: all
+    version: all
+    output: pdf
+    type: frontmatter
+    items:
+    - title:
+      url: /titlepage.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: pdf
+      type: frontmatter
+
+  - title: Overview
+    audience: all
+    platform: all
+    product: all
+    version: all
+    output: web, pdf
+    items:
+    - title: Introduction
+      url: /mydoc/home.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Supported features
+      url: /mydoc/mydoc_supported_features.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: About the theme author
+      url: /mydoc/mydoc_about.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web
+
+    - title: Support
+      url: /mydoc/mydoc_support.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web
+
+  - title: Get started
+    audience: all
+    platform: all
+    product: all
+    version: all
+    output: web, pdf
+    items:
+    - title: 1. Build the default project
+      url: /mydoc/mydoc_getting_started.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: 2. Add a new project
+      url: /mydoc/mydoc_adding_new_projects.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: 3. Decide on your project's attributes
+      url: /mydoc/mydoc_decide_on_attributes.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: 4. Set the configuration options
+      url: /mydoc/mydoc_configuration_settings.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: 5. Customize the conditions file
+      url: /mydoc/mydoc_conditions_file_customization.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: 6. Configure the sidebar
+      url: /mydoc/mydoc_configure_sidebar.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: 7. Configure the top navigation
+      url: /mydoc/mydoc_top_navigation.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: 8. Customize the URL generator
+      url: /mydoc/mydoc_url_generator_customization.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: 9. Set up Prince XML
+      url: /mydoc/mydoc_princexml_setup.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: 10. Configure the build scripts
+      url: /mydoc/mydoc_build_scripts.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+  - title: Authoring
+    audience: all
+    platform: all
+    product: all
+    version: all
+    output: web, pdf
+    items:
+    - title: Pages
+      url: /mydoc/mydoc_pages.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: WebStorm Text Editor
+      url: /mydoc/mydoc_webstorm_text_editor.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Conditional logic
+      url: /mydoc/mydoc_conditional_logic.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Content reuse
+      url: /mydoc/mydoc_content_reuse.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Collections
+      url: /mydoc/mydoc_collections.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+  - title: Navigation
+    audience: all
+    platform: all
+    product: all
+    version: all
+    output: web, pdf
+    items:
+    - title: Sidebar navigation
+      url: /mydoc/mydoc_sidebar_navigation.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: YAML tutorial in the context of Jekyll
+      url: /mydoc/mydoc_yaml_tutorial.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+
+    - title: Tags
+      url: /mydoc/mydoc_tags.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Series
+      url: /mydoc/mydoc_series.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+  - title: Formatting
+    audience: all
+    platform: all
+    product: all
+    version: all
+    output: web, pdf
+    items:
+    - title: Tooltips
+      url: /mydoc/mydoc_adding_tooltips.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Alerts
+      url: /mydoc/mydoc_alerts.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Icons
+      url: /mydoc/mydoc_icons.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Images
+      url: /mydoc/mydoc_images.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Labels
+      url: /mydoc/mydoc_labels.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Links
+      url: /mydoc/mydoc_hyperlinks.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Navtabs
+      url: /mydoc/mydoc_navtabs.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Video embeds
+      url: /mydoc/mydoc_video_embeds.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Tables
+      url: /mydoc/mydoc_tables.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Syntax highlighting
+      url: /mydoc/mydoc_syntax_highlighting.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+  - title: Handling reviews
+    audience: all
+    platform: all
+    product: all
+    version: all
+    output: web, pdf
+    items:
+    - title: Commenting on files
+      url: /mydoc/mydoc_commenting_on_files.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+  - title: Publishing
+    audience: all
+    platform: all
+    product: all
+    version: all
+    output: web, pdf
+    items:
+
+    - title: Build arguments
+      url: /mydoc/mydoc_build_arguments.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Themes
+      url: /mydoc/mydoc_themes.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Link validation
+      url: /mydoc/mydoc_link_validation.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Check page title consistency
+      url: /mydoc/mydoc_title_checker.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Generating PDFs
+      url: /mydoc/mydoc_generating_pdfs.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Excluding files
+      url: /mydoc/mydoc_excluding_files.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Help APIs and UI tooltips
+      url: /mydoc/mydoc_help_api.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Search configuration
+      url: /mydoc/mydoc_search_configuration.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: iTerm profiles
+      url: /mydoc/mydoc_iterm_profiles.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Pushing builds to server
+      url: /mydoc/mydoc_push_build_to_server.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Getting around the password prompts in SCP
+      url: /mydoc/mydoc_no_password_prompts_scp.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+  - title: Special layouts
+    audience: all
+    platform: all
+    product: all
+    version: all
+    output: web, pdf
+    items:
+
+    - title: Knowledge-base layout
+      url: /mydoc/mydoc_kb_layout.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Scroll layout
+      url: /mydoc/mydoc_scroll.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Shuffle layout
+      url: /mydoc/mydoc_shuffle.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: FAQ layout
+      url: /mydoc/mydoc_faq.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Glossary layout
+      url: /mydoc/mydoc_glossary.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+  - title: Algolia search
+    audience: all
+    platform: all
+    product: all
+    version: all
+    output: web, pdf
+    items:
+
+    - title: Configuring Algolia search
+      url: /mydoc/mydoc_algoliasearch.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+  - title: Collaborating with version control
+    audience: all
+    platform: all
+    product: all
+    version: all
+    output: web, pdf
+    items:
+
+    - title: Mercurial notes and tips
+      url: /mydoc/mydoc_mercurial_collaboration.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+#    - title: Git notes and tips
+#      url: /mydoc/mydoc_git_collaboration.html
+#      audience: all
+#      platform: all
+#      product: all
+#      version: all
+#      output: web, pdf
+
+  - title: Troubleshooting
+    audience: all
+    platform: all
+    product: all
+    version: all
+    output: web, pdf
+    items:
+
+    - title: Troubleshooting
+      url: /mydoc/mydoc_troubleshooting.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+  - title: Tag archives
+    audience: all
+    platform: all
+    product: all
+    version: all
+    output: web
+    items:
+
+    - title: Tag archives overview
+      url: /mydoc/mydoc_tag_archives_overview.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web
+
+      thirdlevel:
+      - title: Tag archive pages
+        audience: all
+        platform: all
+        version: all
+        product: all
+        output: web
+        thirdlevelitems:
+        - title: Getting started pages
+          url: /mydoc/tag_getting_started.html
+          audience: all
+          platform: all
+          version: all
+          product: all
+          output: web
+
+        - title: Formatting pages
+          url: /mydoc/tag_formatting.html
+          audience: all
+          platform: all
+          version: all
+          product: all
+          output: web
+
+        - title: Navigation pages
+          url: /mydoc/tag_navigation.html
+          audience: all
+          platform: all
+          version: all
+          product: all
+          output: web
+
+        - title: Content types pages
+          url: /mydoc/tag_content_types.html
+          audience: all
+          platform: all
+          version: all
+          product: all
+          output: web
+
+        - title: Publishing pages
+          url: /mydoc/tag_publishing.html
+          audience: all
+          platform: all
+          version: all
+          product: all
+          output: web
+
+        - title: Special layout pages
+          url: /mydoc/tag_special_layouts.html
+          audience: all
+          platform: all
+          version: all
+          product: all
+          output: web
+
+        - title: Collaboration pages
+          url: /mydoc/tag_collaboration.html
+          audience: all
+          platform: all
+          version: all
+          product: all
+          output: web
