@@ -7,16 +7,10 @@ layout: default
 </div>
 
 <div class="post-content">
-
    {% if page.summary %}
     <div class="summary">{{page.summary}}</div>
    {% endif %}
-{% include toc.html %}
 
-    {% if site.github_editme_path %}
-
-    <a target="_blank" href="https://github.com/{{site.github_editme_path}}{% unless page.url contains "html" %}{{page.url | replace: '.html', '.md'}}{% endunless %}{% if page.url contains "html" %}{{page.url }}{% endif %}" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
-    {% endif %}
   {{content}}
 
 <div class="tags">
@@ -31,10 +25,15 @@ layout: default
     {% endif %}
 </div>
 
-{% include disqus.html %}
+<!-- {% include disqus.html %} -->
 
 </div>
+<div>
+    {% if site.github_editme_path %}
 
+    <a target="_blank" href="https://github.com/{{site.github_editme_path}}{% unless page.url contains "html" %}{{page.url | replace: '.html', '.md'}}{% endunless %}{% if page.url contains "html" %}{{page.url }}{% endif %}" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+    {% endif %}
+</div>
 {{hr_shaded}}
 
 {% include footer.html %}

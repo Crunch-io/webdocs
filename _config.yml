@@ -17,7 +17,7 @@ github_editme_path: crunch.io/webdocs
 
 sidebar_tagline: Crunch.io
 #sidebar_version: 
-theme_file: theme-blue.css
+theme_file: theme-crunch.css
 #pdf_file_name: mydoc_designers_pdf.pdf
 
 # the algolia entries here are experimental only.

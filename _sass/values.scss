@@ -1,0 +1,94 @@
+// FONTS
+////////////////////
+
+$font-weight-heavy: 700;
+$font-weight-normal: 400;
+$font-size-xs        : 10px;
+$font-size-s         : 11px;
+$font-size-m         : 13px;
+$font-size-l         : 14px;
+$font-size-xl        : 22px;
+
+@font-face {
+    font-family: 'AvenirLTStd';
+    src: url(https://beta.crunch.io/AvenirLTPro-Heavy.ttf);
+    // src: url(../fonts/AvenirLTPro-Heavy.ttf);
+    font-weight: $font-weight-heavy;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AvenirLTStd';
+    src: url(https://beta.crunch.io/AvenirLTPro-Roman.ttf);
+    // src: url(../fonts/AvenirLTPro-Roman.ttf);
+    font-weight: $font-weight-normal;
+    font-style: normal;
+}
+
+%default-font {
+  font-family: "AvenirLTStd", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+
+%header-font {
+  @extend %default-font;
+  font-weight: bold;
+}
+
+// colors
+//////////////////////
+
+$color-purple                    : #722580;
+$color-light-purple              : #ae5ca7;
+$color-red                       : #B95656;
+$color-blue                      : #0064a4;
+$color-dark-blue                 : #005fb6;
+$color-green                     : #107f65;
+$color-ming                      : #008e86;
+$color-white                     : #ffffff;
+$color-dropdown-light-grey       : #f2f3f2;
+$color-dropdown-dark-grey        : #cdceca;
+$color-shadow                    : #bcbcba;
+$color-sidebar-grey              : #f8f8f8;
+$color-sidebar-dark-grey         : #d3d3d3;
+$color-scroll                    : #d3d3d3;
+$color-scroll-thumb              : #9c9c9c;
+$color-card-grey                 : #f1f1f1;
+$color-play-controller-grey      : #f1f1f1;
+$color-inactive-grey             : #b9b9b9;
+$color-grey1                     : #f1f1f1;
+$color-grey2                     : #d3d3d3;
+$color-grey3                     : #bbbbbb;
+$color-tooltip                   : #f1f1f1;
+
+$primary-color : $color-blue;
+$primary-color-hover : #61B7E3;
+$almost-black : #242424;
+$almost-white : #f7f7f7;
+$alt-background : #4d4d4d;
+$near-black : #121617;
+$pane-border-color : #cbd2d3;
+$slate-black : #252d2f;
+$inactive-gray : #70889a;
+$medium-gray : #374549;
+$data-color : #9AB04C;
+$data-color-hover : #688A00;
+$crunch-red : #B95656;
+$table-alt-1 : #f4f4f4;
+$table-alt-2 : #e8e8e8;
+$primary-background : #f1f1f1;
+$dragged-background : #dfdfdf;
+$rollover-background : #cdceca;
+$gray-border-color-medium : #d3d3d3;
+$grey-border-color-light : #f1f1f1;
+$sidebar-hover : #f1f1f1;
+$sidebar-selected : #d3d3d3;
+
+$font-color-white            : #fff;
+$font-color-dark-grey        : #565656;
+$font-color-light-grey       : #777;
+$font-color-lighter-grey     : #bbb;
+$font-color-purple           : $color-purple;
+$font-color-blue             : $color-blue;
+$font-color-green            : $color-green;
+$font-color-red              : $color-red;

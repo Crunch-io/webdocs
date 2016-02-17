@@ -37,7 +37,7 @@ entries:
     output: web, pdf
     items:
     - title: Welcome
-      url: /crunch/crunch_welcome.html
+      url: /crunch/home.html
       audience: all
       platform: all
       product: all
@@ -75,6 +75,56 @@ entries:
       product: all
       version: all
       output: web
+
+    - title: Filtering Data
+      url: /crunch/crunch_filtering-data.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web
+
+    - title: Sharing a Dataset
+      url: /crunch/crunch_sharing-a-dataset.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web
+
+    - title: Creating Variables
+      url: /crunch/crunch_creating-variables-2.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web
+
+    - title: Creating a Combined Variable
+      url: /crunch/crunch_creating-a-combined-variable.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web
+
+    - title: Creating a Categorical Variable
+      url: /crunch/crunch_creating-a-categorical-variable.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web
+
+    - title: Video Tutorial
+      url: /crunch/crunch_video-tutorial.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web
+
+
 
   - title: Dataset Editors
     audience: all
