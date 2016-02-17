@@ -1,4 +1,5 @@
 import pymysql.cursors
+import html2text
 
 db = pymysql.connect(host='localhost',
 	user='root', password='', db='joomla',
@@ -9,7 +10,7 @@ def write_md(page):
 	front_matter = '---\ntitle: "{}"\naudience: all\n---\n\n'.format(page[0])
 	with open(name, 'w') as file:
 		file.write(front_matter)
-		file.write(page[2].encode('utf8'))
+		file.write(html2text.html2text(page[2]).encode('utf8'))
 		file.write('\n')
 
 

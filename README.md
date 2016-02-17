@@ -7,9 +7,13 @@
 - [ ] make css pretty
 - [ ] customize topnav
 - [x] customize sidebar
-- [ ] fix the video link
-- [ ] make ‘series’ / collectionss
-- [ ] enable different 'audience' targets?
-- [ ] markdownify the raw content
+- [x] fix the video embed
 
 - [ ] *move support.crunch.io to here*
+
+#### Nice to have:
+
+- [ ] make ‘series’ / collections for paging
+- [ ] do ‘tags’ for groups of stuff
+- [ ] enable different 'audience' targets?
+- [ ] markdownify the raw content
