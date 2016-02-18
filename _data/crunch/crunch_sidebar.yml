@@ -1,0 +1,182 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+# Sidebar
+entries:
+- title: Sidebar
+  subcategories:
+  - title:
+    audience: all
+    platform: all
+    product: all
+    version: all
+    output: pdf
+    type: frontmatter
+    items:
+    - title:
+      url: /titlepage.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: pdf
+      type: frontmatter
+
+  - title: All users
+    audience: all
+    platform: all
+    product: all
+    version: all
+    output: web, pdf
+    items:
+    - title: Welcome
+      url: /crunch/home.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: "Opening, Searching, and Organizing Datasets"
+      url: /crunch/crunch_selecting-a-dataset.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Browsing Data
+      url: /crunch/crunch_browsing.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web
+
+    - title: Variable Cards
+      url: /crunch/crunch_variable-cards.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web
+
+    - title: Analyzing Data
+      url: /crunch/crunch_analyzing-data.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web
+
+    - title: Filtering Data
+      url: /crunch/crunch_filtering-data.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web
+
+    - title: Sharing a Dataset
+      url: /crunch/crunch_sharing-a-dataset.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web
+
+    - title: Creating Variables
+      url: /crunch/crunch_creating-variables-2.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web
+
+    - title: Creating a Combined Variable
+      url: /crunch/crunch_creating-a-combined-variable.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web
+
+    - title: Creating a Categorical Variable
+      url: /crunch/crunch_creating-a-categorical-variable.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web
+
+    - title: Video Tutorial
+      url: /crunch/crunch_video-tutorial.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web
+
+
+
+  - title: Dataset Editors
+    audience: all
+    platform: all
+    product: all
+    version: all
+    output: web, pdf
+    items:
+    - title: Preparing a Dataset using Crunch.io
+      url: /crunch/crunch_preparing-a-dataset-using-crunch-io.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Importing Data
+      url: /crunch/crunch_importing-data.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Variable Properties
+      url: /crunch/crunch_variable-properties.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Creating Variables (for dataset editors)
+      url: /crunch/crunch_creating-variables-for-dataset-editors.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Dataset Properties
+      url: /crunch/crunch_dataset-properties.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Sharing Properties
+      url: /crunch/crunch_sharing-properties.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf

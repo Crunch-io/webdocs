@@ -1,0 +1,69 @@
+# project definitions
+project: crunch
+audience: all
+product: doc
+platform: all
+version: all
+output: web
+topnav_title: Support
+homepage_title: Crunch.io support
+site_title: Crunch.io support
+project_folder: crunch
+company_name: Crunch.io
+footer_image_location: ../common_images/company_logo.png
+github_editme_path: Crunch-io/webdocs/edit/gh-pages
+video_tutorial_link: grownspcpa8
+# variables
+
+
+sidebar_tagline: Crunch.io
+#sidebar_version: 
+theme_file: theme-crunch.css
+#pdf_file_name: mydoc_designers_pdf.pdf
+
+# the algolia entries here are experimental only.
+
+#gems:
+#  - algoliasearch-jekyll
+#algolia:
+#  application_id: 'HXUBJERYYB'
+#  index_name:     'documentation_theme_jekyll_designers'
+
+exclude:
+  - _site
+  - _drafts
+  - configs/
+
+# same for all
+host: 127.0.0.1
+feedback_email: support@crunch.io
+
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+
+collections:
+  tooltips:
+    output: false
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      comments: true
+      search: true
+  -
+    scope:
+      path: ""
+      type: "tooltips"
+    values:
+      layout: "page"
+      comments: true
+      search: true
+      tooltip: true
+
