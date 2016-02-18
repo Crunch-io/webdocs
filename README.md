@@ -4,8 +4,8 @@
 - [x] make template work on gh-pages
 - [x] get content from joomla
 - [x] make css tolerable
-- [ ] make css pretty
-- [ ] customize topnav
+- [x] make css pretty
+- [x] customize topnav
 - [x] customize sidebar
 - [x] fix the video embed
 
@@ -16,4 +16,4 @@
 - [ ] make ‘series’ / collections for paging
 - [ ] do ‘tags’ for groups of stuff
 - [ ] enable different 'audience' targets?
-- [ ] markdownify the raw content
+- [x] markdownify the raw content

@@ -440,8 +440,9 @@ border-radius: 5px;
 }
 
 span.projectTitle {
-    font-family: Helvetica;
     font-weight: bold;
+    color: $font-color-dark-grey;
+    font-family: AvenirLTStd;
 }
 
 .footer {
@@ -608,9 +609,6 @@ a[data-toggle] {
 a.fa.fa-envelope-o.mailto {
   font-weight: 600;
 }
-
-h3 {color: #ED1951; font-weight:normal; font-size:130%;}
-h4 {color: #808080; font-weight:normal; font-size:120%; font-style:italic;}
 
 .alert, .callout {
     overflow: hidden;
