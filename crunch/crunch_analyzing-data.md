@@ -7,17 +7,18 @@ audience: all
 
 For a deeper look at a dataset than the top-level card view, you can create
 univariate and bivariate tables and graphs, save them, and export them to an
-Excel spreadsheet. To enter analyze mode, click "Analyze" at the top of the
-interface or double-click the header area of a variable card.
+Excel spreadsheet. To enter this analysis view from card view, click the "Analyze" icon at the top of the
+interface, double-click on a variable card, or drag a variable from the left sidebar list onto a card to create a crosstab of it.
 
 ### Univariate Analyses
 
-When analyze view opens, a univariate table is displayed using the variable
-that was on the far left of the workspace in browse mode. Numeric and date-
-time variables will be grouped into bins.
+If you click the analyze icon, you will enter the expanded view with a univariate table displayed using the variable
+that was on the far left of the workspace in browse mode. If you double-click a card to get to this expanded view, the univariate table will correspond to the card you clicked.
+
+Numeric variables will have values grouped into bins; datetime variables will have values "rolled up" to a unit of time.
 
 You can see a univariate analysis of another variable by clicking it in the
-sidebar.
+sidebar or by clicking or pressing left/right.
 
 ### Drag and Drop to Slice by Columns and Pages
 
@@ -81,9 +82,9 @@ following controls are available:
 
 Table/Graph - Use this control to toggle between showing a table and a graph.
 The graph type will vary by the types of the variables in the analysis.  
-  
+
 ---|---  
-  
+
 ![](images/DisplayControllerDirection.png)
 
 |
@@ -96,7 +97,7 @@ table. When viewing a table, click the * to enable significance testing - this
 will add shading to the graph indicating if a value is significantly above or
 below the mean value for that row or column (depending on how the percentages
 are being summed).  
-  
+
 ![](images/Display Digits.png)
 
 |
@@ -104,7 +105,7 @@ are being summed).
 Decimal Places - If viewing an analysis that uses decimal points either for
 percentages or for numeric means, use this control to determine how many
 digits are shown after the decimal point.  
-  
+
 ![](images/DisplayMissing.png)
 
 |
@@ -112,14 +113,14 @@ digits are shown after the decimal point.
 Show Empty - If unselected any rows or columns in a table or graph that are
 entirely empty will be hidden. If selected empty rows and columns will be
 displayed. Note that adding filters may cause a row or column to become empty.  
-  
+
 ![](images/DisplayPivot.png)
 
 |
 
 Pivot - Click this control to swap the row variable and the column/group/slice
 variable.  
-  
+
 ### Saving Analyses
 
 ![](images/SaveTray.png)Once you have created an analysis that you want to
@@ -154,5 +155,3 @@ Click **Export to Excel** to export all saved analyses to an Excel document.
 Each analysis will be put into a separate sheet in the Excel file, and the
 valid/missing counts, as well as any active filters, will be included
 alongside the table.
-
-
