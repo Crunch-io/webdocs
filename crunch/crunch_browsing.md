@@ -3,7 +3,7 @@ title: "Browsing Data"
 audience: all
 ---
 
-When you open a dataset it will be in browse mode.
+When you open a dataset it will open in card view.
 
 Browse mode displays top-line views of each variable in a series of cards.
 Each card represents a single variable - the number of cards you can see at a
