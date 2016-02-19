@@ -11,9 +11,5 @@ the dataset with other users (if there is no account associated with an email
 address, a new basic account will be created).
 
 If you have permission to edit the dataset, a **Manage Sharing** link will
-take you to [Sharing Properties](9-editors-help/21-sharing-properties.html),
+take you to [Sharing Properties](crunch_sharing-properties.html),
 where you can unshare the dataset and grant editorship rights to other users.
-
-
-
-

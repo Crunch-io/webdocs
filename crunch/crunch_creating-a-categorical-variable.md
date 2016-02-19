@@ -4,7 +4,7 @@ audience: all
 ---
 
 When you open the categorical variable creator from the [New
-variables](2-help/14-creating-variables-2.html) page the following interface
+variables](crunch_creating-variables-2.html) page the following interface
 opens:
 
 ![](images/CreateCategorical.png)
@@ -16,8 +16,7 @@ category.
 
 ![](images/DefiningACategory.png)
 
-Defining a category works identically to the [Filter Builder](2-help/5
--filtering-data.html) - you can define what rows of the data will be included
+Defining a category works identically to the [Filter Builder](crunch_filtering-data.html) - you can define what rows of the data will be included
 in the category based on other variables in the dataset.
 
 Once you have finished defining a category, click **Add Category** to close
@@ -48,5 +47,3 @@ position in the variable.
 
 Once you have finished defining categories, click Save to create the variable.
 The variable must have a name in order to be saved.
-
-

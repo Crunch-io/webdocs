@@ -51,7 +51,7 @@ but any variables derived from it will be unaffected.
 
 An exclusion is essentially a permanent filter. Select **Exclusions** from the
 dataset properties menu to open an interface identical to the [Filter
-Builder](2-help/5-filtering-data.html) in which to create an exclusion. When
+Builder](crunch_filtering-data.html) in which to create an exclusion. When
 analyzing the dataset, it will behave as if the excluded rows do not exist.
 
 ### Archiving and Deleting Data
@@ -62,5 +62,3 @@ Datasets can be archived or deleted. Select **Archive/Delete** from the
 dataset properties menu. When a dataset is archived it can be accessed and
 restored by the owner from the Archive label in the dataset list. If a dataset
 is deleted, it is removed permanently and cannot be recovered.
-
-
