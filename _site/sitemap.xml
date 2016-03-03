@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  
+    
+    <url>
+      <loc>/404.html</loc>
+      
+        <last_updated>2016-03-03T15:21:56-08:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/algolia_search.json</loc>
+      
+        <last_updated>2016-03-03T15:21:56-08:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/crunch/crunch_analyzing-data.html</loc>
+      
+        <last_updated>2016-03-03T15:21:56-08:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/crunch/crunch_browsing.html</loc>
+      
+        <last_updated>2016-03-03T15:21:56-08:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/crunch/crunch_creating-a-categorical-variable.html</loc>
+      
+        <last_updated>2016-03-03T15:21:56-08:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/crunch/crunch_creating-a-combined-variable.html</loc>
+      
+        <last_updated>2016-03-03T15:21:56-08:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/crunch/crunch_creating-variables-2.html</loc>
+      
+        <last_updated>2016-03-03T15:21:56-08:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/crunch/crunch_creating-variables-for-dataset-editors.html</loc>
+      
+        <last_updated>2016-03-03T15:21:56-08:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/crunch/crunch_creating-variables.html</loc>
+      
+        <last_updated>2016-03-03T15:21:56-08:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/crunch/crunch_dataset-properties.html</loc>
+      
+        <last_updated>2016-03-03T15:21:56-08:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/crunch/crunch_filtering-data.html</loc>
+      
+        <last_updated>2016-03-03T15:21:56-08:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/crunch/crunch_importing-data.html</loc>
+      
+        <last_updated>2016-03-03T15:21:56-08:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/crunch/crunch_preparing-a-dataset-using-crunch-io.html</loc>
+      
+        <last_updated>2016-03-03T15:21:56-08:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/crunch/crunch_reporting-problems.html</loc>
+      
+        <last_updated>2016-03-03T15:21:56-08:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/crunch/crunch_saving-analyses.html</loc>
+      
+        <last_updated>2016-03-03T15:21:56-08:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/crunch/crunch_selecting-a-dataset.html</loc>
+      
+        <last_updated>2016-03-03T15:21:56-08:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/crunch/crunch_sharing-a-dataset.html</loc>
+      
+        <last_updated>2016-03-03T15:21:56-08:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/crunch/crunch_sharing-properties.html</loc>
+      
+        <last_updated>2016-03-03T15:21:56-08:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/crunch/crunch_tutorial-video.html</loc>
+      
+        <last_updated>2016-03-03T15:21:56-08:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/crunch/crunch_variable-cards.html</loc>
+      
+        <last_updated>2016-03-03T15:21:56-08:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/crunch/crunch_variable-properties.html</loc>
+      
+        <last_updated>2016-03-03T15:21:56-08:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/crunch/crunch_video-tutorial.html</loc>
+      
+        <last_updated>2016-03-03T15:21:56-08:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/css/customstyles.css</loc>
+      
+        <last_updated>2016-03-03T15:21:56-08:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/crunch/home.html</loc>
+      
+        <last_updated>2016-03-03T15:21:56-08:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/</loc>
+      
+        <last_updated>2016-03-03T15:21:56-08:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/prince-file-list.txt</loc>
+      
+        <last_updated>2016-03-03T15:21:56-08:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/crunch/search.html</loc>
+      
+        <last_updated>2016-03-03T15:21:56-08:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/search.json</loc>
+      
+        <last_updated>2016-03-03T15:21:56-08:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/sitemap.xml</loc>
+      
+        <last_updated>2016-03-03T15:21:56-08:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/crunch/tag_collaboration.html</loc>
+      
+        <last_updated>2016-03-03T15:21:56-08:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/crunch/tag_content_types.html</loc>
+      
+        <last_updated>2016-03-03T15:21:56-08:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/crunch/tag_formatting.html</loc>
+      
+        <last_updated>2016-03-03T15:21:56-08:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/crunch/tag_getting_started.html</loc>
+      
+        <last_updated>2016-03-03T15:21:56-08:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/crunch/tag_mobile.html</loc>
+      
+        <last_updated>2016-03-03T15:21:56-08:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/crunch/tag_navigation.html</loc>
+      
+        <last_updated>2016-03-03T15:21:56-08:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/crunch/tag_publishing.html</loc>
+      
+        <last_updated>2016-03-03T15:21:56-08:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/crunch/tag_single_sourcing.html</loc>
+      
+        <last_updated>2016-03-03T15:21:56-08:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/crunch/tag_special_layouts.html</loc>
+      
+        <last_updated>2016-03-03T15:21:56-08:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/css/theme-crunch.css</loc>
+      
+        <last_updated>2016-03-03T15:21:56-08:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/title-checker.html</loc>
+      
+        <last_updated>2016-03-03T15:21:56-08:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/titlepage.html</loc>
+      
+        <last_updated>2016-03-03T15:21:56-08:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/tocpage.html</loc>
+      
+        <last_updated>2016-03-03T15:21:56-08:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/urls_crunch.txt</loc>
+      
+        <last_updated>2016-03-03T15:21:56-08:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+</urlset>

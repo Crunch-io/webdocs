@@ -1,0 +1,154 @@
+
+
+
+
+
+
+
+
+ 
+
+ 
+
+
+
+ 
+home:
+  title: "Welcome"
+  url: "../crunch/home.html"
+  link: "<a href='../crunch/home.html'>Welcome</a>"
+
+
+ 
+crunch_selecting-a-dataset:
+  title: "Opening, Searching, and Organizing Datasets"
+  url: "../crunch/crunch_selecting-a-dataset.html"
+  link: "<a href='../crunch/crunch_selecting-a-dataset.html'>Opening, Searching, and Organizing Datasets</a>"
+
+
+ 
+crunch_browsing:
+  title: "Browsing Data in Card View"
+  url: "../crunch/crunch_browsing.html"
+  link: "<a href='../crunch/crunch_browsing.html'>Browsing Data in Card View</a>"
+
+
+ 
+crunch_variable-cards:
+  title: "Variable Cards"
+  url: "../crunch/crunch_variable-cards.html"
+  link: "<a href='../crunch/crunch_variable-cards.html'>Variable Cards</a>"
+
+
+ 
+crunch_analyzing-data:
+  title: "Analyzing Data"
+  url: "../crunch/crunch_analyzing-data.html"
+  link: "<a href='../crunch/crunch_analyzing-data.html'>Analyzing Data</a>"
+
+
+ 
+crunch_saving-analyses:
+  title: "Saving Analyses"
+  url: "../crunch/crunch_saving-analyses.html"
+  link: "<a href='../crunch/crunch_saving-analyses.html'>Saving Analyses</a>"
+
+
+ 
+crunch_filtering-data:
+  title: "Filtering Data"
+  url: "../crunch/crunch_filtering-data.html"
+  link: "<a href='../crunch/crunch_filtering-data.html'>Filtering Data</a>"
+
+
+ 
+crunch_sharing-a-dataset:
+  title: "Sharing a Dataset"
+  url: "../crunch/crunch_sharing-a-dataset.html"
+  link: "<a href='../crunch/crunch_sharing-a-dataset.html'>Sharing a Dataset</a>"
+
+
+ 
+crunch_creating-variables-2:
+  title: "Creating Variables"
+  url: "../crunch/crunch_creating-variables-2.html"
+  link: "<a href='../crunch/crunch_creating-variables-2.html'>Creating Variables</a>"
+
+
+ 
+crunch_creating-a-combined-variable:
+  title: "Creating a Combined Variable"
+  url: "../crunch/crunch_creating-a-combined-variable.html"
+  link: "<a href='../crunch/crunch_creating-a-combined-variable.html'>Creating a Combined Variable</a>"
+
+
+ 
+crunch_creating-a-categorical-variable:
+  title: "Creating a Categorical Variable"
+  url: "../crunch/crunch_creating-a-categorical-variable.html"
+  link: "<a href='../crunch/crunch_creating-a-categorical-variable.html'>Creating a Categorical Variable</a>"
+
+
+ 
+crunch_video-tutorial:
+  title: "Video Tutorial"
+  url: "../crunch/crunch_video-tutorial.html"
+  link: "<a href='../crunch/crunch_video-tutorial.html'>Video Tutorial</a>"
+
+
+
+
+ 
+crunch_preparing-a-dataset-using-crunch-io:
+  title: "Preparing a Dataset using Crunch.io"
+  url: "../crunch/crunch_preparing-a-dataset-using-crunch-io.html"
+  link: "<a href='../crunch/crunch_preparing-a-dataset-using-crunch-io.html'>Preparing a Dataset using Crunch.io</a>"
+
+
+ 
+crunch_importing-data:
+  title: "Importing Data"
+  url: "../crunch/crunch_importing-data.html"
+  link: "<a href='../crunch/crunch_importing-data.html'>Importing Data</a>"
+
+
+ 
+crunch_variable-properties:
+  title: "Variable Properties"
+  url: "../crunch/crunch_variable-properties.html"
+  link: "<a href='../crunch/crunch_variable-properties.html'>Variable Properties</a>"
+
+
+ 
+crunch_creating-variables-for-dataset-editors:
+  title: "Creating Variables (for dataset editors)"
+  url: "../crunch/crunch_creating-variables-for-dataset-editors.html"
+  link: "<a href='../crunch/crunch_creating-variables-for-dataset-editors.html'>Creating Variables (for dataset editors)</a>"
+
+
+ 
+crunch_dataset-properties:
+  title: "Dataset Properties"
+  url: "../crunch/crunch_dataset-properties.html"
+  link: "<a href='../crunch/crunch_dataset-properties.html'>Dataset Properties</a>"
+
+
+ 
+crunch_sharing-properties:
+  title: "Sharing Properties"
+  url: "../crunch/crunch_sharing-properties.html"
+  link: "<a href='../crunch/crunch_sharing-properties.html'>Sharing Properties</a>"
+
+
+
+
+
+
+
+
+
+
+
+
+
+

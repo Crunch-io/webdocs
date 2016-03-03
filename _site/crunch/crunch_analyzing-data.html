@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+  <head>
+
+ <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="keywords" content=" ">
+<title>Analyzing Data in Expanded View  | Crunch.io support</title>
+<link rel="stylesheet" type="text/css" href="../css/syntax.css">
+<link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
+<!--<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">-->
+<link rel="stylesheet" type="text/css" href="../css/modern-business.css">
+<link rel="stylesheet" type="text/css" href="../css/lavish-bootstrap.css">
+<link rel="stylesheet" type="text/css" href="../css/customstyles.css">
+<link rel="stylesheet" type="text/css" href="../css/theme-crunch.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="../js/jquery.navgoco.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/2.0.0/anchor.min.js"></script>
+<script src="../js/toc.js"></script>
+<script src="../js/customscripts.js"></script>
+<link rel="shortcut icon" href="../common_images/favicon.ico" type="image/x-icon">
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+
+
+
+
+
+
+ 
+
+<script>
+  $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+  })
+</script>
+
+
+
+  </head>
+
+<body>
+
+   <!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container topnavlinks">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <a class="fa fa-home fa-lg navbar-brand" href="home.html">&nbsp;<span class="projectTitle"> Support</span></a>
+
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <!-- entries without drop-downs appear here -->
+                <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+                
+
+
+
+
+                
+                
+                
+                
+                <li><a href="https://beta.crunch.io" target="_blank">Go to Application</a></li>
+                
+                
+                
+                
+
+
+                <!-- entries with drop-downs appear here -->
+                <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+
+                <li class="dropdown">
+                    
+
+
+                <!-- special insertion -->
+
+               
+                <!-- Send feedback function -->
+<script>
+function SendLinkByMail(href) {
+var subject= "Crunch.io support feedback";
+var body = "I have some feedback about the Analyzing Data in Expanded View page: ";
+body += window.location.href;
+body += "";
+var uri = "mailto:support@crunch.io?subject=";
+uri += encodeURIComponent(subject);
+uri += "&body=";
+uri += encodeURIComponent(body);
+window.location.href = uri;
+}
+</script>
+
+<li><a href="javascript:(function()%7BSendLinkByMail()%3B%7D)()%3B" target="_blank"><i class="fa fa-envelope-o"></i> Feedback</a></li>
+
+                <!--uncomment this block if you want simple search instead of algolia-->
+                <li>
+                     <!--start search-->
+                    <div id="search-demo-container">
+                        <input type="text" id="search-input" placeholder="search...">
+                        <ul id="results-container"></ul>
+                    </div>
+                    <script src="../js/jekyll-search.js" type="text/javascript"></script>
+                    <script type="text/javascript">
+                        SimpleJekyllSearch.init({
+                            searchInput: document.getElementById('search-input'),
+                            resultsContainer: document.getElementById('results-container'),
+                            dataSource: '../search.json',
+                            searchResultTemplate: '<li><a href="{url}" title="Analyzing Data in Expanded View">{title}</a></li>',
+                        noResultsText: 'No results found.',
+                                limit: 10,
+                                fuzzy: true,
+                        })
+                    </script>
+                     <!--end search-->
+                </li>
+
+            
+        </div>
+        <!-- /.container -->
+</nav>
+
+
+    <!-- Page Content -->
+    <div class="container">
+        <div class="col-lg-12">&nbsp;</div>
+
+
+<!-- Content Row -->
+<div class="row">
+    <!-- Sidebar Column -->
+    <div class="col-md-3">
+
+        <script>
+
+            $(document).ready(function() {
+                // Initialize navgoco with default options
+                $("#mysidebar").navgoco({
+                    caretHtml: '',
+                    accordion: true,
+                    openClass: 'active', // open
+                    save: false, // leave false or nav highlighting doesn't work right
+                    cookie: {
+                        name: 'navgoco',
+                        expires: false,
+                        path: '/'
+                    },
+                    slide: {
+                        duration: 400,
+                        easing: 'swing'
+                    }
+                });
+
+                $("#collapseAll").click(function(e) {
+                    e.preventDefault();
+                    $("#mysidebar").navgoco('toggle', false);
+                });
+
+                $("#expandAll").click(function(e) {
+                    e.preventDefault();
+                    $("#mysidebar").navgoco('toggle', true);
+                });
+
+            });
+
+        </script>
+
+
+        
+
+
+
+
+        <ul id="mysidebar" class="nav">
+
+            <span class="siteTagline">Crunch.io</span>
+            <span class="versionTagline"></span>
+
+            
+            
+            
+                
+            
+            <li><a href="#">All users</a>
+                <ul>
+                    
+                    
+                    
+                    <li><a href="../crunch/home.html">Welcome</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="../crunch/crunch_selecting-a-dataset.html">Opening, Searching, and Organizing Datasets</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="../crunch/crunch_browsing.html">Browsing Data in Card View</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="../crunch/crunch_variable-cards.html">Variable Cards</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li class="active"><a href="../crunch/crunch_analyzing-data.html">Analyzing Data</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="../crunch/crunch_saving-analyses.html">Saving Analyses</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="../crunch/crunch_filtering-data.html">Filtering Data</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="../crunch/crunch_sharing-a-dataset.html">Sharing a Dataset</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="../crunch/crunch_creating-variables-2.html">Creating Variables</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="../crunch/crunch_creating-a-combined-variable.html">Creating a Combined Variable</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="../crunch/crunch_creating-a-categorical-variable.html">Creating a Categorical Variable</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="../crunch/crunch_video-tutorial.html">Video Tutorial</a></li>
+                    
+
+                    
+
+                    
+                    
+                </ul>
+                
+                
+            
+            <li><a href="#">Dataset Editors</a>
+                <ul>
+                    
+                    
+                    
+                    <li><a href="../crunch/crunch_preparing-a-dataset-using-crunch-io.html">Preparing a Dataset using Crunch.io</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="../crunch/crunch_importing-data.html">Importing Data</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="../crunch/crunch_variable-properties.html">Variable Properties</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="../crunch/crunch_creating-variables-for-dataset-editors.html">Creating Variables (for dataset editors)</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="../crunch/crunch_dataset-properties.html">Dataset Properties</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="../crunch/crunch_sharing-properties.html">Sharing Properties</a></li>
+                    
+
+                    
+
+                    
+                    
+                </ul>
+                
+                
+                
+
+
+                <!-- if you aren't using the accordion, uncomment this block:
+
+                     <p class="external">
+                         <a href="#" id="collapseAll">Collapse All</a> | <a href="#" id="expandAll">Expand All</a>
+                     </p>
+                 -->
+
+    </div>
+    <!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
+    <script>$("li.active").parents('li').toggleClass("active");</script>
+
+
+            <!-- Content Column -->
+            <div class="col-md-9">
+                
+                <div class="post-header">
+   <h1 class="post-title-main">Analyzing Data in Expanded View</h1>
+</div>
+
+<div class="post-content">
+   
+
+  <p>For a deeper look at data than what is available in <a href="crunch_browsing.html">card view</a>, you can create, save, and export
+univariate and multivariate tables and graphs in <strong>Expanded View</strong>.</p>
+
+<p><img src="images/ViewToggleAnalyze.png" alt="" /></p>
+
+<p>To enter this view:</p>
+
+<ul>
+  <li>
+    <p>click the icon in the view toggle at the top of the interface to expand the variable card on the far left into a univariate table,</p>
+  </li>
+  <li>
+    <p>double-click on a variable card in card view to expand the selected variable card as a univariate table,</p>
+  </li>
+  <li>
+    <p>or drag a variable from the left sidebar list onto a card in card view to create a crosstab of the two selected variables.</p>
+  </li>
+</ul>
+
+<p>When you enter this view, you will see a table of the selected analysis.</p>
+
+<h3 id="variables-in-an-analysis">Variables in an analysis</h3>
+
+<p><img src="images/Table.png" alt="" /></p>
+
+<p>An analysis contains one or more variables. These variables have a role in the analysis - how the roles are named and viewed depends on how many variables there are and what analysis view you are looking at (see The Display Controller, below, for more information about changing the analysis view). Variables can be in the following roles:</p>
+
+<ul>
+  <li><strong>Row Variable</strong> – Defines the rows of a table or graph. In the case of a univariate analysis, the single variable is considered the row variable. In the example above, Unaided Awareness (Coffee Roasters) is the row variable.</li>
+  <li><strong>Column/Group/Slice Variable</strong> - In a table, the Column variable defines the table columns (Gender in the example above). When viewing the analysis as a graph, this variable can be used as the Group variable (when viewing the analysis as a single graph) or the Slice variable (when viewing the graph as a sliced graph of small multiples). See Grouped and Sliced Graphs, below, for an example of a sliced versus grouped graph.</li>
+  <li><strong>Tab Variable</strong> - Defines clickable tabs to show an analysis segmented across a third variable. In the example above Education is the tab variable, and we are currently looking at the HS or Less tab.</li>
+  <li><strong>Mean Variable</strong> - You can use the mean of a variable as the values (rather than percentages or counts). For example, if we were to use Age as the mean in the table above, the upper-left cell would contain the mean age of Male, Blue Bottle Coffee Aware respondents.</li>
+</ul>
+
+<h3 id="adding-and-replacing-the-variables-in-the-analysis">Adding and Replacing the Variables in the Analysis</h3>
+
+<p>Drag and drop a variable (from either the sidebar or the seach panel) on to an analysis to show a collection of dropzones that allow you to add or replace variables used in the current analysis.</p>
+
+<p><img src="images/DropZones.png" alt="" /></p>
+
+<p>What dropzones are available varies depending on the type of variables, the number of variables, and the type of analysis.</p>
+
+<p>In addition to dropzones for the analysis roles described above, there will always be a <strong>Variable as New Table/Graph</strong> dropzone. Dropping a variable here will remove all variables currently in the analysis and create a univariate analysis with the selected variable.</p>
+
+<h4 id="categorical-array-variables">Categorical array variables</h4>
+
+<p>A categorical array – a variable made up of a group of items that share a common set of categories — defines two dimensions. When you make a new table or graph, the default view has the items as rows and the categories as a common set of columns, with percentages calculated by row. If you already have a column or group variable in an analysis, the categories of the array become the rows, with the same columns in place, and tabs appear to select an item of the array.</p>
+
+<h4 id="components-of-array-and-multiple-response-variables">Components of array and multiple response variables</h4>
+
+<p>Categorical array and multiple response variables are made up of component that describe one column of an array or one category of a multiple response variable. If you want to use one of the component variables in an analysis click the + in the sidebar next to the variable name. This will display component variables that can be dragged to the analysis individually.</p>
+
+<p><img src="images/SidebarArrayExpand.png" alt="" /></p>
+
+<h3 id="removing-a-variables-from-an-analysis">Removing a variables from an analysis</h3>
+
+<p>Hover over a variable in an analysis to reveal an ‘x’ next to the variable name. Click the ‘x’ to remove the variable. There are some graph types where this does not work correctly - if you are having trouble change to table view to remove the variable.</p>
+
+<h3 id="graph-types">Graph types</h3>
+
+<p>Tables have a consistent look regardless of variable types, but Crunch supports several different sorts of graphs depending on what sort of variables are being used.</p>
+
+<h4 id="groups-and-slices">Groups and Slices</h4>
+
+<p>When creating graphs you will see <strong>Slice</strong> and <strong>Group</strong> dropzones rather than just the <strong>Column</strong> option used for tables. What sort of graph you get will differ depending on where you drop the variable.</p>
+
+<p>A grouped graph shows the analysis in a single graph – the analysis is broken down by the group variable within the categories of the row variable.</p>
+
+<p><img src="images/GroupedAnalysis.png" alt="" /></p>
+
+<p>A sliced graph shows a series of small univariate graphs – one for each category in the second variable.</p>
+
+<p><img src="images/SlicedAnalysis.png" alt="" /></p>
+
+<p>Graphs cannot contain both a group and slice variable at this time – if you add a group variable it will replace the slice variable and vice versa.</p>
+
+<h4 id="time-plots">Time Plots</h4>
+
+<p>If a date/time variable is used as the column variable, the graph will be displayed as a time plot, showing the row variable over time.</p>
+
+<p><img src="images/TimePlotAnalysis.png" alt="" /></p>
+
+<h4 id="numeric-variables">Numeric Variables</h4>
+
+<p>When viewed as a graph, numeric variables will display a histogram. If sliced by a second variable, a histogram will be shown for each category in the second variable.</p>
+
+<p><img src="images/HistogramsAnalysis.png" alt="" /></p>
+
+<h3 id="using-the-display-controller">Using the Display Controller</h3>
+
+<p>The Display Controller at the bottom of the analyze interface is used to
+change some settings.</p>
+
+<p><img src="images/DisplayController2.png" alt="" /></p>
+
+<p>Which controls are displayed depends on the analysis being viewed. The
+following controls are available:</p>
+
+<p><img src="images/DisplayTableGraph.png" alt="" /></p>
+
+<table>
+  <tbody>
+    <tr>
+    </tr>
+  </tbody>
+</table>
+
+<p>Table/Graph - Use this control to toggle between showing a table and a graph.
+The graph type will vary by the types of the variables in the analysis.</p>
+
+<p>—|—</p>
+
+<p><img src="images/DisplayControllerDirection.png" alt="" /></p>
+
+<table>
+  <tbody>
+    <tr>
+    </tr>
+  </tbody>
+</table>
+
+<p>Count/Percentage, Percent Direction, and Significance testing - Use this
+control to toggle between counts and percentages. If viewing percentages in a
+bivariate table or graph, click the arrow control to toggle between
+percentages summing by column (down), by row (right), or across the whole
+table. When viewing a table, click the * to enable significance testing - this
+will add shading to the graph indicating if a value is significantly above or
+below the mean value for that row or column (depending on how the percentages
+are being summed).</p>
+
+<p><img src="images/Display Digits.png" alt="" /></p>
+
+<table>
+  <tbody>
+    <tr>
+    </tr>
+  </tbody>
+</table>
+
+<p>Decimal Places - If viewing an analysis that uses decimal points either for
+percentages or for numeric means, use this control to determine how many
+digits are shown after the decimal point.</p>
+
+<p><img src="images/DisplayMissing.png" alt="" /></p>
+
+<table>
+  <tbody>
+    <tr>
+    </tr>
+  </tbody>
+</table>
+
+<p>Show Empty - If unselected any rows or columns in a table or graph that are
+entirely empty will be hidden. If selected empty rows and columns will be
+displayed. Note that adding filters may cause a row or column to become empty.</p>
+
+<p><img src="images/DisplayPivot.png" alt="" /></p>
+
+<table>
+  <tbody>
+    <tr>
+    </tr>
+  </tbody>
+</table>
+
+<p>Pivot - Click this control to swap the row variable and the column/group/slice
+variable.</p>
+
+
+
+<div class="tags">
+    
+</div>
+
+<!--  -->
+
+</div>
+
+
+
+<footer>
+            <div class="row">
+                <div class="col-lg-12 footer">
+                
+
+    <a target="_blank" href="https://github.com/Crunch-io/webdocs/edit/gh-pages/crunch/crunch_analyzing-data.md" class="no_icon" role="button"><i class="fa fa-github fa-lg"></i> Contribute to this page</a><br/>
+    
+               &copy;2016 Crunch.io. All rights reserved. <br />
+ Site last generated: Mar 3, 2016 <br />
+<p><img src="../common_images/company_logo.png/></p>
+                </div>
+            </div>
+</footer>
+            </div><!-- /.row -->
+
+    </div>    <!-- /.container -->
+
+</body>
+
+
+</html>
+

@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+  <head>
+
+ <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="keywords" content=" ">
+<title>Opening, Searching, and Organizing Datasets  | Crunch.io support</title>
+<link rel="stylesheet" type="text/css" href="../css/syntax.css">
+<link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
+<!--<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">-->
+<link rel="stylesheet" type="text/css" href="../css/modern-business.css">
+<link rel="stylesheet" type="text/css" href="../css/lavish-bootstrap.css">
+<link rel="stylesheet" type="text/css" href="../css/customstyles.css">
+<link rel="stylesheet" type="text/css" href="../css/theme-crunch.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="../js/jquery.navgoco.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/2.0.0/anchor.min.js"></script>
+<script src="../js/toc.js"></script>
+<script src="../js/customscripts.js"></script>
+<link rel="shortcut icon" href="../common_images/favicon.ico" type="image/x-icon">
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+
+
+
+
+
+
+ 
+
+<script>
+  $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+  })
+</script>
+
+
+
+  </head>
+
+<body>
+
+   <!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container topnavlinks">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <a class="fa fa-home fa-lg navbar-brand" href="home.html">&nbsp;<span class="projectTitle"> Support</span></a>
+
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <!-- entries without drop-downs appear here -->
+                <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+                
+
+
+
+
+                
+                
+                
+                
+                <li><a href="https://beta.crunch.io" target="_blank">Go to Application</a></li>
+                
+                
+                
+                
+
+
+                <!-- entries with drop-downs appear here -->
+                <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+
+                <li class="dropdown">
+                    
+
+
+                <!-- special insertion -->
+
+               
+                <!-- Send feedback function -->
+<script>
+function SendLinkByMail(href) {
+var subject= "Crunch.io support feedback";
+var body = "I have some feedback about the Opening, Searching, and Organizing Datasets page: ";
+body += window.location.href;
+body += "";
+var uri = "mailto:support@crunch.io?subject=";
+uri += encodeURIComponent(subject);
+uri += "&body=";
+uri += encodeURIComponent(body);
+window.location.href = uri;
+}
+</script>
+
+<li><a href="javascript:(function()%7BSendLinkByMail()%3B%7D)()%3B" target="_blank"><i class="fa fa-envelope-o"></i> Feedback</a></li>
+
+                <!--uncomment this block if you want simple search instead of algolia-->
+                <li>
+                     <!--start search-->
+                    <div id="search-demo-container">
+                        <input type="text" id="search-input" placeholder="search...">
+                        <ul id="results-container"></ul>
+                    </div>
+                    <script src="../js/jekyll-search.js" type="text/javascript"></script>
+                    <script type="text/javascript">
+                        SimpleJekyllSearch.init({
+                            searchInput: document.getElementById('search-input'),
+                            resultsContainer: document.getElementById('results-container'),
+                            dataSource: '../search.json',
+                            searchResultTemplate: '<li><a href="{url}" title="Opening, Searching, and Organizing Datasets">{title}</a></li>',
+                        noResultsText: 'No results found.',
+                                limit: 10,
+                                fuzzy: true,
+                        })
+                    </script>
+                     <!--end search-->
+                </li>
+
+            
+        </div>
+        <!-- /.container -->
+</nav>
+
+
+    <!-- Page Content -->
+    <div class="container">
+        <div class="col-lg-12">&nbsp;</div>
+
+
+<!-- Content Row -->
+<div class="row">
+    <!-- Sidebar Column -->
+    <div class="col-md-3">
+
+        <script>
+
+            $(document).ready(function() {
+                // Initialize navgoco with default options
+                $("#mysidebar").navgoco({
+                    caretHtml: '',
+                    accordion: true,
+                    openClass: 'active', // open
+                    save: false, // leave false or nav highlighting doesn't work right
+                    cookie: {
+                        name: 'navgoco',
+                        expires: false,
+                        path: '/'
+                    },
+                    slide: {
+                        duration: 400,
+                        easing: 'swing'
+                    }
+                });
+
+                $("#collapseAll").click(function(e) {
+                    e.preventDefault();
+                    $("#mysidebar").navgoco('toggle', false);
+                });
+
+                $("#expandAll").click(function(e) {
+                    e.preventDefault();
+                    $("#mysidebar").navgoco('toggle', true);
+                });
+
+            });
+
+        </script>
+
+
+        
+
+
+
+
+        <ul id="mysidebar" class="nav">
+
+            <span class="siteTagline">Crunch.io</span>
+            <span class="versionTagline"></span>
+
+            
+            
+            
+                
+            
+            <li><a href="#">All users</a>
+                <ul>
+                    
+                    
+                    
+                    <li><a href="../crunch/home.html">Welcome</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li class="active"><a href="../crunch/crunch_selecting-a-dataset.html">Opening, Searching, and Organizing Datasets</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="../crunch/crunch_browsing.html">Browsing Data in Card View</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="../crunch/crunch_variable-cards.html">Variable Cards</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="../crunch/crunch_analyzing-data.html">Analyzing Data</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="../crunch/crunch_saving-analyses.html">Saving Analyses</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="../crunch/crunch_filtering-data.html">Filtering Data</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="../crunch/crunch_sharing-a-dataset.html">Sharing a Dataset</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="../crunch/crunch_creating-variables-2.html">Creating Variables</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="../crunch/crunch_creating-a-combined-variable.html">Creating a Combined Variable</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="../crunch/crunch_creating-a-categorical-variable.html">Creating a Categorical Variable</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="../crunch/crunch_video-tutorial.html">Video Tutorial</a></li>
+                    
+
+                    
+
+                    
+                    
+                </ul>
+                
+                
+            
+            <li><a href="#">Dataset Editors</a>
+                <ul>
+                    
+                    
+                    
+                    <li><a href="../crunch/crunch_preparing-a-dataset-using-crunch-io.html">Preparing a Dataset using Crunch.io</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="../crunch/crunch_importing-data.html">Importing Data</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="../crunch/crunch_variable-properties.html">Variable Properties</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="../crunch/crunch_creating-variables-for-dataset-editors.html">Creating Variables (for dataset editors)</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="../crunch/crunch_dataset-properties.html">Dataset Properties</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="../crunch/crunch_sharing-properties.html">Sharing Properties</a></li>
+                    
+
+                    
+
+                    
+                    
+                </ul>
+                
+                
+                
+
+
+                <!-- if you aren't using the accordion, uncomment this block:
+
+                     <p class="external">
+                         <a href="#" id="collapseAll">Collapse All</a> | <a href="#" id="expandAll">Expand All</a>
+                     </p>
+                 -->
+
+    </div>
+    <!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
+    <script>$("li.active").parents('li').toggleClass("active");</script>
+
+
+            <!-- Content Column -->
+            <div class="col-md-9">
+                
+                <div class="post-header">
+   <h1 class="post-title-main">Opening, Searching, and Organizing Datasets</h1>
+</div>
+
+<div class="post-content">
+   
+
+  <h3 id="the-dataset-list">The dataset list</h3>
+
+<p>After signing in to Crunch.io, you will see a list of Datasets to which you have access.</p>
+
+<p><img src="images/DatasetsList.png" alt="Datasets list" /></p>
+
+<p>In the left sidebar, click <strong>All</strong> to see all datasets you can access. If you belong to any teams, they will be listed below. Click a team name to see only the datasets available to that team.</p>
+
+<p>The dataset list can be sorted by clicking any column header (e.g. “Name”). Right click a column header to hide and show columns (more options for columns will be available in future releases).</p>
+
+<p>Click a dataset to open it.</p>
+
+<h3 id="searching-for-a-dataset">Searching for a dataset</h3>
+
+<p>Click the search icon in the upper-right corner to open the search panel. Here you can search for a dataset by name, description, or using the names of any of the variables in the dataset. Click the dataset name to open it. Click a variable name to open the dataset and display that variable card.</p>
+
+<p><img src="images/search-results.png" alt="Search results" /></p>
+
+<h3 id="organizing-datasets">Organizing datasets</h3>
+
+<p>If you have access to a large number of datasets you may want to label them. Move
+your mouse cursor over a dataset to reveal a dropdown arrow. Click it and select <strong>Add Label</strong>. You’ll be able to type a name for the label - it will autocomplete with any existing labels you have created. Once you have created labels, the <strong>Labels</strong> heading will appear in the sidebar, allowing you to filter your dataset list by label.</p>
+
+<p><img src="images/DatasetLabels.png" alt="" /></p>
+
+
+
+<div class="tags">
+    
+</div>
+
+<!--  -->
+
+</div>
+
+
+
+<footer>
+            <div class="row">
+                <div class="col-lg-12 footer">
+                
+
+    <a target="_blank" href="https://github.com/Crunch-io/webdocs/edit/gh-pages/crunch/crunch_selecting-a-dataset.md" class="no_icon" role="button"><i class="fa fa-github fa-lg"></i> Contribute to this page</a><br/>
+    
+               &copy;2016 Crunch.io. All rights reserved. <br />
+ Site last generated: Mar 3, 2016 <br />
+<p><img src="../common_images/company_logo.png/></p>
+                </div>
+            </div>
+</footer>
+            </div><!-- /.row -->
+
+    </div>    <!-- /.container -->
+
+</body>
+
+
+</html>
+

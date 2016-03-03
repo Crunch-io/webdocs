@@ -3,55 +3,67 @@ title: "Filtering Data"
 audience: all
 ---
 
-### Selecting a Filter
+### Filters
 
-The **Filters** area at the top of the workspace shows whether and how the
-data is filtered. A filter subsets the data to show only the rows with that
-characteristic. When no filters are applied, None appears next to **Filters**.
-To filter the data, click None to show a list of available filters.
+Filters are used to show a subset of the data that matches a specified set of values for specified variables. The **Filters** area near the top of the page shows what filters are currently applied. 
+
+### Adding a quick filter
+
+The fastest way to filter data is to add a **quick filter**. A quick filter filters the data by a single value of a single variable. Quick filters are not saved for later use nor can editors make them available to other users. To create a quick filter, drag a variable from the sidebar or search panel onto the **Filter by** dropzone.
+
+![](images/FilterDropZone.png)
+
+Once the filter is dropped, a dropdown will open showing the categories in that variable. Select one of the categories to close the dropdown and create a filter.
+
+![](images/SelectQuickFilter.png)
+
+The new filter will be named **Variable Name: Category Name**.
+
+![](images/QuickFilterGender.png)
+
+If you click a quick filter, the dropdown will reopen and you can select a different category (allowing you, for example, to quickly look at the data filtered by several categories of the same variable).
+
+### Selecting an existing filter
+
+More complex filters can be built using the filter builder. These filters will appear in the dropdown that is displayed when you click **Filters**.
 
 ![](images/FilterSelect.png)
 
-Filters with a dot next to them are owned by the dataset owner. If you create
-filters they will not have a dot.
+Filters with a dot next to them were created by a dataset editor and made available to all dataset users. When you create filters they will not have a dot.
 
-Click the current filter to change it or, to add a second filter, click the +
-that appears when hovering near an existing filter.
+If you click one of these built filters in the filter bar, you can swap the filter in place of another one. To add a second built filter, click the + that appears when hovering near an existing filter.
 
-### Creating a Filter
+### Removing a filter
 
-Select New filter… from the drop-down menu to create a new filter. This opens
-the filter builder.
+To remove a filter, hover over it in the filter bar and click the 'x' that appears in the corner.
+
+### Building a Filter
+
+Select **New filter…** from the drop-down menu to open the filter builder. 
 
 ![](images/FilterBuilderEmpty.png)
 
+A filter can contain one or more conditions. To add a condition choose a variable in the sidebar and click it or drag it to the target to see the categories for that variable.
 
-
-A filter consists of one or more conditions. To add a condition choose a
-variable in the sidebar and click it or drag it to the target to see the
-categories for that variable.
-
-Click the categories in the variable to toggle them off and on for the filter
-you are creating. The filtered count for the condition is displayed at the
-bottom of the condition. .
+Click the categories in the variable to toggle them off and on for the filter you are building. The filtered count for the condition is displayed at the bottom of the condition.
 
 ![](images/FilterBuilderCondition.png)
 
-When you add multiple conditions you can choose whether all conditions have to
-be true (AND) or whether any condition has to be true (OR).
+When you add multiple conditions you can choose whether all conditions have to be true (AND) or whether any condition has to be true (OR).
 
 ![](images/FilterBuilderComplexCondition.png)
 
-Click the arrow that appears in the upper right of a condition when you hover
-over it to delete a condition from the filter.
+Click the arrow that appears in the upper right of a condition when you hover over it to delete a condition from the filter.
 
 Once a filter has one or more conditions and a name it can be saved.
 
-After saving a filter it will be automatically selected.
+After saving a filter it will be automatically applied.
 
-Only you can see filters you have created on your account.
+Only you can see filters you have created on your account unless you are a dataset editor (see <a href=".
 
-### Editing and Deleting Filters
+### Editing or deleting a filter
+
+You can only edit or delete filters you have created unless you are a dataset editor (in which case you can also edit any filters that are available to all users on the dataset).
 
 To edit a filter you can either:
 
@@ -59,9 +71,6 @@ To edit a filter you can either:
 
   * Select Edit filter… after clicking an already selected filter in the filter bar.
 
-This opens the filter builder interface that was used to create the filter.
-When editing a filter click Delete in the lower right to delete it.
+This opens the filter builder with the selected filter. When editing a filter click Delete in the lower right to delete it.
 
-Filters that were created by the dataset owner can be viewed, but not edited.
-
-
+You can view, but not edit, filters that are available to all users on the dataset (unless you are a dataset editor).

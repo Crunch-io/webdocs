@@ -73,22 +73,10 @@ strong { font-weight: 700; }
 
 .breadcrumb > .active {color: #777 !important;}
 
-/* make room for the nav bar */
-h1[id],
-h2[id],
-h3[id],
-h4[id],
-h5[id],
-h6[id],
-dt[id]{
-    padding-top: 60px; 
-    margin-top: -40px
-}
 
 body h1 {margin-top:60px;}
 
 .post-content img {
-    margin: 12px 0px 3px 0px;
     width: auto;
     height: auto;
     max-width: 100%;
@@ -97,6 +85,10 @@ body h1 {margin-top:60px;}
 
 .post-content ol li, .post-content ul li {
 margin: 10px 0px;
+}
+
+.post-content ul {
+    padding-left: 14px;
 }
 
 .pageSummary {
@@ -130,11 +122,7 @@ caption {
 th {
   text-align: left;
 }
-table {
-  max-width: 90%;
-  margin-bottom: 20px;
-  border: 1px solid #dedede;
-}
+
 
 table > thead > tr > th,
 table > tbody > tr > th,
@@ -143,9 +131,6 @@ table > thead > tr > td,
 table > tbody > tr > td,
 table > tfoot > tr > td {
   padding: 8px;
-  line-height: 1.42857143;
-  vertical-align: top;
-  border-top: 1px solid #ddd;
 }
 table > thead > tr > th {
   vertical-align: bottom;
@@ -166,9 +151,6 @@ table > thead:first-child > tr:first-child > td {
 table > tbody + tbody {
   
 }
-table > tbody > tr:nth-of-type(odd) {
-  background-color: #f9f9f9;
-}
 
 table col[class*="col-"] {
   position: static;
@@ -183,10 +165,6 @@ table th[class*="col-"] {
 }
 
 
-table td:first-child {
-  width: 150px;
-  /*font-weight:bold;*/
-}
 
 table.boldFirstColumn td:first-child {
     font-weight: bold;
@@ -196,6 +174,9 @@ table tr td {
   hyphens: auto;
 }
 
+.post-content table img {
+    max-width: none;
+}
 
 p.external a {
   text-align:right;
@@ -901,19 +882,6 @@ span.soft {
     border: 1px solid #dedede;
 }
 
-
-@media only screen and (min-width: 900px) {
-    .col-md-9 img {
-        max-width: 700px;
-        max-height: 700px;
-    }
-}
-@media only screen and (min-device-width: 900px) {
-  .col-md-9 img {
-        max-width: 700px;
-        max-height: 700px;
-    }
-}
 
 *:hover > .anchorjs-link {
     transition: color .25s linear;

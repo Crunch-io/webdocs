@@ -3,36 +3,29 @@ title: "Opening, Searching, and Organizing Datasets"
 audience: all
 ---
 
-### Opening a dataset
+###The dataset list
 
-![](images/DatasetsList.png)After signing in to Crunch.io, you will see a list
-of datasets available to you along with the user who owns that dataset. You
-can filter the list of datasets using the search at the top of the page.
+After signing in to Crunch.io, you will see a list of Datasets to which you have access.
 
-Click a dataset name to open it.
+![Datasets list](images/DatasetsList.png)
+
+In the left sidebar, click **All** to see all datasets you can access. If you belong to any teams, they will be listed below. Click a team name to see only the datasets available to that team.
+
+The dataset list can be sorted by clicking any column header (e.g. "Name"). Right click a column header to hide and show columns (more options for columns will be available in future releases).
+
+Click a dataset to open it.
+
+### Searching for a dataset
+
+Click the search icon in the upper-right corner to open the search panel. Here you can search for a dataset by name, description, or using the names of any of the variables in the dataset. Click the dataset name to open it. Click a variable name to open the dataset and display that variable card.
+
+![Search results](images/search-results.png)
 
 ### Organizing datasets
 
-The search bar doesn’t just index names and owners. It actually knows about
-all of the metadata inside all of your datasets, so you don’t need to remember
-whether it was the name of a dataset, content or name of a variable, or even a
-category name — results show the matched search in context.
+If you have access to a large number of datasets you may want to label them. Move
+your mouse cursor over a dataset to reveal a dropdown arrow. Click it and select **Add Label**. You'll be able to type a name for the label - it will autocomplete with any existing labels you have created. Once you have created labels, the **Labels** heading will appear in the sidebar, allowing you to filter your dataset list by label. 
 
-![Search results](images/search-resized.png)Example search results
-
-### Organizing datasets
-
-If you have access to a large number of datasets it may be helpful to add
-labels to them so you can find what you are looking for more quickly. Move
-your mouse cursor over a dataset to reveal the ADD LABEL button.
-
-![](images/DatasetAddLabel.png)
-
-Click ADD LABEL to add a label to the dataset. Added labels will appear in the
-sidebar. You can filter the list of datasets by selecting one of these labels.
-For example, labeling each dataset with the year it was created allows you to
-filter the list of datasets by year.
-
-![](images/DatasetWithYearLabel.png)
+![](images/DatasetLabels.png)
 
 
