@@ -133,8 +133,8 @@ entries:
     version: all
     output: web, pdf
     items:
-    - title: Preparing a Dataset using Crunch.io
-      url: /crunch/crunch_preparing-a-dataset-using-crunch-io.html
+    - title: Preparing Data
+      url: /crunch/crunch_preparing-data.html
       audience: all
       platform: all
       product: all
@@ -143,6 +143,14 @@ entries:
 
     - title: Importing Data
       url: /crunch/crunch_importing-data.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Datasets with Multiple Editors
+      url: /crunch/crunch_multiple-editors.html
       audience: all
       platform: all
       product: all
@@ -167,6 +175,46 @@ entries:
 
     - title: Dataset Properties
       url: /crunch/crunch_dataset-properties.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+      
+    - title: Organizing Variables
+      url: /crunch/crunch_organizing-variables.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+      
+    - title: Creating Exclusions
+      url: /crunch/crunch_creating-exclusions.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Archiving and Deleting Datasets
+      url: /crunch/crunch_archiving-deleting-datasets.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Dataset History
+      url: /crunch/crunch_dataset-history.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Appending Data
+      url: /crunch/crunch_appending-data.html
       audience: all
       platform: all
       product: all
