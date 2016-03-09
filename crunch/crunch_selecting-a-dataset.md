@@ -24,7 +24,7 @@ Click the search icon in the upper-right corner to open the search panel. Here y
 ### Organizing datasets
 
 If you have access to a large number of datasets you may want to label them. Move
-your mouse cursor over a dataset to reveal a dropdown arrow. Click it and select **Add Label**. You'll be able to type a name for the label - it will autocomplete with any existing labels you have created. Once you have created labels, the **Labels** heading will appear in the sidebar, allowing you to filter your dataset list by label. 
+your mouse cursor over a dataset to reveal a dropdown arrow. Click it and select **Add Label**. You'll be able to type a name for the label - it will autocomplete with any existing labels you have created. Once you have created labels, the **Labels** heading will appear in the sidebar, allowing you to filter your dataset list or search results by label. 
 
 ![](images/DatasetLabels.png)
 

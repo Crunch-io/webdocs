@@ -29,7 +29,7 @@ More complex filters can be built using the filter builder. These filters will a
 
 ![](images/FilterSelect.png)
 
-Filters with a dot next to them were created by a dataset editor and made available to all dataset users. When you create filters they will not have a dot.
+A • next to a filter indicates that it was created by a dataset editor and made available to all dataset users.
 
 If you click one of these built filters in the filter bar, you can swap the filter in place of another one. To add a second built filter, click the + that appears when hovering near an existing filter.
 
@@ -59,18 +59,18 @@ Once a filter has one or more conditions and a name it can be saved.
 
 After saving a filter it will be automatically applied.
 
-Only you can see filters you have created on your account unless you are a dataset editor (see <a href=".
+Only you can see filters you have created on your account unless you are a dataset editor.
 
 ### Editing or deleting a filter
 
-You can only edit or delete filters you have created unless you are a dataset editor (in which case you can also edit any filters that are available to all users on the dataset).
+You can only edit or delete filters you have created unless you are a dataset editor.
 
 To edit a filter you can either:
 
   * Click edit next to a filter name in the drop down list or
 
-  * Select Edit filter… after clicking an already selected filter in the filter bar.
+  * Select “Edit filter…” after clicking an already selected filter in the filter bar.
 
 This opens the filter builder with the selected filter. When editing a filter click Delete in the lower right to delete it.
 
-You can view, but not edit, filters that are available to all users on the dataset (unless you are a dataset editor).
+You can view, but not edit, filters that are available to all users on the dataset.

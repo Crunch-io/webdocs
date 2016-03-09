@@ -3,8 +3,7 @@ title: "Analyzing Data in Expanded View"
 audience: all
 ---
 
-For a deeper look at data than what is available in <a href="crunch_browsing.html">card view</a>, you can create, save, and export
-univariate and multivariate tables and graphs in **Expanded View**.
+For a deeper look at data than what is available in [card view](./crunch_browsing.html), you can create, save, and export univariate and multivariate tables and graphs in **Expanded View**.
 
 ![](images/ViewToggleAnalyze.png)
 
@@ -22,12 +21,12 @@ When you enter this view, you will see a table of the selected analysis.
 
 ![](images/Table.png)
 
-An analysis contains one or more variables. These variables have a role in the analysis - how the roles are named and viewed depends on how many variables there are and what analysis view you are looking at (see The Display Controller, below, for more information about changing the analysis view). Variables can be in the following roles:
+An analysis contains one or more variables. These variables have a role in the analysis; how the roles are named and viewed depends on how many variables there are and what analysis view you are looking at (see The Display Controller, below, for more information about changing the analysis view). Variables can be in the following roles:
 
-* **Row Variable** – Defines the rows of a table or graph. In the case of a univariate analysis, the single variable is considered the row variable. In the example above, Unaided Awareness (Coffee Roasters) is the row variable.
-* **Column/Group/Slice Variable** - In a table, the Column variable defines the table columns (Gender in the example above). When viewing the analysis as a graph, this variable can be used as the Group variable (when viewing the analysis as a single graph) or the Slice variable (when viewing the graph as a sliced graph of small multiples). See Grouped and Sliced Graphs, below, for an example of a sliced versus grouped graph.
-* **Tab Variable** - Defines clickable tabs to show an analysis segmented across a third variable. In the example above Education is the tab variable, and we are currently looking at the HS or Less tab. 
-* **Mean Variable** - You can use the mean of a variable as the values (rather than percentages or counts). For example, if we were to use Age as the mean in the table above, the upper-left cell would contain the mean age of Male, Blue Bottle Coffee Aware respondents.
+- **Row Variable** – Defines the rows of a table or graph. In the case of a univariate analysis, the single variable is considered the row variable. In the example above, Unaided Awareness (Coffee Roasters) is the row variable. 
+- **Column/Group/Slice Variable** – In a table, the Column variable defines the table columns (Gender in the example above). When viewing the analysis as a graph, this variable can be used as the Group variable (when viewing the analysis as a single graph) or the Slice variable (when viewing the graph as a sliced graph of small multiples). See Grouped and Sliced Graphs, below, for an example of a sliced versus grouped graph. 
+- **Tab Variable** – Defines clickable tabs to show an analysis segmented across a third variable. In the example above Education is the tab variable, and we are currently looking at the HS or Less tab.  
+- **Mean Variable** – You can use the mean of a variable as the values (rather than percentages or counts). For example, if we were to use Age as the mean in the table above, the upper-left cell would contain the mean age of Male, Blue Bottle Coffee Aware respondents.
 
 ### Adding and Replacing the Variables in the Analysis
 
@@ -51,7 +50,7 @@ Categorical array and multiple response variables are made up of component that 
 
 ### Removing a variables from an analysis
 
-Hover over a variable in an analysis to reveal an 'x' next to the variable name. Click the 'x' to remove the variable. There are some graph types where this does not work correctly - if you are having trouble change to table view to remove the variable.
+Hover over a variable in an analysis to reveal an 'x' next to the variable name. Click the 'x' to remove the variable. (If the x doesn’t seem to show up — for instance some graphs may not provide the remove-variable button — simply change to table view to remove the variable.)
 
 ### Graph types
 
@@ -61,15 +60,15 @@ Tables have a consistent look regardless of variable types, but Crunch supports 
 
 When creating graphs you will see **Slice** and **Group** dropzones rather than just the **Column** option used for tables. What sort of graph you get will differ depending on where you drop the variable.
 
-A grouped graph shows the analysis in a single graph – the analysis is broken down by the group variable within the categories of the row variable.
+A grouped graph shows the analysis in a single graph — the analysis is broken down by the group variable within the categories of the row variable.
 
 ![](images/GroupedAnalysis.png)
 
-A sliced graph shows a series of small univariate graphs – one for each category in the second variable.
+A sliced graph shows a series of small univariate graphs — one for each category in the second variable.
 
 ![](images/SlicedAnalysis.png)
 
-Graphs cannot contain both a group and slice variable at this time – if you add a group variable it will replace the slice variable and vice versa.
+Graphs cannot contain both a group and slice variable at this time — if you add a group variable it will replace the slice variable and vice versa.
 
 #### Time Plots
 
@@ -85,56 +84,33 @@ When viewed as a graph, numeric variables will display a histogram. If sliced by
 
 ### Using the Display Controller
 
-The Display Controller at the bottom of the analyze interface is used to
-change some settings.
+The Display Controller at the bottom of the analyze interface is used to change some settings.
 
 ![](images/DisplayController2.png)
 
-Which controls are displayed depends on the analysis being viewed. The
-following controls are available:
+Which controls are displayed depends on the analysis being viewed. The following controls are available:
 
 ![](images/DisplayTableGraph.png)
 
-|
+ Table/Graph – Use this control to toggle between showing a table and a graph. The graph type will vary by the types of the variables in the analysis.  
 
-Table/Graph - Use this control to toggle between showing a table and a graph.
-The graph type will vary by the types of the variables in the analysis.  
+ ![](images/DisplayControllerDirection.png)
 
----|---  
-
-![](images/DisplayControllerDirection.png)
-
-|
-
-Count/Percentage, Percent Direction, and Significance testing - Use this
-control to toggle between counts and percentages. If viewing percentages in a
-bivariate table or graph, click the arrow control to toggle between
-percentages summing by column (down), by row (right), or across the whole
-table. When viewing a table, click the * to enable significance testing - this
-will add shading to the graph indicating if a value is significantly above or
-below the mean value for that row or column (depending on how the percentages
-are being summed).  
+ Count/Percentage, Percent Direction, and Significance testing – Use this control to toggle between counts and percentages. If viewing percentages in a bivariate table or graph, click the arrow control to toggle between percentages summing by column (down), by row (right), or across the whole table. When viewing a table, click the * to enable significance testing – this will add shading to the graph indicating if a value is significantly above or below the mean value for that row or column (depending on how the percentages are being summed).  
 
 ![](images/Display Digits.png)
 
-|
 
-Decimal Places - If viewing an analysis that uses decimal points either for
-percentages or for numeric means, use this control to determine how many
-digits are shown after the decimal point.  
+
+Decimal Places – If viewing an analysis that uses decimal points either for percentages or for numeric means, use this control to determine how many digits are shown after the decimal point.  
 
 ![](images/DisplayMissing.png)
 
-|
 
-Show Empty - If unselected any rows or columns in a table or graph that are
-entirely empty will be hidden. If selected empty rows and columns will be
-displayed. Note that adding filters may cause a row or column to become empty.  
+
+Show Empty – If unselected any rows or columns in a table or graph that are entirely empty will be hidden. If selected, empty rows and columns will be displayed. Note that adding filters may cause a row or column to become empty.  
 
 ![](images/DisplayPivot.png)
 
-|
-
-Pivot - Click this control to swap the row variable and the column/group/slice
-variable.  
+ Swap – Click this control to swap the row variable and the column/group/slice variable.  
 
