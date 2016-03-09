@@ -52,7 +52,7 @@ entries:
       version: all
       output: web, pdf
 
-    - title: Browsing Data
+    - title: Browsing Data in Card View
       url: /crunch/crunch_browsing.html
       audience: all
       platform: all
@@ -70,6 +70,14 @@ entries:
 
     - title: Analyzing Data
       url: /crunch/crunch_analyzing-data.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web
+
+    - title: Saving Analyses
+      url: /crunch/crunch_saving-analyses.html
       audience: all
       platform: all
       product: all

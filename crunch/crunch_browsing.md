@@ -1,45 +1,46 @@
 ---
-title: "Browsing Data"
+title: "Browsing Data in Card View"
 audience: all
 ---
 
-When you open a dataset, the card view of the dataset will load.
+When you open a dataset, the card view of the dataset will load. If you are in another view, you can return to card view by clicking the far left icon in the view control at the top of the page:
 
-Card view displays top-line summaries of each variable in a series of cards.
-Each card represents a single variable - the number of cards you can see at a
-time will vary based on the card width and the width of your display.
+![](images/ViewToggle.png)
+
+Card view displays top-line summaries of each variable in a series of cards. Each card represents a single variable — the number of cards you can see at a time will vary based on the card widths and the width of your display.
 
 ![](images/Browse.png)
 
-You can browse through variables by clicking the arrows on the left and right or by using your left/right arrow keys.
+Browse through variables by clicking the arrows on the left and right or by using your left/right arrow keys.
 
-The sidebar on the left displays all the variables in the dataset, typically organized
-into a series of groups by the dataset owner. Click a group name open it. Click a
-variable to navigate directly to it.
+The sidebar on the left displays all the variables in the dataset, typically organized into a series of groups by the dataset owner. Click a group name open it. Click a variable to navigate directly to it.
+
+### Searching for a variable
+
+In larger datasets, it may be helpful to search for a variable. Click the search icon in the upper right corner to open the search tray. From here you can search for a variable by name, description, alias, or category name (e.g. searching for "Male" would find the variable "Gender").
 
 ### Using the Display Controller
 
-The Display Controller at the bottom of the screen is used to
-change some settings:
+Use the Display Controller at the bottom of the screen to change display settings. 
 
+![](images/BrowseDisplayController.png)
 
----|---  
+If you don't see the display controller, move the pointer towards the bottom of the screen to reveal it.
 
+In card view, the play controller contains the following controls:
 
-![](images/Display Digits.png)
-
-|
-
-Decimal Places - If viewing an analysis that uses decimal points either for
-percentages or for numeric means, use this control to determine how many
-digits are shown after the decimal point.  
-
-![](images/DisplayMissing.png)
-
-|
-
-Show Empty - If unselected any rows or columns in a table or graph that are
-entirely empty will be hidden. If selected empty rows and columns will be
-displayed. Note that adding filters may cause a row or column to become empty.  
-
+<table>
+    <tr>
+        <td><img src="images/DisplayDecimalPoints.png" /></td>
+        <td><p><strong>Decimal Places</strong> – Sets the number of digits shown after the decimal point for percentages or numeric means.</p></td>
+    </tr>
+    <tr>
+        <td><img src="images/DisplayNPercent.png" /></td>
+        <td><p><strong>Counts/Percents</strong> – Toggles between showing counts and percentages for categorical, array, and multiple-response variables.</p></td>
+    </tr>
+    <tr>
+        <td><img src="images/DisplayShowEmpty.png" /></td>
+        <td><p><strong>Show/Hide Empty</strong> – Toggles between showing and hiding categories with no valid values (e.g. if an applied filter has resulted in some categories being empty).</p></td>
+    </tr>
+</table>
  
