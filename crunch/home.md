@@ -11,7 +11,7 @@ Browse support topics using the menu on the left. **Dataset Editors** contains f
 
 ![](images/ReportBug.png)
 
-If you believe you have found a bug, you can report it from within the application - click your user name in the upper right and select **Report a Problem**. You’ll be able to send us a message along with a screenshot. You can also email us at [support@crunch.io](mailto:support@crunch.io). 
+If you believe you have found a bug, you can report it from within the application - click the help icon in the upper right and select **Report a Problem**. You’ll be able to send us a message along with a screenshot. You can also email us at [support@crunch.io](mailto:support@crunch.io). 
 
 ### Requesting a Feature
 
