@@ -13,8 +13,8 @@ You can view and edit the following properties:
 
 **Description** - Click the dataset description to edit it.
 
-**Start Date/End Date** - These properties are included to allow start and end dates to be specified as survey metadata.
+**Start Date/End Date** - When was the data collected? These properties are included to allow start and end dates (distinct, obviously, from dataset creation or modification times) to be included as dataset attributes.
 
-**Notes** - If there are notes about the dataset that don't seem appropriate for the description, you can include them here.
+**Notes** - If you have more detailed notes about the dataset beyond its description, you can include them here.
 
-**Export** - Attempts to Export the dataset to an SPSS file. Click once to begin the export – this can take some time for larger datasets. When the export is complete, the button will change to reading DatasetName.spss. Click again to download the exported dataset.
+**Export** - Export the dataset to an SPSS file. Click once to begin the export – this can take some time for larger datasets. When the export is complete, the button will change from "Export" to an SPSS ".sav" filename. Click again to download the exported file.
