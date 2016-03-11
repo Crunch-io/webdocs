@@ -1,9 +1,9 @@
 ---
-title: "Creating a Categorical Variable"
+title: "Build Categorical Variable"
 audience: all
 ---
 
-When you open the categorical variable creator from the [New variables](crunch_creating-variables-2.html) page the following interface opens:
+When you open the categorical variable builder from the [New variables](crunch_creating-variables-2.html) page the following interface opens:
 
 ![](images/CreateCategorical.png)
 

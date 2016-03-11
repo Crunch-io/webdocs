@@ -1,9 +1,9 @@
 ---
-title: "Creating a Combined Variable"
+title: "Combining Categories"
 audience: all
 ---
 
-When you create a combined variable, you first will need to select the variable it will be based on. Click or drag a variable from the sidebar. The Combine Variable interface opens:
+To combine categories, click or drag a variable from the sidebar. The Combine Categories interface opens:
 
 ![](images/CombineVariableInterface.png)
 
