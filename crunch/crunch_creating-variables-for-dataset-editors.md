@@ -13,8 +13,7 @@ Array, Multiple Response, and Weight variables are always created as public to a
 
 ### Combining Categories
 
-See [Creating a Combined
-Variable](crunch_creating-a-combined-variable.html).
+See [Combining Categories](crunch_creating-a-combined-variable.html).
 
 ### Build a Categorical Variable
 
@@ -45,9 +44,7 @@ When you bind categorical variables into a multiple response variable, the origi
 
 Weighting a dataset allows you to adjust the data to a specific required ratio of one or more variables - usually demographic variables. For example, if 1000 people were surveyed - 600 men and 400 women, but the study in question was for an area that had a 50/50 split of men and women, you could weight the responses of the women a little more heavily to adjust for the uneven split in your sample size.
 
-A weight variable is a numeric variable where each row contains a multiplier that indicates how that row should be given more or less importance. When a weight is created in Crunch.io, this numeric weight variable is created by
-specifying the target values for one or more categorical values (in the example above, 55% Male and 45% Female). A weight variable can be constructed from multiple categorical variables (for example to adjust the data for target
-genders, ages, and incomes).
+A weight variable is a numeric variable where each row contains a multiplier that indicates how that row should be given more or less importance. When a weight is created in Crunch.io, this numeric weight variable is created by specifying the target values for one or more categorical values (in the example above, 55% Male and 45% Female). A weight variable can be constructed from multiple categorical variables (for example to adjust the data for target gender, age, and income distributions).
 
 To create a weight:
 
