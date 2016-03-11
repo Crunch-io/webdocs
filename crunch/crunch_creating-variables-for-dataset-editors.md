@@ -13,15 +13,15 @@ New variables can be derived from existing variables. To start creating a new va
 
 Categorical variables and Combined variables can be created on a dataset by any user. When a dataset viewer creates one of these variables, they are always private - only the use who created it can see and use the variable. When a dataset editor creates a combined variable or a categorical variable, the Public/Private toggle appears in the upper-right corner. This slider determines if the new variable is private (available only to the user that created it) or public (available to everyone who can access the dataset). Array, Multiple Response, and Weight variables are always created as public to all viewers of the dataset.
 
-### Creating a Combined variable
+### Combining Categories
 
-See [Creating a Combined Variable](crunch_creating-a-combined-variable.html).
+See [Combining Categories](crunch_creating-a-combined-variable.html).
 
-### Creating a Categorical Variable
+### Build a Categorical Variable
 
-See [Creating a Categorical Variable](crunch_creating-a-categorical-variable.html).
+See [Build Categorical Variable](crunch_creating-a-categorical-variable.html).
 
-### Creating a Categorical Array Variable
+### Build a Categorical Array Variable
 
 ![](images/NewArrayVariable.png)
 
@@ -29,7 +29,7 @@ To create an array variable, select or drag the variables that represent the ite
 
 Note that when creating a categorical array variable, the variables you group to form the array will no longer appear separately in the web application. This is in contrast with the combined-categories variable, which does not overwrite the uncombined source variable. You will, however, be able to access the subvariables within a categorical array separately for analysis.
 
-### Creating a Multiple Response Variable
+### Build a Multiple Response Variable
 
  ![](images/NewMRVariable.png)
 

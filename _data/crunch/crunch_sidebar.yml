@@ -108,7 +108,7 @@ entries:
       version: all
       output: web
 
-    - title: Creating a Combined Variable
+    - title: Combining Categories
       url: /crunch/crunch_creating-a-combined-variable.html
       audience: all
       platform: all
@@ -116,7 +116,7 @@ entries:
       version: all
       output: web
 
-    - title: Creating a Categorical Variable
+    - title: Building a Categorical Variable
       url: /crunch/crunch_creating-a-categorical-variable.html
       audience: all
       platform: all
