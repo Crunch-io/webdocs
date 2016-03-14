@@ -19,7 +19,7 @@ See [Combining Categories](crunch_creating-a-combined-variable.html).
 
 See [Build Categorical Variable](crunch_creating-a-categorical-variable.html).
 
-### Build a Categorical Array Variable
+### Creating an Array Variable
 
 ![](images/NewArrayVariable.png)
 
