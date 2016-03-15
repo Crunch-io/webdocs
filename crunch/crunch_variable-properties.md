@@ -3,68 +3,108 @@ title: "Variable Properties"
 audience: all
 ---
 
-When editing a dataset, you can access properties of individual variables by clicking **Edit** underneath the variable card.
+Access properties of an individual variables by clicking **Properties** below the variable card (this link appears when you hover on the card). Dataset viewers can only view these properties. Dataset editors can edit them if they are the active editor - see [Datasets with Multiple Editors](crunch_multiple-editors.html).
 
 ![](images/edit-variable-properties-resized.png)
 
-You can edit the name and description of all variables, as well as hide or delete them. (To change more than one variable at a time, names and descriptions can also be edited in the [variable organizer](crunch_variable-organizer.html))
+Variable properties open in a panel that slides in from the right side of the screen. Any changes you make to variable properties will not be saved until you click **Save**.
 
-![Example properties panel](images/variable-properties-page.png)
+### Common properties
 
-Additional properties depend on the variable type:
+All variables contain the following properties and actions:
+
+**Name** – Click the variable name in the top-left to edit it.
+
+**Description** - Click the variable description just below the name to edit it.
+
+**Alias** – The alias is a unique identifier of the variable within the dataset. It allows, for example, the variable to be identified during an append even when the name has changed.
+
+**Type** - The variable type. Currently read-only for all users.
+
+**Public/Private** - A private variable is only visible to the current user. Making an existing variable private will prevent other users from seeing it.
+
+**Hide Variable** – Hiding a variable removes it from the sidebar, search results, and card view. Editors can see and unhide variables in the Variable Organizer. Hidden variables can still be used as weights, or as a source for a derived variable.
+
+**Delete Variable** – Deleting a variable removes it from the dataset entirely. This may result in the removal of filter, analyses, weights, and derived variables that depend upon it.
 
 ### Categorical Variable Properties
 
-**Numeric Values** – Show or hide the numeric value associated with each category. These values can be used to treat the variable as numeric (and compute its mean) in an analysis.
+![](images/CategoricalVariableProperties.png)
 
-**Counts/Percentages** – Show counts or percentages on the variable card.
+#### Category properties
 
-**Decimal Places** – If showing percentages, how many decimal places to display on the variable card.
+When viewing a categorical variable, the left side of the properties pane shows the variable categories. These categories can be reordered by dragging them up and down the list. In addition, you can make the following changes to each category:
+
+**Name** – Click a category name to edit it.
+
+**Value** – Each category has an optional numeric value. This value is used when taking the mean of a categorical variable.
+
+**Missing** – A category can be set to missing by hovering over it and checking the box in the Missing column. 
+
+#### Variable properties
+
+These properties are shown on the right of the variable properties page and affect the entire variable:
+
+**Numeric Values** – Determines whether the numeric values on the variable will be shown on the variable card. If you show variables without specifying them, the card will show an empty box for the variable value.
 
 **Include/Exclude Missing** – If set to **Include**, missing categories will be shown on the variable card and missing rows will be used when calculating percentages.
 
 ### Numeric Variable Properties
 
-**Use as Weight** – Set to yes to use this numeric variable as a weight for the dataset. Weight variables can also be created using existing categorical variables using the Weight Builder.
+![](images/NumericVariableProperties.png)
 
-**Add Missing Value/Range** – Designate a value or range of values on this numeric value that should be marked as missing.
+**Add Missing Values/Ranges** – A list of missing values and ranges appears on the left side of variable properties. Click the + to slide a panel out from the right where you can define a missing value or range along with a reason. Hover over an existing missing value to reveal an 'x' that you can click to remove an existing missing value or range from the list (the removed value will become grayed out – it will not be removed until you save changes). 
+
+**Use as Weight** – Set to yes to use this numeric variable as a weight for the dataset. Once set to yes a weight using this name will become available in the Weight dropdown. Weight variables can also be created by setting targets for specified categorical variables using the Weight Builder as described in [Creating Variables](crunch_creating-variables-for-dataset-editors.html).
 
 ### Text Variable Properties
 
-**Counts/Percentages** – Show counts or percentages on the variable card.
+![](images/TextVariableProperties.png)
 
-**Decimal Places** – If showing percentages, how many decimal places to display on the variable card.
-
-**Add missing** – Designate a text string to be treated as missing.
+**Add Missing Values** – A list of missing values appears on the left side of variable properties. Click the + to slide a panel out from the right where you can define a missing value along with a reason. Hover over an existing missing value to reveal an 'x' that you can click to remove an existing missing value from the list (the removed value will become grayed out – it will not be removed until you save changes). 
 
 ### Multiple Response Variable Properties
 
-**Counts/Percentages** – Show counts or percentages on the variable card.
+![](images/MultipleResponseVariableProperties.png)
 
-**Decimal Places** – If showing percentages, how many decimal places to display on the variable card.
+#### Category properties
 
-**“None of the Above”** – If set to **Yes**, the variable will include a None of the Above category used for rows in which none of the constituent variables is true.  
+When viewing a categorical variable, the left side of the properties pane shows the categories. These categories can be reordered by dragging them up and down the list. You can also change the name of a category by clicking it.
+
+#### Variable properties
+
+These properties are shown on the right of the variable properties page and affect the entire variable:
+
+**“None of the Above”** – If set to **Show**, the variable will include a None of the Above category used for rows in which none of the constituent variables is true. If set the **Hide** this category will be hidden.
 
 **Include/Exclude Missing** – If set to **Include**, missing categories will be shown on the variable card and missing rows will be used when calculating percentages.
 
-**Split** – Turn each row of the variable into a separate categorical variable.
+**Split rows into variables** – Turn each row of the variable into a separate categorical variable.
 
 ### Array Variable Properties
 
-**Counts/Percentages** – Show counts or percentages on the variable card.
+![](images/ArrayVariableProperties.png)
 
-**Decimal Places** – If showing percentages, how many decimal places to display on the variable card.
+#### Reordering and renaming rows and columns
 
-**Include/Exclude Missing** – If set to Include, missing categories will be shown on the variable card and missing rows will be used when calculating percentages.
+![](images/ArrayVariableRowColumnEdit.png)
 
-**Rearrange** – Change the names, values, missingness, and order of items and categories.
+Click **Edit** to edit the names of the row and column labels and to change the order of rows and columns. The left side of the variable properties will change to a 2-column display – the first column represents the array rows, the second column represents the array columns (now reading vertically rather than horizontally). Perform any of the following actions:
 
-**Split** – Turn each “row” item of the array into a separate categorical variable
+**Edit row and column labels** – Click a row or column label to edit it.
 
+**Edit row and column order** – Click and drag to reorder either list.
 
+**Set column numeric values** – Each column has an optional numeric value. These values will be used if a subvariable of an array is used as a mean.
 
-When finished, you can save your changes, and if you cancel, you’ll be asked to confirm that you want to discard changes.
+**Missing** – Each column can be set missing by checking the box in the Missing column that appears when you hover.
 
-![Discard changes confirmation](images/variable-properties-save.png)
+Click **Back** once you have made any changes here to go back to the main array variable properties.
 
+#### Variable properties
 
+These properties are shown on the right of the variable properties page and affect the entire variable:
+
+**Include/Exclude Missing** – If set to Include, missing columns will be shown on the variable card and missing rows will be used when calculating percentages.
+
+**Split rows into variables** – Turn each row of the array into a separate categorical variable. 
