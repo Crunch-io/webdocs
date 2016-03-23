@@ -17,7 +17,7 @@ Click a dataset to open it.
 
 ### Searching for a dataset
 
-Click the search icon in the upper-right corner to open the search panel. Here you can search for a dataset by name, description, or using the names of any of the variables in the dataset. Click the dataset name to open it. Click a variable name to open the dataset and display that variable card.
+Use the search at the top of the page to look for a dataset by name, description, or using the names of any of the variables in the dataset. Click the dataset name to open it. Click a variable name to open the dataset and display that variable card.
 
 ![Search results](images/search-results.png)
 
