@@ -15,9 +15,11 @@ The information saved in an analysis includes:
 
   * Any settings in the play controller.
 
-  * Any filters that are currently applied.
+  * Any [filters](crunch_filtering-data.html) that are currently applied.
 
   * Whether the data is weighted.
+  
+  * Any changes to the [variable display](crunch_variable-display-in-expanded-view.html)
 
 Clicking an analysis in the save tray will cause it to be loaded into the analysis workspace.
 

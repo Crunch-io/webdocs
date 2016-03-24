@@ -3,7 +3,7 @@ title: "Variable Properties"
 audience: all
 ---
 
-Access properties of an individual variables by clicking **Properties** below the variable card (this link appears when you hover on the card). Dataset viewers can only view these properties. Dataset editors can edit them if they are the active editor - see [Datasets with Multiple Editors](crunch_multiple-editors.html).
+In card view, you access properties of an individual variables by clicking **Properties** below the variable card (this link appears when you hover on the card). In expanded view, right click a variable name and select **Properties** (this currently only works when viewing an analysis as a table). Dataset viewers can only view these properties. Dataset editors can edit them if they are the active editor - see [Datasets with Multiple Editors](crunch_multiple-editors.html).
 
 ![](images/edit-variable-properties-resized.png)
 
