@@ -52,6 +52,14 @@ entries:
       version: all
       output: web, pdf
 
+    - title: "Projects"
+      url: /crunch/crunch_project-view.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
     - title: Browsing Data in Card View
       url: /crunch/crunch_browsing.html
       audience: all
