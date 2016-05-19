@@ -45,13 +45,13 @@ Select **New filter…** from the drop-down menu to open the filter builder.
 
 A filter can contain one or more conditions. To add a condition choose a variable in the sidebar and click it or drag it to the target to see the categories for that variable.
 
+![](images/FilterBuilderCondition.png)
+
 Click the categories in the variable to toggle them off and on for the filter you are building. The filtered count for the condition is displayed at the bottom of the condition.
 
 You can select or deselect all categories at once using the checkbox in the header.
 
 By default, all selected categories will be filtered, but you can use the dropdown at the top to filter on categories not selected (e.g. "Not California"). If a condition is created from a multiple response variable, this dropdown also allows you to filter based on either *all* of the categories being selected or *any* of the categories being selected.
-
-![](images/FilterBuilderCondition.png)
 
 When you add multiple conditions you can choose whether all conditions have to be true (AND) or whether any condition has to be true (OR).
 
