@@ -19,7 +19,9 @@ Right click a numeric variable to toggle between:
 
 **Show Ranges** – The numeric variable will be binned into ranges. At this time, these ranges are determined programatically; in future releases we expect to allow you to customize the range sizes.
 
-**Show Means** – Use the mean of the selected variable as cell values. 
+**Show Means** – Use the mean of the selected variable as cell values.
+
+![](images/AnalyzeNumericDropdown.png)
 
 ### Date Time
 
