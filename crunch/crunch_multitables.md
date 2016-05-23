@@ -15,6 +15,10 @@ When multitable view is opened, the most recently created multitable definition 
 
 To change the multitable definition, click the name in the upper left and select the definition you want to use from the dropdown menu.
 
+### Showing means in a multitable
+
+If you are using a numeric variable or a categorical variable that has numeric values (see [Variable Properties](crunch_variable-properties.html)), you can right click the row variable and select **Show Means** to show a single row containing the mean of the row variable in each column. Right click again and select **Show Ranges** (numeric) or **Show Categories** (categorical) to toggle back to the original view. 
+
 ### Exporting a Multitable or Tab book to Excel
 
 You can export an individual multitable or an entire tab book to excel from Multitable view. An individual multitable consists of the multitable definition crossed by the currently selected row variable. A tab book is an Excel workbook that crosses each variable in the dataset with the multitable definition, creating a sheet for each variable.

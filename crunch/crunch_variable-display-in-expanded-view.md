@@ -7,6 +7,10 @@ When analyzing in [Expanded View](crunch_analyzing-data.html) you can right clic
 
 The following variable types can have their display changed.
 
+### Categorical
+
+**Show Means** – Use the mean of the selected variable as cell values. Only available if the categorical variable has numeric values (see [Variable Properties](crunch_variable-properties.html)).
+
 ### Numeric
 
 Right click a numeric variable to toggle between:
@@ -14,6 +18,8 @@ Right click a numeric variable to toggle between:
 **Show Discrete Values** – Each discrete value will be a row/column in the table.
 
 **Show Ranges** – The numeric variable will be binned into ranges. At this time, these ranges are determined programatically; in future releases we expect to allow you to customize the range sizes.
+
+**Show Means** – Use the mean of the selected variable as cell values. 
 
 ### Date Time
 
