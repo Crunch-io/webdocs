@@ -10,6 +10,13 @@ topnav:
       product: all
       version: all
       output: web
+    - title: API Documentation
+      external_url: http://docs.crunch.io
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web
 
 #Topnav dropdowns
 # topnav_dropdowns:
