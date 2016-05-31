@@ -41,13 +41,17 @@ When viewing a categorical variable, the left side of the properties pane shows 
 
 **Missing** – A category can be set to missing by hovering over it and checking the box in the Missing column. 
 
-#### Variable properties
+#### Variable properties and actions
 
 These properties are shown on the right of the variable properties page and affect the entire variable:
 
 **Numeric Values** – Determines whether the numeric values on the variable will be shown on the variable card. If you show variables without specifying them, the card will show an empty box for the variable value.
 
 **Include/Exclude Missing** – If set to **Include**, missing categories will be shown on the variable card and missing rows will be used when calculating percentages.
+
+**Combine Categories** – Combine the response categories of variable to create a variable with fewer categories, e.g. combine iPhone 3, iPhone 4, iPhone 5, and iPhone 6 into "iPhone." See [Combining Categories](crunch_creating-a-combined-variable.html) for more information.
+
+**Edit Combination** – If this variable was derived by [Combining Categories](crunch_creating-a-combined-variable.html) of another variable, this allows you to change how the categories are combined, e.g. rather than grouping all iPhones together, you could change to "iPhone 4 and earlier" and "iPhone 5 and later."
 
 ### Numeric Variable Properties
 
