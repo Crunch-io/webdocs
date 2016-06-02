@@ -29,4 +29,6 @@ Close the save tray by clicking the X above it. When the save tray is closed, yo
 
 ### Exporting Analyses
 
-Click **Export to Excel** to export all saved analyses to an Excel document. Each analysis will be put into a separate sheet in the Excel file, and the valid/missing counts, as well as any active filters, will be included alongside the table. Crunch graphs do not export to Excel, but it is usually easy to use Excel’s tools to define a chart with the numbers in the sheet.
+![](images/ExportButton.png)
+
+Click the export button at the bottom of the save tray to export all saved analyses to an Excel document. Each analysis will be put into a separate sheet in the Excel file, and the valid/missing counts, as well as any active filters, will be included alongside the table. Crunch graphs do not export to Excel, but it is usually easy to use Excel’s tools to define a chart with the numbers in the sheet.
