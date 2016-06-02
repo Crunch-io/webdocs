@@ -5,7 +5,7 @@ audience: all
 
 You can append a dataset to the current dataset to add more rows of data. Currently Crunch does limited validation of appended data, so it is recommended you verify that the dataset you are appending contains appropriate data. You may also wish to save a version of your dataset before appending as described in [Dataset History](crunch_dataset-history.html).
 
-To append data, click the dataset name in the upper-left and then select the **Manage Data** tab. You will see a list of datasets to which you have access.
+To append data, click the dataset name in the upper-left and then select the **Append** tab. You will see a list of datasets to which you have access.
 
 ![](images/AppendData.png)
 
