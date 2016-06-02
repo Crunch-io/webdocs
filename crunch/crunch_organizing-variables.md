@@ -27,8 +27,10 @@ Create a folder by clicking the add folder icon. You can drag and drop variables
 
 When a folder is open, the path to that folder is shown at the top of the interface. Drag variables from the list to a location on the path to move them up in the hierarchy. Click on a location on the path to navigate to it directly.
 
-#### Hiding and unhiding variables
+#### Hiding, unhiding, and deleting variables
 
 ![](images/HideVariable.png)
 
 When a variable is selected, commands that can be applied to that variable will appear above the list. Click **Hide** to hide a variable and **Unhide** to show it again. Hidden variables cannot be seen in Browse or Analyze mode, but any variables derived from it will be unaffected.
+
+You can permanently delete a variable by clicking **Delete**. Note that deleting a variable will affect filters, analyses and other variables derived from that variable.
