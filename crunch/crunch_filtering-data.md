@@ -9,6 +9,8 @@ Filters are used to show a subset of the data that matches a specified set of va
 
 ### Adding a quick filter
 
+<a class="video" onclick="window.open('https://www.youtube.com/embed/i93Ujcq8HYc?rel=0&amp;controls=0&amp;autoplay=1', '_blank', 'location=yes,height=650,width=1120,scrollbars=no,status=yes');">See video</a>
+
 The fastest way to filter data is to add a **quick filter**. A quick filter filters the data by a single value of a single variable. Quick filters are not saved for later use nor can editors make them available to other users. To create a quick filter, drag a variable from the sidebar or search panel onto the **Filter by** dropzone.
 
 ![](images/FilterDropZone.png)
@@ -25,9 +27,12 @@ If you click a quick filter, the dropdown will reopen and you can select a diffe
 
 ### Selecting an existing filter
 
+<a class="video" onclick="window.open('https://www.youtube.com/embed/-WHfiIMiwUk?rel=0&amp;controls=0&amp;autoplay=1', '_blank', 'location=yes,height=650,width=1120,scrollbars=no,status=yes');">See video</a>
+
 More complex filters can be built using the filter builder. These filters will appear in the dropdown that is displayed when you click **Filters**.
 
 ![](images/FilterSelect.png)
+
 
 A • next to a filter indicates that it was created by a dataset editor and made available to all dataset users.
 
@@ -38,6 +43,8 @@ If you click one of these built filters in the filter bar, you can swap the filt
 To remove a filter, hover over it in the filter bar and click the 'x' that appears in the corner.
 
 ### Building a Filter
+
+<a class="video" onclick="window.open('https://www.youtube.com/embed/_X3ZruMhD84?rel=0&amp;controls=0&amp;autoplay=1', '_blank', 'location=yes,height=650,width=1120,scrollbars=no,status=yes');">See video</a>
 
 Select **New filter…** from the drop-down menu to open the filter builder. 
 
