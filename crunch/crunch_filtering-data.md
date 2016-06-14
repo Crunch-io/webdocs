@@ -5,15 +5,17 @@ audience: all
 
 ### Filters
 
-Filters are used to show a subset of the data that matches a specified set of values for specified variables. The **Filters** area near the top of the page shows what filters are currently applied. 
+Filters are used to show a subset of the data that matches a specified set of values for specified variables. The **Filters** area near the top of the page shows what filters are currently applied.
 
-### Adding a quick filter
+### Creating a filter
 
-The fastest way to filter data is to add a **quick filter**. A quick filter filters the data by a single value of a single variable. Quick filters are not saved for later use nor can editors make them available to other users. To create a quick filter, drag a variable from the sidebar or search panel onto the **Filter by** dropzone.
+<a class="video" onclick="window.open('https://www.youtube.com/embed/iKicbL0NpGg?rel=0&amp;controls=0&amp;autoplay=1', '_blank', 'location=yes,height=650,width=1120,scrollbars=no,status=yes');">See video</a>
+
+The fastest way to make a filter to drag a variable from the sidebar and drop it on the **Filter by** dropzone.
 
 ![](images/FilterDropZone.png)
 
-Once the filter is dropped, a dropdown will open showing the categories in that variable. Select one of the categories to close the dropdown and create a filter.
+Once the variable is dropped, a dropdown will open, allowing you to choose the category of the variable to filter by.
 
 ![](images/SelectQuickFilter.png)
 
@@ -21,17 +23,19 @@ The new filter will be named **Variable Name: Category Name**.
 
 ![](images/QuickFilterGender.png)
 
-If you click a quick filter, the dropdown will reopen and you can select a different category (allowing you, for example, to quickly look at the data filtered by several categories of the same variable).
+If you click a filter created in this manner, the dropdown will reopen and you can select a different category (allowing you, for example, to quickly look at the data filtered by several categories of the same variable).
 
 ### Selecting an existing filter
 
-More complex filters can be built using the filter builder. These filters will appear in the dropdown that is displayed when you click **Filters**.
+<a class="video" onclick="window.open('https://www.youtube.com/embed/dJeEyXvu228?rel=0&amp;controls=0&amp;autoplay=1', '_blank', 'location=yes,height=650,width=1120,scrollbars=no,status=yes');">See video</a>
+
+When you click the filter bar, you may see one or more filters available that were created and saved by the dataset editors.
 
 ![](images/FilterSelect.png)
 
 A • next to a filter indicates that it was created by a dataset editor and made available to all dataset users.
 
-If you click one of these built filters in the filter bar, you can swap the filter in place of another one. To add a second built filter, click the + that appears when hovering near an existing filter.
+If you click one of these saved filters, you can swap the filter for another one. You can add a second or third saved filter by clicking the + that appears when hovering near the filter bar. 
 
 ### Removing a filter
 
@@ -39,7 +43,17 @@ To remove a filter, hover over it in the filter bar and click the 'x' that appea
 
 ### Building a Filter
 
-Select **New filter…** from the drop-down menu to open the filter builder. 
+<a class="video" onclick="window.open('https://www.youtube.com/embed/2dJ1eQB-ugk?rel=0&amp;controls=0&amp;autoplay=1', '_blank', 'location=yes,height=650,width=1120,scrollbars=no,status=yes');">See video</a>
+
+Use the filter builder if:
+
+* You want to create a more complex filter that includes multiple categories or multiple variables.
+
+* You want to save the filter to use later.
+
+* You are a dataset editor and you want to create a filter that anyone who has access to the dataset can use.
+
+To open the filter builder, select **New filter…** from the drop-down menu. 
 
 ![](images/FilterBuilderEmpty.png)
 
@@ -61,9 +75,9 @@ To delete a condition from a filter, click the X that appears in the upper right
 
 Once a filter has one or more conditions and a name it can be saved.
 
-After saving a filter it will be automatically applied.
+If you are a dataset editor, you will see a public/private toggle in the upper right. Private filters can only be seen and used by you; public filters are avilable to all users on the dataset. If you are not an editor, you can only make filters for your own use.
 
-Only you can see filters you have created on your account unless you are a dataset editor.
+After saving a filter it will be automatically applied.
 
 ### Editing or deleting a filter
 
