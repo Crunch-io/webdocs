@@ -1,5 +1,5 @@
 ---
-title: "Creating, Using, and Exporting Multitables"
+title: Multitables
 audience: all
 ---
 

@@ -7,7 +7,7 @@ Export data by opening [Dataset Properties](crunch_dataset-properties.html) and 
 
 ![](images/ExportData.png)
 
-The dataset's variable are listed on the left side. By default all variables are selected Ð you can choose to export only a subset of variables by deselecting any variables or groups that you don't want to export.
+The dataset's variable are listed on the left side. By default all variables are selected &8211; you can choose to export only a subset of variables by deselecting any variables or groups that you don't want to export.
 
 You can use the filter bar on the right side to export a filtered subset of rows. By default, any filters that were applied to the dataset will still be applied, and you can [add and remove filters](crunch_filtering-data.html) in the same manner as you would elsewhere.
 

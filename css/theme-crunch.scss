@@ -41,15 +41,19 @@ h4 {color: $font-color-green; font-variant: normal;}
 
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
     color: $primary-color-hover;
-    background-color: $sidebar-hover;
 }
 
 .nav > li > a:hover {
     background-color: $sidebar-hover;
 }
 .nav > li.active > a {
-    background-color: $sidebar-hover;
     color: $color-blue;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: #EDEDED;
 }
 
 div.navbar-collapse .dropdown-menu > li > a:hover {
@@ -57,9 +61,7 @@ div.navbar-collapse .dropdown-menu > li > a:hover {
 }
 
 .nav li.thirdlevel > a {
-    background-color: #FAFAFA !important;
-    color: $primary-color-hover;
-    font-weight: 700;
+    background-color: #F3F3F3 !important;
 }
 
 a[data-toggle="tooltip"] {
@@ -73,14 +75,6 @@ a[data-toggle="tooltip"] {
     color: $font-color-dark-grey;
 }
 
-.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
-    color: #015CAE;
-}
-
-.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
-    background-color: #015CAE;
-    color: #ffffff;
-}
 
 /* not sure if using this ...*/
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
@@ -128,4 +122,76 @@ body.print h4 {color: #679DCE !important; font-size:14px; font-style: italic !im
 
 .anchorjs-link:hover {
     color: #216f9b;
+}
+
+#home-search {
+    display: block;
+    width: 70%;
+    font-size: 16px;
+    position: relative;
+    padding: 9px 0;
+    #home-search-input {
+        width: 100%;
+        height: 36px;
+        padding: 0 9px;
+
+    }
+}
+
+#home-results-container {    
+    list-style: none;
+    border: 1px solid #dfdfdf;
+    border-top: none;
+    margin-top: -1px;
+    position: absolute;
+    padding: 0;
+    background: white;
+    width: 100%;
+    li {
+        border-top: 1px solid #dfdfdf;
+        margin: 0;
+        font-size: 14px;
+        cursor: pointer;
+        &:hover {
+            background: #f6f6f6;
+        }
+        a {
+            padding: 0 9px;
+            color:#565656;
+            display: block;
+            width: 100%;
+            height: 36px;
+            line-height: 36px;
+        };
+    };
+}
+
+.support-home-wrapper {
+    display: flex;
+    text-align: center;
+    border-bottom: 1px solid #dfdfdf;
+    .support-home-right, .support-home-left {
+        padding: 108px 36px;
+        flex-grow:1;
+        width:50%;
+        margin-bottom: 9px;
+        h3 {
+            font-size: 20px;
+        };
+        p {
+            font-size: 17px;
+        };
+        
+        .btn {
+            color: #565656;
+            background: #f6f6f6;
+            font-size: 13px;
+            border-radius:0;
+            min-width:110px;
+            
+        };
+    };
+    .support-home-right {
+        border-left: 1px solid #dfdfdf;
+    }
 }

@@ -1,19 +1,20 @@
 ---
-title: "Preparing Data"
+title: Importing and Cleaning Data
 audience: all
 ---
 
-Crunch.io is a platform for storing data, organizing data, and sharing data with others. The process of preparing data typically involves the following steps:
+Advanced users can import data into Crunch.io, prepare it for use by clients (often referred to as 'cleaning'), and share it. The process of preparing data may involve any or all of the following steps:
 
-  * **Import** – Import SPSS or CSV files into Crunch.io, either from your computer or from a URL.
-  * **Create Variables** – You can to derive new variables from existing dataset variables, including: 
+[Import Data](crunch_importing-data.html) – Import SPSS or CSV files into Crunch.io, either from your computer or from a URL. 
+[Exclude Rows](crunch_creating-exclusions.html) – Exclude rows from the dataset. For example, you could exlude incomplete responses.
+[Create Variables(crunch_create-variables-editors.html) – Derive new variables from existing variables, including: 
     * **Array Variables** – Multiple categorical variables with the same set of categories can be combined into a categorical array.
     * **Multiple Response Variables** – Multiple categorical variables, typically with binary response options, can be combined into a single variable that allows multiple categories to be selected (e.g. “Which of these brands of soda have you tried?”)
-    * **Combined Variables** – Categories in categorical, array, and multiple response variables can be collapsed in order to make the variable easier to work with (e.g. an “Other” category could be created that combines several categories).
-    * **Conditional** – New categorical variables be be created by defining a series of rules, e.g. categories. For example, you could create a variable containing “Married Women”, "Married Men", "Unmarried Women", and "Unmarried Men" using Gender and Marital Status variables.
-  * **Organize** – Use the variable organizer to edit variable names and descriptions and sort them into groups for easier navigation.
-  * **Weight** – If a weight variable was included in the imported data, it can be used to weight the data. If not, a weight can be created using one or more categorical variables in the dataset by providing the desired targets.
-  * **Filter** – Create filters that all users who access the dataset can use to work with subsets of the data (for example, "US only"). Users can also create private filters for their own use.
+    * **Combine Categories** – Categories in categorical, array, and multiple response variables can be collapsed in order to make the variable easier to work with (e.g. an “Other” category could be created that combines several categories).
+    * **Categorical Variablesl** – New categorical variables be be created by defining their categories based on other variables. For example, you could create a variable containing “Married Women”, "Married Men", "Unmarried Women", and "Unmarried Men" using Gender and Marital Status variables.
+  * **Organize** – Use the variable organizer to edit variable names and descriptions, sort variables into groups, and hide or delete variavles..
+  * **Weight** – Designate an existing variable as the wieght variable, create a weight by specifying desired targets for one or more categorical variables.
+  * **Filter** – Create filters that all users who access the dataset can use to work with subsets of the data (for example, "US only"). 
   * **Share** – Share the dataset with other users to allow them to view and analyze the data.  
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Changing Variable Display in Expanded View"
+title: Variable Display Options in Tables
 audience: all
 ---
 

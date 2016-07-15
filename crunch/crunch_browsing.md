@@ -1,5 +1,5 @@
 ---
-title: "Browsing Data in Card View"
+title: Browsing Variable Summaries
 audience: all
 ---
 

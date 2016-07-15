@@ -1,18 +1,49 @@
 ---
-title: "Welcome to Crunch.io Support"
 audience: all
-hoempage: true
 ---
 
-Browse support topics using the menu on the left. **Dataset Editors** contains features that are only available to dataset editors. Contact [support@crunch.io](mailto:support@crunch.io) for more information about how to upload your own datasets.
+<!--search commented out if we want to add
+<div id="home-search">
+    <input type="text" id="home-search-input" placeholder="Search for help...">
+    <ul id="home-results-container"></ul>
+</div>
+<script src="../js/jekyll-search.js" type="text/javascript"></script>
+<script type="text/javascript">
+    SimpleJekyllSearch.init({
+        searchInput: document.getElementById('home-search-input'),
+        resultsContainer: document.getElementById('home-results-container'),
+        dataSource: '../search.json',
+        searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
+    noResultsText: 'No results found.',
+            limit: 10,
+            fuzzy: true,
+    })
+</script>
+-->
+<div class="support-home-wrapper">
+    <div class="support-home-left">
+        <h3>Getting Started</h3>
+        <p>New to Crunch.io?</p>
+        <a class="btn" href="crunch_getting-started.html">Get Started</a>
+    </div>
+    <div class="support-home-right">
+        <h3>Importing and Cleaning Data</h3>
+        <p>Looking for help with data preparation?</p>
+        <a class="btn" href="crunch_preparing-data.html">Clean Data</a>
+    </div>
+</div>
 
 
-### Reporting a Bug
+<div class="support-home-wrapper">
+    <div class="support-home-left">
+        <h3>Contacting Support</h3>
+        <p>We'd love to hear from you. If you have questions or you think you've found a problem, please let us know!</p>
+        <a class="btn" href="crunch_contact-support">Contact Us</a>
+    </div>
+    <div class="support-home-right">
+        <h3>API Documentation</h3>
+        <p>If you're a developer looking to harness the power of Crunch, here's everything you need.</p>
+        <a class="btn" href="http://docs.crunch.io/" target="_blank">API Documentation</a>
+    </div>
+</div>
 
-![](images/ReportBug.png)
-
-If you believe you have found a bug, you can report it from within the application - click the help icon in the upper right and select **Report a Problem**. You’ll be able to send us a message along with a screenshot. You can also email us at [support@crunch.io](mailto:support@crunch.io). 
-
-### Requesting a Feature
-
-If there are features you’d like to see added to Crunch.io, we’d love to hear about them at [support@crunch.io](mailto:support@crunch.io).

@@ -1,5 +1,5 @@
 ---
-title: "Analyzing Data in Expanded View"
+title: Creating Tables and Graphs
 audience: all
 ---
 
