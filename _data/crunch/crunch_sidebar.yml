@@ -4,7 +4,7 @@
 entries:
 - title: Sidebar
   subcategories:
-  - title:
+  - title: Welcome
     audience: all
     platform: all
     product: all
@@ -29,22 +29,23 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: All users
+  - title: Getting Started
     audience: all
     platform: all
     product: all
     version: all
     output: web, pdf
     items:
-    - title: Welcome
-      url: /crunch/home.html
+
+    - title: "Getting Started"
+      url: /crunch/crunch_getting-started.html
       audience: all
       platform: all
       product: all
       version: all
       output: web, pdf
 
-    - title: "Opening, Searching, and Organizing Datasets"
+    - title: "Finding Datasets"
       url: /crunch/crunch_selecting-a-dataset.html
       audience: all
       platform: all
@@ -52,69 +53,78 @@ entries:
       version: all
       output: web, pdf
 
-    - title: Exporting Data
-      url: /crunch/crunch_exporting-data.html
-      audience: all
-      platform: all
-      product: all
-      version: all
-      output: web, pdf
+      thirdlevel:
+      - title: Browsing Data
+        audience: all
+        platform: all
+        version: all
+        product: all
+        output: web
+        thirdlevelitems:
+        - title: Browsing Data
+          url: /crunch/crunch_browsing.html
+          audience: all
+          platform: all
+          product: all
+          version: all
+          output: web, pdf
 
-    - title: "Projects"
-      url: /crunch/crunch_project-view.html
-      audience: all
-      platform: all
-      product: all
-      version: all
-      output: web, pdf
+        - title: Variable Cards
+          url: /crunch/crunch_variable-cards.html
+          audience: all
+          platform: all
+          product: all
+          version: all
+          output: web, pdf
 
-    - title: Browsing Data in Card View
-      url: /crunch/crunch_browsing.html
-      audience: all
-      platform: all
-      product: all
-      version: all
-      output: web
+        - title: Variable Properties
+          url: /crunch/crunch_variable-properties.html
+          audience: all
+          platform: all
+          product: all
+          version: all
+          output: web, pdf
 
-    - title: Variable Cards
-      url: /crunch/crunch_variable-cards.html
-      audience: all
-      platform: all
-      product: all
-      version: all
-      output: web
+      - title: Analyzing Data
+        audience: all
+        platform: all
+        version: all
+        product: all
+        output: web
 
-    - title: Analyzing Data in Expanded View
-      url: /crunch/crunch_analyzing-data.html
-      audience: all
-      platform: all
-      product: all
-      version: all
-      output: web
+        thirdlevelitems:
+        - title: Creating Tables and Graphs
+          url: /crunch/crunch_analyzing-data.html
+          audience: all
+          platform: all
+          product: all
+          version: all
+          output: web
+          
+        - title: Customizing a Table or Graph
+          url: /crunch/crunch_variable-display-in-expanded-view.html
+          audience: all
+          platform: all
+          product: all
+          version: all
+          output: web
 
-    - title: Changing Variable Display in Expanded View
-      url: /crunch/crunch_variable-display-in-expanded-view.html
-      audience: all
-      platform: all
-      product: all
-      version: all
-      output: web
-
-    - title: Saving Analyses
-      url: /crunch/crunch_saving-analyses.html
-      audience: all
-      platform: all
-      product: all
-      version: all
-      output: web
-
-    - title: Creating, Using, and Exporting Multitables
-      url: /crunch/crunch_multitables.html
-      audience: all
-      platform: all
-      product: all
-      version: all
-      output: web
+        - title: Saving and Exporting Analyses
+          url: /crunch/crunch_saving-analyses.html
+          audience: all
+          platform: all
+          product: all
+          version: all
+          output: web
+        
+        - title: Multitables
+          url: /crunch/crunch_multitables.html
+          audience: all
+          platform: all
+          product: all
+          version: all
+          output: web
+        
 
     - title: Filtering Data
       url: /crunch/crunch_filtering-data.html
@@ -123,63 +133,105 @@ entries:
       product: all
       version: all
       output: web
-
-    - title: Sharing a Dataset
-      url: /crunch/crunch_sharing-a-dataset.html
-      audience: all
-      platform: all
-      product: all
-      version: all
-      output: web
       
-    - title: Creating Variables
-      url: /crunch/crunch_creating-variables-2.html
+      thirdlevel:
+      - title: Deriving Variables
+        audience: all
+        platform: all
+        version: all
+        product: all
+        output: web
+        thirdlevelitems:
+
+        - title: Deriving Variables
+          url: /crunch/crunch_creating-variables.html
+          audience: all
+          platform: all
+          product: all
+          version: all
+          output: web
+
+        - title: Combining Categories
+          url: /crunch/crunch_creating-a-combined-variable.html
+          audience: all
+          platform: all
+          product: all
+          version: all
+          output: web
+
+        - title: Building Categorical Variables
+          url: /crunch/crunch_creating-a-categorical-variable.html
+          audience: all
+          platform: all
+          product: all
+          version: all
+          output: web
+          
+    - title: "Contact Support"
+      url: /crunch/crunch_contact-support.html
       audience: all
       platform: all
       product: all
       version: all
-      output: web
+      output: web, pdf
 
-    - title: Combining Categories
-      url: /crunch/crunch_creating-a-combined-variable.html
-      audience: all
-      platform: all
-      product: all
-      version: all
-      output: web
-
-    - title: Building a Categorical Variable
-      url: /crunch/crunch_creating-a-categorical-variable.html
-      audience: all
-      platform: all
-      product: all
-      version: all
-      output: web
-
-    - title: Video Tutorial
-      url: /crunch/crunch_video-tutorial.html
-      audience: all
-      platform: all
-      product: all
-      version: all
-      output: web
-
-
-
-  - title: Dataset Editors
+  - title: Sharing Data
     audience: all
     platform: all
     product: all
     version: all
     output: web, pdf
     items:
-    - title: Preparing Data
+
+    - title: Sharing Data with an Individual
+      url: /crunch/crunch_sharing-a-dataset.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web
+
+    - title: Datasets with Multiple Editors
+      url: /crunch/crunch_multiple-editors.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+      
+    - title: Sharing Properties
+      url: /crunch/crunch_sharing-properties.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+      
+    - title: Sharing Data with Clients
+      url: /crunch/crunch_project-management.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+
+  - title: Importing and Cleaning Data
+    audience: all
+    platform: all
+    product: all
+    version: all
+    output: web, pdf
+    items:
+
+    - title: Importing and Cleaning Data
       url: /crunch/crunch_preparing-data.html
       audience: all
       platform: all
       product: all
       version: all
       output: web, pdf
+
 
     - title: Importing Data
       url: /crunch/crunch_importing-data.html
@@ -189,37 +241,62 @@ entries:
       version: all
       output: web, pdf
 
-    - title: Datasets with Multiple Editors
-      url: /crunch/crunch_multiple-editors.html
+    - title: Excluding Rows
+      url: /crunch/crunch_creating-exclusions.html
       audience: all
       platform: all
       product: all
       version: all
       output: web, pdf
 
-    - title: Variable Properties
-      url: /crunch/crunch_variable-properties.html
-      audience: all
-      platform: all
-      product: all
-      version: all
-      output: web, pdf
+      thirdlevel:
+      - title: Creating Variables
+        audience: all
+        platform: all
+        version: all
+        product: all
+        output: web
+        thirdlevelitems:
 
-    - title: Creating Variables (for dataset editors)
-      url: /crunch/crunch_creating-variables-for-dataset-editors.html
-      audience: all
-      platform: all
-      product: all
-      version: all
-      output: web, pdf
+        - title: Creating Variables
+          url: /crunch/crunch_create-variables-editors.html
+          audience: all
+          platform: all
+          product: all
+          version: all
+          output: web
 
-    - title: Dataset Properties
-      url: /crunch/crunch_dataset-properties.html
-      audience: all
-      platform: all
-      product: all
-      version: all
-      output: web, pdf
+        - title: Combining Categories
+          url: /crunch/crunch_creating-a-combined-variable-editors.html
+          audience: all
+          platform: all
+          product: all
+          version: all
+          output: web
+
+        - title: Deriving a Categorical Variable
+          url: /crunch/crunch_creating-a-categorical-variable-editors.html
+          audience: all
+          platform: all
+          product: all
+          version: all
+          output: web
+
+        - title: Creating Array Variables
+          url: /crunch/crunch_creating-an-array-variable.html
+          audience: all
+          platform: all
+          product: all
+          version: all
+          output: web
+    
+        - title: Creating Multple Response Variables
+          url: /crunch/crunch_creating-a-multiple-response-variable.html
+          audience: all
+          platform: all
+          product: all
+          version: all
+          output: web
       
     - title: Organizing Variables
       url: /crunch/crunch_organizing-variables.html
@@ -228,16 +305,72 @@ entries:
       product: all
       version: all
       output: web, pdf
-      
-    - title: Creating Exclusions
-      url: /crunch/crunch_creating-exclusions.html
+
+    - title: Hiding and Deleting Variables
+      url: /crunch/crunch_hide-delete-variables.html
       audience: all
       platform: all
       product: all
       version: all
       output: web, pdf
 
-    - title: Archiving and Deleting Datasets
+    - title: Weighting the Data
+      url: /crunch/crunch_weighting.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Appending Data
+      url: /crunch/crunch_appending-data.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+  - title: Dataset Properties
+    audience: all
+    platform: all
+    product: all
+    version: all
+    output: web, pdf
+    items:
+
+    - title: General Properties
+      url: /crunch/crunch_dataset-properties.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Exporting Data
+      url: /crunch/crunch_exporting-data-dsprops.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+      
+    - title: Organizing Variables
+      url: /crunch/crunch_organizing-variables-dsprops.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Exclusions
+      url: /crunch/crunch_creating-exclusions-dsprops.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+      
+    - title: Archiving or Deleting a Dataset
       url: /crunch/crunch_archiving-deleting-datasets.html
       audience: all
       platform: all
@@ -253,18 +386,11 @@ entries:
       version: all
       output: web, pdf
 
-    - title: Appending Data
-      url: /crunch/crunch_appending-data.html
+    - title: Sharing Properties
+      url: /crunch/crunch_sharing-properties-dsprops.html
       audience: all
       platform: all
       product: all
       version: all
       output: web, pdf
 
-    - title: Sharing Properties
-      url: /crunch/crunch_sharing-properties.html
-      audience: all
-      platform: all
-      product: all
-      version: all
-      output: web, pdf
