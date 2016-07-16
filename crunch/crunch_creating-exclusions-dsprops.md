@@ -1,5 +1,5 @@
 ---
-title: "Creating Exclusions"
+title: Exclusions
 audience: all
 ---
 

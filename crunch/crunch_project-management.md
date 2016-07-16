@@ -1,9 +1,9 @@
 ---
-title: Creating and Managing Projects
+title: Sharing Data with Clients
 audience: all
 ---
 
-Advanced users can create projects and add datasets and users to those projects.
+Project allow advanced users to create projectsto allow data to be more easily shared with groups of clients. A project consists of one or more users and one or more datasets. All users on the project can access all datasets on the project. This allows you to both make a dataset available to a group of clients without sharing it with each of them individually, and also to add a user to a client list to give them access to many datasets at once.
 
 ###Creating a Project
 

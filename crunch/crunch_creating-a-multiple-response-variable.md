@@ -7,8 +7,6 @@ Only a dataset editor can create a multiple response variable.
 
 To create a multiple response variable, click **+New Variable** at the bottom of the sidebar and select **Build Multiple Response Variable** from the Create Variable page. This opens the Multiple Response Variable Builder.
 
-### Build a Multiple Response Variable
-
  ![](images/NewMRVariable.png)
  
 Select or drag the variables that will be used to create the new variable. Each of these variables will be one category in the new multiple response variable.

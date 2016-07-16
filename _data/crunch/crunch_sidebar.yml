@@ -61,7 +61,7 @@ entries:
         product: all
         output: web
         thirdlevelitems:
-        - title: Browsing Variable Summaries
+        - title: Browsing Data
           url: /crunch/crunch_browsing.html
           audience: all
           platform: all
@@ -101,7 +101,7 @@ entries:
           version: all
           output: web
           
-        - title: Variable Display Options in Tables
+        - title: Customizing a Table or Graph
           url: /crunch/crunch_variable-display-in-expanded-view.html
           audience: all
           platform: all
@@ -183,7 +183,7 @@ entries:
     output: web, pdf
     items:
 
-    - title: Sharing a Dataset
+    - title: Sharing Data with an Individual
       url: /crunch/crunch_sharing-a-dataset.html
       audience: all
       platform: all
@@ -207,15 +207,7 @@ entries:
       version: all
       output: web, pdf
       
-    - title: Exporting Data
-      url: /crunch/crunch_exporting-data.html
-      audience: all
-      platform: all
-      product: all
-      version: all
-      output: web, pdf
-
-    - title: Creating and Managing Projects
+    - title: Sharing Data with Clients
       url: /crunch/crunch_project-management.html
       audience: all
       platform: all
@@ -274,6 +266,22 @@ entries:
           version: all
           output: web
 
+        - title: Combining Categories
+          url: /crunch/crunch_creating-a-combined-variable-editors.html
+          audience: all
+          platform: all
+          product: all
+          version: all
+          output: web
+
+        - title: Deriving a Categorical Variable
+          url: /crunch/crunch_creating-a-categorical-variable-editors.html
+          audience: all
+          platform: all
+          product: all
+          version: all
+          output: web
+
         - title: Creating Array Variables
           url: /crunch/crunch_creating-an-array-variable.html
           audience: all
@@ -322,14 +330,6 @@ entries:
       version: all
       output: web, pdf
 
-    - title: Archiving or Deleting a Dataset
-      url: /crunch/crunch_archiving-deleting-datasets.html
-      audience: all
-      platform: all
-      product: all
-      version: all
-      output: web, pdf
-
   - title: Dataset Properties
     audience: all
     platform: all
@@ -338,8 +338,40 @@ entries:
     output: web, pdf
     items:
 
-    - title: Dataset Properties
+    - title: General Properties
       url: /crunch/crunch_dataset-properties.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Exporting Data
+      url: /crunch/crunch_exporting-data-dsprops.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+      
+    - title: Organizing Variables
+      url: /crunch/crunch_organizing-variables-dsprops.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Exclusions
+      url: /crunch/crunch_creating-exclusions-dsprops.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+      
+    - title: Archiving or Deleting a Dataset
+      url: /crunch/crunch_archiving-deleting-datasets.html
       audience: all
       platform: all
       product: all
@@ -355,7 +387,7 @@ entries:
       output: web, pdf
 
     - title: Sharing Properties
-      url: /crunch/crunch_sharing-properties.html
+      url: /crunch/crunch_sharing-properties-dsprops.html
       audience: all
       platform: all
       product: all
