@@ -5,11 +5,11 @@ audience: all
 
 This section of the documentation should help you to get familiar with the Crunch.io interface.
 
-###Looking for a dataset?
+### Looking for a dataset?
 
 [Finding a Dataset](crunch_selecting-a-dataset.html) shows how to navigate and search your available datasets.
 
-###Working with dataset
+### Working with dataset
 
 If you've already identified the dataset you want to work with, these topics will show you how to explore and analyze the data:
 
