@@ -1,9 +1,9 @@
 ---
-title: "Browsing Data in Card View"
+title: Browsing Data
 audience: all
 ---
 
-When you open a dataset, the card view of the dataset will load. If you are in another view, you can return to card view by clicking the far left icon in the view control at the top of the page:
+When you open a dataset, the card summary view of the dataset will load. If you are in another view, you can return to card view by clicking the far left icon in the view control at the top of the page:
 
 ![](images/ViewToggle.png)
 

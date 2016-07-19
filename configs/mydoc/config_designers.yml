@@ -45,7 +45,7 @@ highlighter: rouge
 markdown: kramdown
 kramdown:
   input: GFM
-  auto_ids: true
+  auto_ids: false
 
 collections:
   tooltips:

@@ -1,5 +1,5 @@
 ---
-title: "Analyzing Data in Expanded View"
+title: Creating Tables and Graphs
 audience: all
 ---
 
@@ -82,35 +82,5 @@ When viewed as a graph, numeric variables will display a histogram. If sliced by
 
 ![](images/HistogramsAnalysis.png)
 
-### Using the Display Controller
 
-The Display Controller at the bottom of the analyze interface is used to change some settings.
-
-![](images/DisplayController2.png)
-
-Which controls are displayed depends on the analysis being viewed. The following controls are available:
-
-![](images/DisplayTableGraph.png)
-
- Table/Graph – Use this control to toggle between showing a table and a graph. The graph type will vary by the types of the variables in the analysis.  
-
- ![](images/DisplayControllerDirection.png)
-
- Count/Percentage, Percent Direction, and Significance testing – Use this control to toggle between counts and percentages. If viewing percentages in a bivariate table or graph, click the arrow control to toggle between percentages summing by column (down), by row (right), or across the whole table. When viewing a table, click the * to enable significance testing – this will add shading to the graph indicating if a value is significantly above or below the mean value for that row or column (depending on how the percentages are being summed).  
-
-![](images/Display Digits.png)
-
-
-
-Decimal Places – If viewing an analysis that uses decimal points either for percentages or for numeric means, use this control to determine how many digits are shown after the decimal point.  
-
-![](images/DisplayMissing.png)
-
-
-
-Show Empty – If unselected any rows or columns in a table or graph that are entirely empty will be hidden. If selected, empty rows and columns will be displayed. Note that adding filters may cause a row or column to become empty.  
-
-![](images/DisplayPivot.png)
-
- Swap – Click this control to swap the row variable and the column/group/slice variable.  
 
