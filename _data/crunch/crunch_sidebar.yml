@@ -101,7 +101,7 @@ entries:
         output: web
 
         thirdlevelitems:
-        - title: Creating Tables and Graphs
+        - title: Creating Tables, Graphs, and Maps
           url: /crunch/crunch_analyzing-data.html
           audience: all
           platform: all
