@@ -21,11 +21,9 @@ If you are using a numeric variable or a categorical variable that has numeric v
 
 ![](images/MultitableShowMeans.png)
 
-### Exporting a Multitable or Tab book to Excel
+### Exporting a Multitable to Excel
 
-You can export an individual multitable or an entire tab book to excel from Multitable view. An individual multitable consists of the multitable definition crossed by the currently selected row variable. A tab book is an Excel workbook that crosses each variable in the dataset with the multitable definition, creating a sheet for each variable.
-
-To export either an individual table, or a tab book, click **Export** in the upper-right corner in multitable view, then choose **Export this table** or **Export tab book**. 
+You can export the currently displayed multitable to Excel by clicking **Export** in the upper-right corner in multitable view, and then choosing **Export this table**. See [Exporting Tab Books](crunch_tabbooks.html) for more information about exporting an entire tab book using the currently selected multitable header. 
 
 ### Creating and Editing Multitable Definitions
 

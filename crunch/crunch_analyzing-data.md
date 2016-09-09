@@ -1,5 +1,5 @@
 ---
-title: Creating Tables and Graphs
+title: Creating Tables, Graphs, and Maps
 audience: all
 ---
 
@@ -69,6 +69,15 @@ A sliced graph shows a series of small univariate graphs — one for each catego
 ![](images/SlicedAnalysis.png)
 
 Graphs cannot contain both a group and slice variable at this time — if you add a group variable it will replace the slice variable and vice versa.
+
+#### Choropleth maps
+
+A choropleth shows data on a map by filling regions with colors along a scale. The simplest map will show the count or percentage of respondents in each region, just like a table, using a color scale designed for accurate identification of values, perceptual equivalence across its range, and usability for people with different color vision.
+
+It is also possible to show either the mean of another variable (by dropping it on ‘use mean as cell value’), or percentages within each category of a crosstab. It is often helpful to switch between a table and graph for context, but regional differences often stand out dramatically when plotted on a map.
+
+![](images/MapAnalysis.png)
+
 
 #### Time Plots
 
