@@ -85,6 +85,14 @@ entries:
           version: all
           output: web, pdf
 
+        - title: Displaying Variable Aliases and Notes
+          url: /crunch/crunch_display-alias-notes.html
+          audience: all
+          platform: all
+          product: all
+          version: all
+          output: web, pdf
+
       - title: Analyzing Data
         audience: all
         platform: all
@@ -93,7 +101,7 @@ entries:
         output: web
 
         thirdlevelitems:
-        - title: Creating Tables and Graphs
+        - title: Creating Tables, Graphs, and Maps
           url: /crunch/crunch_analyzing-data.html
           audience: all
           platform: all
@@ -109,7 +117,7 @@ entries:
           version: all
           output: web
 
-        - title: Saving and Exporting Analyses
+        - title: Saving, Exporting, and Sharing Analyses
           url: /crunch/crunch_saving-analyses.html
           audience: all
           platform: all
@@ -125,6 +133,13 @@ entries:
           version: all
           output: web
         
+        - title: Exporting Tab Books
+          url: /crunch/crunch_tabbooks.html
+          audience: all
+          platform: all
+          product: all
+          version: all
+          output: web
 
     - title: Filtering Data
       url: /crunch/crunch_filtering-data.html
@@ -167,6 +182,14 @@ entries:
           version: all
           output: web
           
+    - title: "Changing your User Name"
+      url: /crunch/crunch_username.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
     - title: "Contact Support"
       url: /crunch/crunch_contact-support.html
       audience: all
