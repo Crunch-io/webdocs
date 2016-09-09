@@ -1,5 +1,5 @@
 ---
-title: "Saving and Exporting Analyses"
+title: "Saving, Exporting, and Sharing Analyses"
 audience: all
 ---
 
@@ -31,6 +31,14 @@ The order of the saved analyses can be changed by dragging them up and down in t
 
 Move the mouse over any item and an ✖️ will appear at its upper right; click to remove that analysis.
 
+### Exporting Analyses
+
+Click the export button at the bottom of the deck to export analyses saved to that deck to Excel.
+
+![](images/DeckExport.png)
+
+Each analysis will be put into a separate sheet in the Excel file, and the valid/missing counts, as well as any active filters, will be included alongside the table. Crunch graphs will be exported as tables, but you can use Excel’s tools to define a chart with the numbers in the sheet.
+
 ### Using Multiple Decks
 
 Click the deck name to switch between decks or create a new one.
@@ -47,10 +55,19 @@ Click the settings icon in the lower-right corner of the deck to open deck prope
 
 ![](images/DeckSettings.png)
 
-### Exporting Analyses
+### Sharing a Deck
 
-Click the export button at the bottom of the deck to export analyses saved to that deck to Excel.
+If you are a dataset editor, you can share your decks with the other users on the dataset. The other users will be able to load and export analyses, but they will not be able to make changes to your deck. To share a deck, click the share icon at the bottom of the deck:
 
-![](images/DeckExport.png)
+![](images/ShareDeckIcon.png)
 
-Each analysis will be put into a separate sheet in the Excel file, and the valid/missing counts, as well as any active filters, will be included alongside the table. Crunch graphs will be exported as tables, but you can use Excel’s tools to define a chart with the numbers in the sheet.
+This opens a panel in which you can share or unshare this deck:
+
+![](images/ShareDeck.png)
+
+Click **Share Deck** to make this deck available to all users on the dataset. If the deck is already shared, the button will be labeled **Unshare Deck** and will make the deck available only to you.
+
+When the viewer opens their list of decks, they will see decks shared by other users grouped apart from their own collection of decks:
+
+![](images/DeckList.png)
+
