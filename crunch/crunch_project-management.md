@@ -1,11 +1,11 @@
 ---
-title: Sharing Data with Clients
+title: Sharing Data to Multiple Users with Projects
 audience: all
 ---
 
-Project allow advanced users to create projectsto allow data to be more easily shared with groups of clients. A project consists of one or more users and one or more datasets. All users on the project can access all datasets on the project. This allows you to both make a dataset available to a group of clients without sharing it with each of them individually, and also to add a user to a client list to give them access to many datasets at once.
+Projects are used to share a dataset or datasets with many other users at once (e.g. clients of a data provider). A project contains one or more users and one or more datasets. All users on a project can access all datasets on that project. This means you can make a dataset available to a group of users, or add a user to a project to give them access to many datasets without sharing each of them individually. 
 
-###Creating a Project
+### Creating a Project
 
 To create a project, click the + in the lower left corner and select **New Project** from the menu.
 
@@ -15,7 +15,7 @@ This opens the New Project panel.
 
 ![](images/NewProjectPanel.png)
 
-Click the project name to give the project a name. Optionally enter a description. You can use a custom icon for the project by clicking the icon and selecting one using your file browser. Once you are finished, click **Save** (note that you cannot save until you have specified a name). This opens the **New Members** panel.
+Click the project name to change it. Optionally enter a description. You can set a custom icon for the project by clicking the existing and selecting a new one using your file browser. Once you are finished, click **Save** (note that you cannot save until you have specified a name). This opens the **New Members** panel.
 
 ![](images/ProjectAddMembers.png)
 
@@ -23,19 +23,19 @@ Enter the user names or email addresses of the users to add to the project. If y
 
 Once you've added some members and saved (or declined to do so by clicking **Close**), the empty project will open.
 
-###Adding Datasets
+### Adding Datasets
 
 You can drag any dataset you own from your Personal Project or from any project you can edit to any project you can edit.
 
 ![](images/ProjectsMoveDataset.png)
 
-Moving a dataset will remove it from its previous project or your personal project and add it to the new project. Anyone with edit permission on that project will new be able to edit, move, or delete that project.
+Moving a dataset will remove it from its previous project or your personal project and add it to the new project (a dataset can only belong to a single project). Anyone with edit permission on that project will new be able to edit, move, or delete that project.
 
-###Project Settings
+### Project Settings
 
 Right click a project in the sidebar and select **Settings** to open the project settings panel. This panel is identical to the one used to name the project when creating it (see above). You can edit the name, description, or icon for the project here.
 
-###Adding and Managing Members
+### Adding and Managing Members
 
 To add and manage members, right click the project in the sidebar. This opens a list of the existing members and their permissions.
 
