@@ -4,7 +4,7 @@ topnav:
 - title: Topnav
   subcategories:
     - title: Go to Application
-      external_url: https://beta.crunch.io
+      external_url: https://app.crunch.io
       audience: all
       platform: all
       product: all
