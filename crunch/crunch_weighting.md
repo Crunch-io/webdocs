@@ -28,3 +28,7 @@ Select one or more existing categorical variables that will be used to create th
 For each selected variable, its categories and the distribution of responses in those categories will be shown in the **Sample** column. Enter the normalized values you would like to use in the **Target** column. These values must sum to 100.
 
 Name the weight by clicking on the name. The default name is **Weight**, since it is common for a dataset to contain only a single weight.
+
+### Setting a Default Weight
+
+An editor can set a default weight for a dataset. This is the weight that will be set when a user opens a dataset for the first time, e.g. after it is shared with them. To set the default weight, click the dataset name to open dataset properties, click the [Permissions](crunch_permissions-and-defaults.html) tab, and then choose a default weight from the dropdown.

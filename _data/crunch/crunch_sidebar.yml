@@ -417,3 +417,10 @@ entries:
       version: all
       output: web, pdf
 
+    - title: Permissions and Defaults
+      url: /crunch/crunch_permissions-and-defaults.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
