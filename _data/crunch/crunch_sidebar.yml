@@ -45,6 +45,14 @@ entries:
       version: all
       output: web, pdf
 
+    - title: "Managing your User Account"
+      url: /crunch/crunch_user-account.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
     - title: "Finding Datasets"
       url: /crunch/crunch_selecting-a-dataset.html
       audience: all
