@@ -31,11 +31,11 @@ If you click a filter created in this manner, the dropdown will reopen and you c
 
 When you click the filter bar, you may see one or more filters available that were created and saved by the dataset editors.
 
-![](images/FilterSelect.png)
+![](images/FilterSelect.png?)
 
-A • next to a filter indicates that it was created by a dataset editor and made available to all dataset users.
+**Dataset Filters** can only be created by editors and are available to all users on a dataset. **Personal Filters** are filters you created and are only available to you.
 
-If you click one of these saved filters, you can swap the filter for another one. You can add a second or third saved filter by clicking the + that appears when hovering near the filter bar. 
+If you click one of these saved filters, you can swap the filter for another one. You can add a second or third saved filter by clicking the + that appears when hovering near the filter bar.
 
 ### Removing a filter
 
@@ -53,7 +53,7 @@ Use the filter builder if:
 
 * You are a dataset editor and you want to create a filter that anyone who has access to the dataset can use.
 
-To open the filter builder, select **New filter…** from the drop-down menu. 
+To open the filter builder, select **New filter…** from the drop-down menu.
 
 ![](images/FilterBuilderEmpty.png)
 
@@ -75,7 +75,7 @@ To delete a condition from a filter, click the X that appears in the upper right
 
 Once a filter has one or more conditions and a name it can be saved.
 
-If you are a dataset editor, you will see a public/private toggle in the upper right. Private filters can only be seen and used by you; public filters are avilable to all users on the dataset. If you are not an editor, you can only make filters for your own use.
+If you are a dataset editor, you will see a public/private toggle in the upper right. Private filters can only be seen and used by you; public filters are available to all users on the dataset. If you are not an editor, you can only make filters for your own use.
 
 After saving a filter it will be automatically applied.
 
@@ -92,3 +92,19 @@ To edit a filter you can either:
 This opens the filter builder with the selected filter. When editing a filter click Delete in the lower right to delete it.
 
 You can view, but not edit, filters that are available to all users on the dataset.
+
+### Organizing Filters
+
+Filters that area available to all users on the dataset can be organized by a dataset editor (by default they are listed alphabetically)
+
+If you are the current editor of the dataset (e.g. you have edit permissions and the dataset is unlocked as described in [Datasets with Multiple Editors](crunch_multiple-editors.html)), the **Organize...** option will appear in the filter dropdown.
+
+![](images/FilterOrgDropdown.png)
+
+Click **Organize** to slide out the **Organize Filters** panel.
+
+![](images/FilterOrgPanel.png)
+
+Drag the filters into an order of your choosing and click **Save**.
+
+At this time personal filters cannot be ordered.

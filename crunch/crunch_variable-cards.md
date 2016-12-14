@@ -7,7 +7,7 @@ In card view, each variable appears on a **Variable card**. The variable card di
 
 Hover your mouse cursor over a variable to reveal the **Properties** link below the card -- click this link to reveal [Variable Properties](crunch_variable-properties.html) for that variable. Note that if you cannot edit the dataset, these properties will be read-only.
 
-The following varaible types are currently supported by Crunch.
+The following variable types are currently supported by Crunch.
 
 # Categorical
 
