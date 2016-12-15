@@ -23,14 +23,14 @@ When you enter this view, you will see a table of the selected analysis.
 
 An analysis contains one or more variables. These variables have a role in the analysis; how the roles are named and viewed depends on how many variables there are and what analysis view you are looking at (see The Display Controller, below, for more information about changing the analysis view). Variables can be in the following roles:
 
-- **Row Variable** – Defines the rows of a table or graph. In the case of a univariate analysis, the single variable is considered the row variable. In the example above, Unaided Awareness (Coffee Roasters) is the row variable. 
-- **Column/Group/Slice Variable** – In a table, the Column variable defines the table columns (Gender in the example above). When viewing the analysis as a graph, this variable can be used as the Group variable (when viewing the analysis as a single graph) or the Slice variable (when viewing the graph as a sliced graph of small multiples). See Grouped and Sliced Graphs, below, for an example of a sliced versus grouped graph. 
+- **Row Variable** – Defines the rows of a table or graph. In the case of a univariate analysis, the single variable is considered the row variable. In the example above, Unaided Awareness (Coffee Roasters) is the row variable.
+- **Column/Group/Slice Variable** – In a table, the Column variable defines the table columns (Gender in the example above). When viewing the analysis as a graph, this variable can be used as the Group variable (when viewing the analysis as a single graph) or the Slice variable (when viewing the graph as a sliced graph of small multiples). See Grouped and Sliced Graphs, below, for an example of a sliced versus grouped graph.
 - **Tab Variable** – Defines clickable tabs to show an analysis segmented across a third variable. In the example above Education is the tab variable, and we are currently looking at the HS or Less tab.  
 - **Mean Variable** – You can use the mean of a variable as the values (rather than percentages or counts). For example, if we were to use Age as the mean in the table above, the upper-left cell would contain the mean age of Male, Blue Bottle Coffee Aware respondents.
 
 ### Adding and Replacing the Variables in the Analysis
 
-Drag and drop a variable (from either the sidebar or the seach panel) on to an analysis to show a collection of dropzones that allow you to add or replace variables used in the current analysis. 
+Drag and drop a variable (from either the sidebar or the search panel) on to an analysis to show a collection of dropzones that allow you to add or replace variables used in the current analysis.
 
 ![](images/DropZones.png)
 
@@ -90,6 +90,3 @@ If a date/time variable is used as the column variable, the graph will be displa
 When viewed as a graph, numeric variables will display a histogram. If sliced by a second variable, a histogram will be shown for each category in the second variable.
 
 ![](images/HistogramsAnalysis.png)
-
-
-

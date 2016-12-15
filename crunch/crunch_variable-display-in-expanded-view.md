@@ -9,7 +9,7 @@ The Display Controller at the bottom of the analyze interface can be used to det
 
 ![](images/DisplayController2.png)
 
-Which controls are avilable depends on the analysis being viewed. 
+Which controls are available depends on the analysis being viewed.
 
 ![](images/DisplayTableGraph.png)
 
