@@ -49,7 +49,7 @@ Click **New Deck…** to create a new deck by giving it a unique name.
 
 ![](images/NewDeck.png)
 
-When you click **Save**, the current analysis will be saved into the currently selected deck, allowing you to save and export multiple sets of analyses. 
+When you click **Save**, the current analysis will be saved into the currently selected deck, allowing you to save and export multiple sets of analyses.
 
 Click the settings icon in the lower-right corner of the deck to open deck properties, where you can rename delete a deck. Deleting a deck will delete all analyses saved in that deck. Note that you cannot delete your last deck in a dataset.
 
@@ -70,4 +70,3 @@ Click **Share Deck** to make this deck available to all users on the dataset. If
 When the viewer opens their list of decks, they will see decks shared by other users grouped apart from their own collection of decks:
 
 ![](images/DeckList.png)
-
