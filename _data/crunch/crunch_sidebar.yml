@@ -93,6 +93,14 @@ entries:
           version: all
           output: web, pdf
 
+        - title: Saving Variable Cards
+          url: /crunch/crunch_saving-variables.html
+          audience: all
+          platform: all
+          product: all
+          version: all
+          output: web, pdf
+
         - title: Displaying Variable Aliases and Notes
           url: /crunch/crunch_display-alias-notes.html
           audience: all
@@ -116,7 +124,7 @@ entries:
           product: all
           version: all
           output: web
-          
+
         - title: Customizing a Table or Graph
           url: /crunch/crunch_variable-display-in-expanded-view.html
           audience: all
@@ -132,7 +140,7 @@ entries:
           product: all
           version: all
           output: web
-        
+
         - title: Multitables
           url: /crunch/crunch_multitables.html
           audience: all
@@ -140,7 +148,7 @@ entries:
           product: all
           version: all
           output: web
-        
+
         - title: Exporting Tab Books
           url: /crunch/crunch_tabbooks.html
           audience: all
@@ -156,7 +164,7 @@ entries:
       product: all
       version: all
       output: web
-      
+
       thirdlevel:
       - title: Deriving Variables
         audience: all
@@ -189,7 +197,7 @@ entries:
           product: all
           version: all
           output: web
-          
+
     - title: "Changing your User Display Settings"
       url: /crunch/crunch_user-display-settings.html
       audience: all
@@ -237,7 +245,7 @@ entries:
       product: all
       version: all
       output: web, pdf
-      
+
     - title: Sharing Properties
       url: /crunch/crunch_sharing-properties.html
       audience: all
@@ -245,7 +253,7 @@ entries:
       product: all
       version: all
       output: web, pdf
-      
+
 
   - title: Importing and Cleaning Data
     audience: all
@@ -320,7 +328,7 @@ entries:
           product: all
           version: all
           output: web
-    
+
         - title: Creating Multple Response Variables
           url: /crunch/crunch_creating-a-multiple-response-variable.html
           audience: all
@@ -328,7 +336,7 @@ entries:
           product: all
           version: all
           output: web
-      
+
     - title: Organizing Variables
       url: /crunch/crunch_organizing-variables.html
       audience: all
@@ -384,7 +392,7 @@ entries:
       product: all
       version: all
       output: web, pdf
-      
+
     - title: Organizing Variables
       url: /crunch/crunch_organizing-variables-dsprops.html
       audience: all
@@ -400,7 +408,7 @@ entries:
       product: all
       version: all
       output: web, pdf
-      
+
     - title: Archiving or Deleting a Dataset
       url: /crunch/crunch_archiving-deleting-datasets.html
       audience: all
