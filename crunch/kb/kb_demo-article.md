@@ -1,5 +1,5 @@
 ---
-title: Creating Tables, Graphs, and Maps
+title: Demo knowledge base article
 audience: all
 ---
 
