@@ -440,3 +440,19 @@ entries:
       product: all
       version: all
       output: web, pdf
+
+  - title: Knowledge Base
+    audience: all
+    platform: all
+    product: all
+    version: all
+    output: none
+    items:
+
+    - title: Demo
+      url: /crunch/kb/kb_demo-article.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
