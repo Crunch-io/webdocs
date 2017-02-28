@@ -18,6 +18,8 @@ You can use the filter bar on the right side to export a filtered subset of rows
 
 **Category Labels** – By default, category names will be exported to the CSV file. Change to **IDs** to have the numeric ID of the category exported instead.
 
+**Missing Values** – By default missing reasons will be used for missing category values. Set to **Blanks** to set missing values blank.
+
 #### SPSS export options
 
 **Variable Labels** – By default, the variable description will be exported as the SPSS variable label. Select **Name** to export the variable name as the SPSS variable label instead.
