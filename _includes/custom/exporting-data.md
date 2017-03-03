@@ -16,15 +16,15 @@ You can use the filter bar on the right side to export a filtered subset of rows
 
 #### CSV export options
 
-**Category Labels** – By default, category names will be exported to the CSV file. Change to **IDs** to have the numeric ID of the category exported instead.
+**Cell Labels** – How the category names will be exported for categorical variables. Select **Category names** to export category names; select **IDs** to export the numeric IDs categories.
 
-**Missing Values** – By default missing reasons will be used for missing category values. Set to **Blanks** to set missing values blank.
+**Missing Values** – What will be exported for missing values. Select **Missing Reason** to use the missing reason test; select **Blanks** to set missing values to an empty string; select **"." (Dot)** to set missing values to a dot.
 
 #### SPSS export options
 
-**Variable Labels** – By default, the variable description will be exported as the SPSS variable label. Select **Name** to export the variable name as the SPSS variable label instead.
+**Variable Labels** – What will be exported as the SPSS variable label. Set to **Description** to export the variable description; select **Name** to export the variable name.
 
-**Array Labels** – By default, array and multiple response subvariables will be exported with only their subvariable name. Select **Include array name** to have the array variable name prepended in the format **Array name /&#124; Subvariable name**.
+**Array Labels** – How array and multiple response subvariable names will be exported. Select **Independent** to export only the subvariable names; select **Include array name** to have the array variable name prepended in the format **Array name /&#124; Subvariable name**.
 
 ### Exporting
 
