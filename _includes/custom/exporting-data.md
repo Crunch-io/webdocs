@@ -16,9 +16,9 @@ You can use the filter bar on the right side to export a filtered subset of rows
 
 #### CSV export options
 
-**Cell Labels** – How the category names will be exported for categorical variables. Select **Category names** to export category names; select **IDs** to export the numeric IDs categories.
+**Cell Labels** – How the category names will be exported for categorical variables. Select **Category names** to export category names; select **IDs** to export the categories' numeric IDs.
 
-**Missing Values** – What will be exported for missing values. Select **Missing Reason** to use the missing reason test; select **Blanks** to set missing values to an empty string; select **"." (Dot)** to set missing values to a dot.
+**Missing Values** – What will be exported for missing values. Select **Missing Reason** to use the missing reason text; select **Blanks** to use an empty cell for missing values; select **"." (Dot)** to use ".".
 
 #### SPSS export options
 
