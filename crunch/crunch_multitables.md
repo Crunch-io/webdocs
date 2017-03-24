@@ -9,7 +9,7 @@ Multitables allow you to create analyses using multiple column variables. Someti
 
 ### Using Existing Multitable Definitions
 
-When multitable view is opened, the most recently created multitable definition that is available to you will be applied, with the first variable in the dataset being used as the rows. 
+When multitable view is opened, the most recently created multitable definition that is available to you will be applied, with the first variable in the dataset being used as the rows.
 
 ![](images/Multitable.png)
 
@@ -17,13 +17,13 @@ To change the multitable definition, click the name in the upper left and select
 
 ### Showing means in a multitable
 
-If you are using a numeric variable or a categorical variable that has numeric values (see [Variable Properties](crunch_variable-properties.html)), you can right click the row variable and select **Show Means** to show a single row containing the mean of the row variable in each column. Right click again and select **Show Ranges** (numeric) or **Show Categories** (categorical) to toggle back to the original view. 
+If you are using a numeric variable or a categorical variable that has numeric values (see [Variable Properties](crunch_variable-properties.html)), you can right click the row variable and select **Show Means** to show a single row containing the mean of the row variable in each column. Right click again and select **Show Ranges** (numeric) or **Show Categories** (categorical) to toggle back to the original view.
 
 ![](images/MultitableShowMeans.png)
 
 ### Exporting a Multitable to Excel
 
-You can export the currently displayed multitable to Excel by clicking **Export** in the upper-right corner in multitable view, and then choosing **Export this table**. See [Exporting Tab Books](crunch_tabbooks.html) for more information about exporting an entire tab book using the currently selected multitable header. 
+You can export the currently displayed multitable to Excel by clicking **Export** in the upper-right corner in multitable view, and then choosing **Export this table**. See [Exporting Tab Books](crunch_tabbooks.html) for more information about exporting an entire tab book using the currently selected multitable header.
 
 ### Creating and Editing Multitable Definitions
 
@@ -41,7 +41,11 @@ You may wish to hide some columns of a multitable (for example 'decline to state
 
 #### Sharing Multitable Definitions
 
-If you are a dataset editor, you will see a **Public/Private** toggle in the upper-right corner. Set it to **Public** to allow all users on the dataset to see and use this set of variables as column headers. Set to **Private** to only make it available to yourself.
+If you are a dataset editor, you will see a **Personal/Shared** toggle in the upper-right corner.
+
+![](images/PersonalSharedToggle.png)
+
+Set it to **Shared** to allow all users on the dataset to see and use this set of variables as column headers. Set to **Personal** to only make it available to yourself.
 
 #### Deleting a Multitable Definition
 
