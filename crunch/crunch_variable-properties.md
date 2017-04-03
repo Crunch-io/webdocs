@@ -39,7 +39,7 @@ When viewing a categorical variable, the left side of the properties pane shows 
 
 **Value** – Each category has an optional numeric value. This value is used when taking the mean of a categorical variable.
 
-**Missing** – A category can be set to missing by hovering over it and checking the box in the Missing column. 
+**Missing** – A category can be set to missing by hovering over it and checking the box in the Missing column.
 
 #### Variable properties and actions
 
@@ -57,15 +57,25 @@ These properties are shown on the right of the variable properties page and affe
 
 ![](images/NumericVariableProperties.png)
 
-**Add Missing Values/Ranges** – A list of missing values and ranges appears on the left side of variable properties. Click the + to slide a panel out from the right where you can define a missing value or range along with a reason. Hover over an existing missing value to reveal an 'x' that you can click to remove an existing missing value or range from the list (the removed value will become grayed out – it will not be removed until you save changes). 
+**Add Missing Values/Ranges** – A list of missing values and ranges appears on the left side of variable properties. Click the + to slide a panel out from the right where you can define a missing value or range along with a reason. Hover over an existing missing value to reveal an 'x' that you can click to remove an existing missing value or range from the list (the removed value will become grayed out – it will not be removed until you save changes).
 
 **Use as Weight** – Set to yes to use this numeric variable as a weight for the dataset. Once set to yes a weight using this name will become available in the Weight dropdown. Weight variables can also be created by setting targets for specified categorical variables using the Weight Builder as described in [Creating Variables](crunch_creating-variables-for-dataset-editors.html).
+
+### Date/Time Variable Properties
+
+![](images/DateTimeProperties.png)
+
+**Date format (summary)** – Sets the format used to display dates on the date/time variable card as well as in tables and graphs.
+
+**Date format (data)** – Sets the date format used when displaying raw data. Raw date/time data is not currently displayed in Crunch.io.
+
+**Rollup** – The smallest degree of precision that will be used for this date/time data. E.g. if **Month** is chosen a table using this variable will group this variable into months, even if the data is more precise. Yearly rollups start January 1st. Quarterly rollups start January 1st, April 1st, July 1st, and October 1st. Monthly rollups start on the first of each month. Weekly rollups start on the Monday of each week. The **Default** value selects a rollup based on the range of data. You can change the displayed rollup when viewing a table by right-clicking the variable name as described in [Customizing a Table or Graph](crunch_variable-display-in-expanded-view.html).
 
 ### Text Variable Properties
 
 ![](images/TextVariableProperties.png)
 
-**Add Missing Values** – A list of missing values appears on the left side of variable properties. Click the + to slide a panel out from the right where you can define a missing value along with a reason. Hover over an existing missing value to reveal an 'x' that you can click to remove an existing missing value from the list (the removed value will become grayed out – it will not be removed until you save changes). 
+**Add Missing Values** – A list of missing values appears on the left side of variable properties. Click the + to slide a panel out from the right where you can define a missing value along with a reason. Hover over an existing missing value to reveal an 'x' that you can click to remove an existing missing value from the list (the removed value will become grayed out – it will not be removed until you save changes).
 
 ### Multiple Response Variable Properties
 
@@ -111,4 +121,4 @@ These properties are shown on the right of the variable properties page and affe
 
 **Include/Exclude Missing** – If set to Include, missing columns will be shown on the variable card and missing rows will be used when calculating percentages.
 
-**Split rows into variables** – Turn each row of the array into a separate categorical variable. 
+**Split rows into variables** – Turn each row of the array into a separate categorical variable.
