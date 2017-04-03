@@ -31,7 +31,7 @@ Show Empty – If unselected any rows or columns in a table or graph that are en
 
 Swap – Click this control to swap the row variable and the column/group/slice variable.  
 
-###Changing how a Variable is used in a Table
+### Changing how a Variable is used in a Table
 
 When analyzing a table in [Expanded View](crunch_analyzing-data.html) you can right click a variable name to see options for changing the view of that variable (as well as open [Variable Properties](crunch_variable-properties.html). At this time, you can only do this when viewing data as a table. Note that any changes made here will not affect the underlying variable, only the currently displayed analysis. If an analysis is saved, these options will be saved with it.
 

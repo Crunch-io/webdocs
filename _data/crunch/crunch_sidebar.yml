@@ -173,6 +173,14 @@ entries:
       version: all
       output: web
 
+    - title: Building Filters
+      url: /crunch/crunch_building-filters.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web
+
       thirdlevel:
       - title: Deriving Variables
         audience: all

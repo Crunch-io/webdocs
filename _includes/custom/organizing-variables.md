@@ -1,6 +1,6 @@
 The variable organizer allows dataset editors to sort variables into groups and determine the order in which they will appear in the sidebar. It can also be used to quickly edit variable names, descriptions, and aliases.
 
-Open the variable organizer by clicking the dataset name in the upper left and then selecting the **Organize** tab.
+Open the variable organizer by clicking the dataset name in the upper left and then selecting the **Edit Variables** tab.
 
 ![](images/OrganizeVariables.png)
 
@@ -10,7 +10,7 @@ On the right side of the interface, you'll see the **Actions** sidebar.
 
 ![](images/OrganizeActions.png)
 
-The options available in this sidebar depend on what mode you are in (**Edit** or **Arrange**) and whether you have any variables selected. See below for more information.
+The options available in this sidebar depend on what mode you are in (**Organize** or **Edit Names**) and whether you have any variables selected. See below for more information.
 
 ### Changing variable order
 
@@ -32,15 +32,15 @@ Drag variables to a location on the path to move them up in the hierarchy. Click
 
 ### Editing variable and folder names, descriptions, and aliases
 
-To edit variable and folder names, descriptions, and aliases, click **Edit** in the **Actions** sidebar. This puts the interface into **Edit** mode. While in edit mode:
+To edit variable and folder names, descriptions, and aliases, slide the toggle to **Edit Names** in the **Actions** sidebar. This puts the interface into **Edit** mode. While in edit mode:
 
 * You can click any variable or folder name, description, or alias to edit it. You can use **Tab** to move to the next field or **Enter** to move to the next row (i.e. if you are editing a description you'll move to the next description).
-* You cannot arrange variables or put them into folders. If you need to arrange variables, click **Arrange** in the **Actions** sidebar to return to **Arrange** mode.
+* You cannot arrange variables or put them into folders. If you need to arrange variables, click **Organize** in the **Actions** sidebar to return to **Organize** mode.
 
 ### Hiding, unhiding, and deleting variables
 
 Hidden variables do not appear in the sidebar, but any variables derived from them will be unaffected. Deleted variables are permanently removed from the dataset; any filters, analyses, or other variables derived from a deleted variable may be removed as a result.
 
-When a variable or variables are selected, actions that can be performed on them will appear at the bottom of the **Actions** sidebar. Click **Hide** to hide a variable (or group of selected variables). Once hidden, the variable will disappear. You can view hidden variables in the Organize interface by toggling on **Show Hidden** in the **Actions** sidebar, and then unhide them by selecting them and selecting **Unhide**. 
+When a variable or variables are selected, actions that can be performed on them will appear at the bottom of the **Actions** sidebar. Click **Hide** to hide a variable (or group of selected variables). Once hidden, the variable will disappear. You can view hidden variables in the Organize interface by toggling on **Show Hidden** in the **Actions** sidebar, and then unhide them by selecting them and selecting **Unhide**.
 
 Permanently delete a variable by clicking **Delete**.
