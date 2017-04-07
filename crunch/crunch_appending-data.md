@@ -3,7 +3,10 @@ title: "Appending Data"
 audience: all
 ---
 
-You can append a dataset to the current dataset to add more rows of data. Currently Crunch does limited validation of appended data, so it is recommended you verify that the dataset you are appending contains appropriate data. You may also wish to save a version of your dataset before appending as described in [Dataset History](crunch_dataset-history.html).
+You can append a dataset to the current dataset to add more rows of data. When one dataset is appended to another, variables are
+matched on their aliases. Variables that do not match between datasets are padded with missing values. Variables that are matched between the datasets must be the same type, but aside from that, the append process will attempt to adapt the variables to align. For variables with categories, categories are matched between the variables by name; for subvariables, they are matched by alias. Any categories or subvariables that do not match across the datasets will be kept: the resulting variable will have the superset of categories/subvariables.
+
+It is recommended you verify that the datasets you are appending align as you expect prior to appending. You may also wish to save a version of your dataset before appending as described in [Dataset History](crunch_dataset-history.html).
 
 To append data, click the dataset name in the upper-left and then select the **Append** tab. You will see a list of datasets to which you have access.
 
