@@ -18,6 +18,6 @@ On the right side of the interface, you can set the following permissions for th
 
 **Project** – If this dataset is part of a project, the project name will be shown here. If you have permission to edit the project, click the project name to [modify project permissions](crunch_project-management.html).
 
-**Viewer Permissions** – Determines whether dataset viewers can export the dataset, share the dataset, and change the currently applied weight.
+**Permissions for Viewers** – Determines whether dataset viewers can export the dataset, share the dataset, and change the currently applied weight.
 
 **Default Weight** – Set the weight that will be applied to this dataset by default.
