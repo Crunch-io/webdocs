@@ -262,7 +262,7 @@ entries:
       version: all
       output: web, pdf
 
-    - title: Sharing Properties
+    - title: Managing Permissions
       url: /crunch/crunch_sharing-properties.html
       audience: all
       platform: all
@@ -441,15 +441,15 @@ entries:
       version: all
       output: web, pdf
 
-    - title: Sharing Properties
-      url: /crunch/crunch_sharing-properties-dsprops.html
+    - title: Users
+      url: /crunch/crunch_users.html
       audience: all
       platform: all
       product: all
       version: all
       output: web, pdf
 
-    - title: Permissions and Defaults
+    - title: Permissions
       url: /crunch/crunch_permissions-and-defaults.html
       audience: all
       platform: all

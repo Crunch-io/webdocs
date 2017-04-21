@@ -1,6 +1,6 @@
 ---
-title: "Sharing Properties"
+title: "Managing Permissions"
 audience: all
 ---
 
-{% include custom/sharing-properties.md %}
+{% include custom/permissions.md %}
