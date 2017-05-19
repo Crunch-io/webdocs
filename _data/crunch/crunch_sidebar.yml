@@ -214,7 +214,7 @@ entries:
           version: all
           output: web
 
-    - title: "Changing your User Display Settings"
+    - title: "Changing User Settings"
       url: /crunch/crunch_user-display-settings.html
       audience: all
       platform: all
