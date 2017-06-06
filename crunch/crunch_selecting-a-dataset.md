@@ -21,7 +21,7 @@ If you have access to datasets that are not in a project, either because you are
 
 ![](images/PersonalProject.png)
 
-###Sorting the Dataset list
+### Sorting the Dataset list
 
 Click a column header to sort the dataset list by that column.
 
@@ -41,7 +41,7 @@ The available columns are:
 
 **Accessed** - The date that you last accessed the dataset. Searching by the column is a quick way to find a dataset you were working on recently.
 
-**Owner** - The user or project to which the dataset belongs.. This column is only available in **Personal Project** (datasets in a project are owned by that project). 
+**Owner** - The user or project to which the dataset belongs.. This column is only available in **Personal Project** (datasets in a project are owned by that project).
 
 ### Searching for a dataset
 

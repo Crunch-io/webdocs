@@ -3,11 +3,11 @@ title: Browsing Data
 audience: all
 ---
 
-When you open a dataset, the card summary view of the dataset will load. If you are in another view, you can return to card view by clicking the far left icon in the view control at the top of the page:
+When you open a dataset, the card summary view of the dataset will load. If you are in another view, you can return to card view by clicking browse icon in the view control at the top of the page:
 
 ![](images/ViewToggle.png)
 
-Card view displays top-line summaries of each variable in a series of cards. Each card represents a single variable — the number of cards you can see at a time will vary based on the card widths and the width of your display.
+In this view you can browse top-line summaries of each variable in a series of cards. Each card represents a single variable — the number of cards you can see at a time will vary based on the card widths and the width of your display.
 
 ![](images/Browse.png)
 
@@ -21,7 +21,7 @@ In larger datasets, it may be helpful to search for a variable. Click the search
 
 ### Using the Display Controller
 
-Use the Display Controller at the bottom of the screen to change display settings. 
+Use the Display Controller at the bottom of the screen to change display settings.
 
 ![](images/BrowseDisplayController.png)
 
@@ -43,4 +43,3 @@ In card view, the play controller contains the following controls:
         <td><p><strong>Show/Hide Empty</strong> – Toggles between showing and hiding categories with no valid values (e.g. if an applied filter has resulted in some categories being empty).</p></td>
     </tr>
 </table>
- 

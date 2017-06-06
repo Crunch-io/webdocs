@@ -3,7 +3,7 @@ title: Sharing Data to Multiple Users with Projects
 audience: all
 ---
 
-Projects are used to share a dataset or datasets with many other users at once (e.g. clients of a data provider). A project contains one or more users and one or more datasets. All users on a project can access all datasets on that project. This means you can make a dataset available to a group of users, or add a user to a project to give them access to many datasets without sharing each of them individually. 
+Projects are used to share a dataset or datasets with many other users at once (e.g. clients of a data provider). A project contains one or more users and one or more datasets. All users on a project can access all datasets on that project. This means you can make a dataset available to a group of users, or add a user to a project to give them access to many datasets without sharing each of them individually.
 
 ### Creating a Project
 
@@ -33,15 +33,17 @@ Moving a dataset will remove it from its previous project or your personal proje
 
 ### Project Settings
 
-Right click a project in the sidebar and select **Settings** to open the project settings panel. This panel is identical to the one used to name the project when creating it (see above). You can edit the name, description, or icon for the project here.
+Click the project name and select **Settings** from the dropdown to edit project settings in a panel is identical to the one used to name the project when creating it (see above). Edit the name, description, or icon for the project here.
+
+![](images/ProjectSettings.png)
 
 ### Adding and Managing Members
 
-To add and manage members, right click the project in the sidebar. This opens a list of the existing members and their permissions.
+To add and manage members, click the project name and select **Members** from the dropdown. This opens a list of the existing members and their permissions.
 
 ![](images/ProjectsEditMembers.png)
 
-Click a user's permission to open a drop down that allows you to change it. At this time, users can be either:
+Click a user's permission to change it. Users can be either:
 
 **Editor** – Full permission to edit the project and all datasets in the project.
 
@@ -50,4 +52,3 @@ Click a user's permission to open a drop down that allows you to change it. At t
 When hovering over a user (other than yourself), an 'x' will appear on the right side of their user listing. Click this to remove them from the project. Any changes you make here will not be applied until you click **Save**.
 
 Click **Invite Users** to open the **New Users** panel, described above.
-
