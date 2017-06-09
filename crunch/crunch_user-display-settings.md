@@ -5,7 +5,7 @@ audience: all
 
 In user settings, you can change your display name as well as global settings that apply to your view of all datasets.
 
-To open user settings, click the person icon in the upper right corner of the application and select **Settings**.
+To open user settings, click the three dots in the upper right corner of the application and select **Settings**.
 
 ![](images/SettingsDropdown.png)
 

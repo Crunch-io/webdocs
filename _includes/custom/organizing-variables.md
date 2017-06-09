@@ -1,6 +1,6 @@
 The variable organizer allows dataset editors to sort variables into groups and determine the order in which they will appear in the sidebar. It can also be used to quickly edit variable names, descriptions, and aliases.
 
-Open the variable organizer by clicking the dataset name in the upper left and then selecting the **Edit Variables** tab.
+Open the variable organizer by [opening dataset properties](crunch_dataset-properties.html) and then selecting the **Edit Variables** tab.
 
 ![](images/OrganizeVariables.png)
 
