@@ -8,6 +8,8 @@ matched on their aliases. Variables that do not match between datasets are padde
 
 It is recommended you verify that the datasets you are appending align as you expect prior to appending. If the system reaches the conclusion that it cannot append the data, the dataset will remain unchanged. If you look at the result and conclude it is not what you intended, you can easily return to the “automatic rollback savepoint” in [Dataset History](crunch_dataset-history.html).
 
+Before appending data, you may wish to consider [creating a draft](crunch_draft-and-publish.html). This will allow you to append the data, verify the append performed as expected, and do any needed cleanup before pushing the appended dataset to your clients.
+
 To append data, click the dataset name in the upper-left and then select the **Append** tab. You will see a list of datasets in the current project.
 
 ![](images/AppendData.png)
