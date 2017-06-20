@@ -385,6 +385,14 @@ entries:
       version: all
       output: web, pdf
 
+    - title: Creating and Publishing Drafts
+      url: /crunch/crunch_draft-and-publish.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
   - title: Dataset Properties
     audience: all
     platform: all
