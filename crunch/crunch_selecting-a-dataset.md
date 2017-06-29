@@ -48,3 +48,18 @@ The available columns are:
 ![Search results](images/search-results.png)
 
 Search for a dataset by name, description, or using the names of any of the variables in the dataset using the search bar at the top of the screen. After searching, click a dataset name to open it, or click a variable name to open the dataset and display that variable card.
+
+You can filter your results by type or date.  Select the appropriate filter from the dropdown.
+
+
+![Filter By Type](images/search-results-filter-type.png)
+
+Here you can select if you would only like to find results based on Datasets, Variables, or Category names.
+For Categorical Arrays and Multiple Response variables, the subvariable names are used if you select "Category Names".
+Datasets and Variables are searched by name, description and alias.
+
+![Filter By Date](images/search-results-filter-date.png)
+
+The date filter limits the results to those datasets that have an end-date matching the range selected.  This can be
+modified in the [Dataset Properties](crunch_dataset-properties.html).
+
