@@ -49,17 +49,21 @@ The available columns are:
 
 Search for a dataset by name, description, or using the names of any of the variables in the dataset using the search bar at the top of the screen. After searching, click a dataset name to open it, or click a variable name to open the dataset and display that variable card.
 
-You can filter your results by type or date.  Select the appropriate filter from the dropdown.
+There are two ways to filter your results.  You can have crunch only search different parts of the datasets such as category
+names, variable parameters (name, description, etc) or you can limit the search by a selected timeframe. Select the
+appropriate filter from the dropdowns.
 
 
 ![Filter By Type](images/search-results-filter-type.png)
 
 Here you can select if you would only like to find results based on Datasets, Variables, or Category names.
-For Categorical Arrays and Multiple Response variables, the subvariable names are used if you select "Category Names".
-Datasets and Variables are searched by name, description and alias.
+If you select "Datasets", it will search dataset name only.  "Variable" selection will only search variable names.
+If you select "Category Names", categorical variable categories will be searched. Note that for Categorical Arrays and Multiple
+ Response variables, the subvariable names are also searched if you select "Category Names".
 
 ![Filter By Date](images/search-results-filter-date.png)
 
-The date filter limits the results to those datasets that have an end-date matching the range selected.  This can be
-modified in the [Dataset Properties](crunch_dataset-properties.html).
+The date filter limits the results to those datasets that have an end-date matching the range selected.  The end date
+is set by a dataset editor, and usually indicates the end of a survey.  This can be modified by a dataset editor
+in the [Dataset Properties](crunch_dataset-properties.html).
 
