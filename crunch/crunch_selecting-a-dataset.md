@@ -61,7 +61,7 @@ The left-hand dropdown is used to restrict what types of items are being searche
 
 Select **Datasets**, **Variables**, or **Categories** to limit your search to that type of object. E.g., if you selected **Variables** while searching for "Coffee", you would get a result for a dataset that contained a variable called **Coffee Preference**, but not for a dataset named **Coffee Brand Tracking Survey** (provided that dataset had no variables that included the word "Coffee").
 
-For Categorical Arrays and Multiple Response variables, selecting **Categories** will also search subvariable names (see the [descriptions of Multiple Response and Array variables](crunch_variable-cards.html) for more information about subvariables).
+For Categorical Array and Multiple Response variables, selecting **Categories** will also search subvariable names (see the [descriptions of Multiple Response and Array variables](crunch_variable-cards.html) for more information about subvariables).
 
 #### Filtering by date
 
@@ -69,4 +69,4 @@ The right-hand dropdown lets you limit the time frame of the data being searched
 
 ![Filter By Date](images/search-results-filter-date.png)
 
-This filter uses the dataset **End Date** that can be seen in [Dataset Properties](crunch_dataset-properties.html) if it has been set. 
+This filter uses the dataset **End Date** that can be seen in [Dataset Properties](crunch_dataset-properties.html). At this time, **End Date** is set on import or by a dataset editor.
