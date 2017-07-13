@@ -42,9 +42,9 @@ In addition to dropzones for the analysis roles described above, there will alwa
 
 A categorical array – a variable made up of a group of items that share a common set of categories — defines two dimensions. When you make a new table or graph, the default view has the items as rows and the categories as a common set of columns, with percentages calculated by row. If you already have a column or group variable in an analysis, the categories of the array become the rows, with the same columns in place, and tabs appear to select an item of the array.
 
-#### Components of array and multiple response variables
+#### Array and multiple response subvariables
 
-Categorical array and multiple response variables are made up of component that describe one column of an array or one category of a multiple response variable. If you want to use one of the component variables in an analysis click the + in the sidebar next to the variable name. This will display component variables that can be dragged to the analysis individually.
+Categorical array and multiple response variables are made up subvariables that describe one row of an array or one category of a multiple response variable. If you want to use one of these subvariables in an analysis, click the + in the sidebar next to the variable name to show the subvariables. 
 
 ![](images/SidebarArrayExpand.png)
 
