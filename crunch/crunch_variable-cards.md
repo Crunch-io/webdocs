@@ -21,6 +21,8 @@ A categorical variable represents a question for which the respondent could choo
 
 A multiple response variable represents a question for which the respondent could choose any number of responses, i.e. "choose all that apply." As with categorical variables you can click the Valid/Missing area to show missing values and reasons.
 
+Each category of a multiple response variable is represented by a dichotomous **subvariable** (i.e. each subvariable describes whether the variable is selected or unselected for the corresponding category). See [Analyzing Data](crunch_analyzing-data.html) for more information about using subvariables in analyses.
+
 # Numeric
 
 ![](images/VariableCardNumeric.png)
@@ -40,6 +42,8 @@ A date/time variable represents a timestamp, for example the date of a survey. T
 A categorical array represents a series of questions with the same response options. The responses are shown in the columns while the individual questions are shown in the rows.
 
 Valid/missing shows how many valid responses exist for any item (row) in the array, which is usually a range. In the example above, if a respondent was not asked about mobile internet usage because they did not have a mobile device, they would not be included in the "Mobile" row. "Missing (all)" indicates the number for which no valid category is selected for any of the items in the array.
+
+Each row of an array is represented by a **subvariable** that contains each of the column categories. See [Analyzing Data](crunch_analyzing-data.html) for more information about using subvariables in analyses.
 
 Click Valid or Missing to see the number of missing values for each row.
 

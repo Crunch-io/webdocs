@@ -21,7 +21,7 @@ If you have access to datasets that are not in a project, either because you are
 
 ![](images/PersonalProject.png)
 
-### Sorting the Dataset list
+## Sorting the Dataset list
 
 Click a column header to sort the dataset list by that column.
 
@@ -43,8 +43,30 @@ The available columns are:
 
 **Owner** - The user or project to which the dataset belongs.. This column is only available in **Personal Project** (datasets in a project are owned by that project).
 
-### Searching for a dataset
+## Searching for a dataset
 
 ![Search results](images/search-results.png)
 
 Search for a dataset by name, description, or using the names of any of the variables in the dataset using the search bar at the top of the screen. After searching, click a dataset name to open it, or click a variable name to open the dataset and display that variable card.
+
+### Filtering search results
+
+Search results can be refined using the two dropdowns at the top of the search panel.
+
+#### Filtering by type
+
+The left-hand dropdown is used to restrict what types of items are being searched.
+
+![Filter By Type](images/search-results-filter-type.png)
+
+Select **Datasets**, **Variables**, or **Categories** to limit your search to that type of object. E.g., if you selected **Variables** while searching for "Coffee", you would get a result for a dataset that contained a variable called **Coffee Preference**, but not for a dataset named **Coffee Brand Tracking Survey** (provided that dataset had no variables that included the word "Coffee").
+
+For Categorical Array and Multiple Response variables, selecting **Categories** will also search subvariable names (see the [descriptions of Multiple Response and Array variables](crunch_variable-cards.html) for more information about subvariables).
+
+#### Filtering by date
+
+The right-hand dropdown lets you limit the time frame of the data being searched.
+
+![Filter By Date](images/search-results-filter-date.png)
+
+This filter uses the dataset **End Date** that can be seen in [Dataset Properties](crunch_dataset-properties.html). At this time, **End Date** is set on import or by a dataset editor.
