@@ -3,9 +3,9 @@ title: "Importing Data"
 audience: all
 ---
 
-SPSS and CSV files can be imported into Crunch.io. To import data:
+SPSS and CSV files can be imported into Crunch. To import data:
 
-* Go to the datasets list. This is where you will land after signing in. You can return to the datasets list at any time by clicking Crunch.io logo or by closing the currently open dataset by clicking the dataset name and selecting **Close**.   
+* Go to the datasets list. This is where you will land after signing in. You can return to the datasets list at any time by clicking the Crunch logo or by closing the currently open dataset by clicking the dataset name and selecting **Close**.   
 
 * Click the + at the bottom of the sidebar and select **New Dataset**. 
 

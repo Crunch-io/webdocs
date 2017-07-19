@@ -17,11 +17,11 @@ This panel contains the following settings.
 
 #### Name
 
-The name that will be displayed for you within Crunch.io.
+The name that will be displayed for you within Crunch.
 
 #### Email
 
-The email address you use to sign in to Crunch.io. This setting is read only. If you need to change to your email address, contact your administrator.
+The email address you use to sign in to Crunch. This setting is read only. If you need to change to your email address, contact your administrator.
 
 #### Variable card display options
 

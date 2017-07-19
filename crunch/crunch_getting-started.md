@@ -3,7 +3,7 @@ title: Getting Started
 audience: all
 ---
 
-This section of the documentation should help you to get familiar with the Crunch.io interface.
+This section of the documentation should help you to get familiar with the Crunch interface.
 
 ### Looking for a dataset?
 

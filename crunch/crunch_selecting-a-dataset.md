@@ -5,7 +5,7 @@ audience: all
 
 ![](images/Projects.png)
 
-After signing in to Crunch.io, you will see your most recently open Project, which will contain one or more Datasets. Projects are listed down the left side of the interface. Click a project in the sidebar to open it.
+After signing in to Crunch, you will see your most recently open Project, which will contain one or more Datasets. Projects are listed down the left side of the interface. Click a project in the sidebar to open it.
 
 Click a dataset in the list to open it.
 
