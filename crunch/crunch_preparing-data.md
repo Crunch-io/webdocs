@@ -3,7 +3,7 @@ title: Importing and Cleaning Data
 audience: all
 ---
 
-Advanced users can import data into Crunch.io, prepare it for use by clients (often referred to as 'cleaning'), and share it. The process of preparing data may involve any or all of the following steps:
+Advanced users can import data into Crunch, prepare it for use by clients (often referred to as 'cleaning'), and share it. The process of preparing data may involve any or all of the following steps:
 
 [Import Data](crunch_importing-data.html) – Import SPSS or CSV files into Crunch.io, either from your computer or from a URL.
 
@@ -23,8 +23,6 @@ Advanced users can import data into Crunch.io, prepare it for use by clients (of
 
 [Weight](crunch_weighting.html) – Designate an existing variable as the wieght variable, create a weight by specifying desired targets for one or more categorical variables.
 
-[Filter](crunch_filtering-data.html) – Create filters that all users who access the dataset can use to work with subsets of the data (for example, "US only"). 
+[Filter](crunch_filtering-data.html) – Create filters that all users who access the dataset can use to work with subsets of the data (for example, "US only").
 
 Share – Share the dataset with [an individual user](crunch_sharing-a-dataset.html) or a [project containing many users](crunch_project-management.html) to allow them to view and analyze the data.  
-
-

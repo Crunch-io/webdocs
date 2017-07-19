@@ -23,7 +23,7 @@ audience: all
 <div class="support-home-wrapper">
     <div class="support-home-left">
         <h3>Getting Started</h3>
-        <p>New to Crunch.io?</p>
+        <p>New to Crunch?</p>
         <a class="btn" href="crunch_getting-started.html">Get Started</a>
     </div>
     <div class="support-home-right">
@@ -46,4 +46,3 @@ audience: all
         <a class="btn" href="http://docs.crunch.io/" target="_blank">API Documentation</a>
     </div>
 </div>
-

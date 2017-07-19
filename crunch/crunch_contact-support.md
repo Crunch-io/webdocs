@@ -7,7 +7,7 @@ We'd love to hear any feedback or questions you have about Crunch.
 
 ### Requesting a Feature
 
-If there are features you'd like to see added to Crunch.io, let us know at [support@crunch.io](mailto:support@crunch.io). We're always eager to learn how we can help you get things done better.
+If there are features you'd like to see added to Crunch, let us know at [support@crunch.io](mailto:support@crunch.io). We're always eager to learn how we can help you get things done better.
 
 ### Reporting a Bug
 
