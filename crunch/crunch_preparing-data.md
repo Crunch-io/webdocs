@@ -5,7 +5,7 @@ audience: all
 
 Advanced users can import data into Crunch, prepare it for use by clients (often referred to as 'cleaning'), and share it. The process of preparing data may involve any or all of the following steps:
 
-[Import Data](crunch_importing-data.html) – Import SPSS or CSV files into Crunch.io, either from your computer or from a URL.
+[Import Data](crunch_importing-data.html) – Import SPSS or CSV files into Crunch, either from your computer or from a URL.
 
 [Exclude Rows](crunch_creating-exclusions.html) – Exclude rows from the dataset. For example, you could exlude incomplete responses.
 

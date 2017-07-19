@@ -6,18 +6,18 @@ platform: all
 version: all
 output: web
 topnav_title: Support
-homepage_title: Crunch.io support
-site_title: Crunch.io support
+homepage_title: Crunch support
+site_title: Crunch support
 project_folder: crunch
-company_name: Crunch.io
+company_name: Crunch
 footer_image_location: ../common_images/company_logo.png
 github_editme_path: Crunch-io/webdocs/edit/gh-pages
 video_tutorial_link: grownspcpa8
 # variables
 
 
-sidebar_tagline: Crunch.io
-#sidebar_version: 
+sidebar_tagline: Crunch
+#sidebar_version:
 theme_file: theme-crunch.css
 #pdf_file_name: mydoc_designers_pdf.pdf
 

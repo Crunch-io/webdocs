@@ -67,7 +67,7 @@ These properties are shown on the right of the variable properties page and affe
 
 **Date format (summary)** – Sets the format used to display dates on the date/time variable card as well as in tables and graphs.
 
-**Date format (data)** – Sets the date format used when displaying raw data. Raw date/time data is not currently displayed in Crunch.io.
+**Date format (data)** – Sets the date format used when displaying raw data. Raw date/time data is not currently displayed in Crunch.
 
 **Rollup** – The smallest degree of precision that will be used for this date/time data. E.g. if **Month** is chosen a table using this variable will group this variable into months, even if the data is more precise. Yearly rollups start January 1st. Quarterly rollups start January 1st, April 1st, July 1st, and October 1st. Monthly rollups start on the first of each month. Weekly rollups start on the Monday of each week. The **Default** value selects a rollup based on the range of data. You can change the displayed rollup when viewing a table by right-clicking the variable name as described in [Customizing a Table or Graph](crunch_variable-display-in-expanded-view.html).
 
