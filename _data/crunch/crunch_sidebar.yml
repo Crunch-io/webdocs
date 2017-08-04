@@ -53,6 +53,29 @@ entries:
       version: all
       output: web, pdf
 
+    thirdlevel:
+    - title: Import of a Dataset
+      audience: all
+      platform: all
+      version: all
+      product: all
+      output: web, pdf
+      thirdlevelitems:
+      - title: "Importing a Dataset"
+        url: /crunch/crunch_importing-a-dataset.html
+        audience: all
+        platform: all
+        product: all
+        version: all
+        output: web, pdf
+      - title: "Importing from SurveyMonkey"
+        url: /crunch/crunch_import-from-surveymonkey.html
+        audience: all
+        platform: all
+        product: all
+        version: all
+        output: web, pdf
+
     - title: "Finding Datasets"
       url: /crunch/crunch_selecting-a-dataset.html
       audience: all
