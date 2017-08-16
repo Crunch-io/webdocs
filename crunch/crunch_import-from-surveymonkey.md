@@ -3,37 +3,26 @@ title: Importing from SurveyMonkey
 audience: all
 ---
 
-Crunch provides an easy to use importer to import data from Survey Monkey and
-to analyze the survey data.
+To import data directly from Survey Monkey to Crunch, follow these steps:
 
-## Connect to Survey monkey
+## 1. Click the + in the lower left hand corner and select New Dataset.
 
-On the import dataset form you will find a button underneath the Survey Monkey
-logo that will allow you to connect with your Survey Monkey account.
+![](images/ImportSelectNewDataset.png)
 
-![](images/import_dataset_surveymonkey.png)
+## 2. Connect to Survey Monkey
 
-After you click this button, you will be redirected to Survey Monkey, where
-you will have to login and accept the connection to Crunch, after accepting you
-will be redirected back to the Crunch application. You'll need to click through
-to the "Create Dataset" form again.
+Click the **Connect** button under the Survey Monkey logo.
 
-## Select the Survey
+![](images/ImportSurveyMonkeyConnect.png)
 
-On the form it will now show you what user account is connected to Crunch, and
-a button that will fetch a list of surveys from Survey Monkey.
+This will redirect you to Survey Monkey, where you can authorize the connection to Crunch. After connecting you will be redirected back to the Crunch application, where you'll need to need to click the **+** and select **New Dataset** again, as per step 1. The **Connect** button will be replaced with your Survey Monkey user name and a **Select Survey** button.
 
-![](images/import_dataset_surveymonkey_select.png)
+![](images/ImportSurveyMonkeySelect.png)
 
-Click the button. After a couple of seconds your available surveys will be
-listed.
+## 3. Select the Survey to import
+
+Click **Select Survey**. A list of available Survey Monkey surveys opens.
 
 ![](images/import_dataset_surveymonkey_surveys.png)
 
-After selecting your survey press the "Import" button to start the import of
-the survey from Survey Monkey.
-
-During the import a progress bar will display the current progress of importing
-the data, after the import you will be redirected to the newly imported
-dataset.
-
+Select a survey and click **Import** to import it from Survey Monkey. After the import completes you will be redirected to the imported dataset.
