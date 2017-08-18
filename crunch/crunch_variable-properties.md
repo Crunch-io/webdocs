@@ -122,3 +122,22 @@ These properties are shown on the right of the variable properties page and affe
 **Include/Exclude Missing** – If set to Include, missing columns will be shown on the variable card and missing rows will be used when calculating percentages.
 
 **Split rows into variables** – Turn each row of the array into a separate categorical variable.
+
+### Sentiment Analysis
+
+If you have a text variable, you can unlock the potential of this resource by determining whether entries are Positive, Negative, or Neutral.  
+On text variables, you will find the "Classify" button. 
+
+![](images/SentimentClassify.png)
+
+Clicking this will create a new categorical variable containing the sentiment analysis for the text variable.  Note that you have to be
+an editor in order for this option to become available when viewing variable properties.
+
+![](images/SentimentOfComments.png)
+
+The initial version of this feature uses a modern (slightly American inflected) English lexicon, tailored especially for terms that occur in social media:
+
+> [Hutto, CJ and Gilbert, E. (2014) "VADER: A Parsimonious Rule-based Model for Sentiment Analysis of Social Media Text". Eighth International Conference on Weblogs and Social Media (ICWSM-14). Ann Arbor, MI, June 2014](https://github.com/cjhutto/vaderSentiment).
+
+We have plenty of plans for future work in this area, including other languages, a way to provide your own tailored lexicons, coding of data into a broader range of categories, specifying your own coding for text data, and more.
+
