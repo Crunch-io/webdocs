@@ -23,13 +23,13 @@ audience: all
 <div class="support-home-wrapper">
     <div class="support-home-left">
         <h3>Getting Started</h3>
-        <p>New to Crunch?</p>
+        <p>Using Crunch to View and Analyze Data</p>
         <a class="btn" href="crunch_getting-started.html">Get Started</a>
     </div>
     <div class="support-home-right">
-        <h3>Importing and Cleaning Data</h3>
-        <p>Looking for help with data preparation?</p>
-        <a class="btn" href="crunch_preparing-data.html">Clean Data</a>
+        <h3>Getting Started with Data Preparation</h3>
+        <p>Import, Clean, Prepare, and Share your Data</p>
+        <a class="btn" href="crunch_preparing-data.html">Prepare Data</a>
     </div>
 </div>
 

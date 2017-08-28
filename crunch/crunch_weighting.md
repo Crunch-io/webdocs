@@ -7,17 +7,17 @@ Weighting a dataset allows you to adjust the data to a specific required ratio o
 
 A weight variable is a numeric variable where each row contains a multiplier that indicates how that row should be given more or less importance. When a weight is created in Crunch, this numeric weight variable is created by specifying the target values for one or more categorical values (in the example above, 55% Male and 45% Female). A weight variable can be constructed from multiple categorical variables (for example to adjust the data for target gender, age, and income distributions).
 
-###Selecting a Weight
+### Selecting a Weight
 
 **Weighted** or **Unweighted** will appear in the upper right corner of the interface when viewing a dataset, indicating whether the dataset is currently weighted. Click the weight to open a dropdown menu you can use to select a weight or turn off weighting.
 
-###Making an Existing Variable a Weight
+### Making an Existing Variable a Weight
 
 Only a dataset editor can make an existing variable a weight. A dataset may be imported into Crunch with a weight variable already created by another tool. To specify that an existing numeric variable can be used as a weight, open the [Variable Properties](crunch_variable-properties.html) for that variable and set the **Use as Weight** dropdown to **Yes**.
 
 ![](images/UseAsWeight.png)
 
-###Creating a Weight
+### Creating a Weight
 
 Only a dataset editor can create a weight. When a dataset editor opens the weight dropdown described above, **Create Weight...** appears at the bottom of the list. Click this to open the weight builder. The weight builder can also be access through the [New Variable](crunch_creating-variables.html) screen.
 
