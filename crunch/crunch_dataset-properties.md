@@ -17,6 +17,6 @@ The primary dataset properties page allows you to edit the following:
 
 **Description** - Click the dataset description to edit it.
 
-**Start Date/End Date** - When was the data collected? These properties are included to allow start and end dates (distinct, obviously, from dataset creation or modification times) to be included as dataset attributes.
+**Start Date/End Date** - When was the data collected? These properties are included to allow start and end dates (distinct from dataset creation and modification dates) to be included as dataset attributes.
 
 **Notes** - If you have more detailed notes about the dataset beyond its description, you can include them here.

@@ -11,7 +11,7 @@ To create a derived variable click **+New Variable** at the bottom of the varia
 
   * **Categorical variable** – To derive a categorical variable, define each category with a logical expression based on one or more existing variables. For example, you could derive a variable that defined "Soccer Moms" as "Gender = Female" and "Children Under 18 = Yes" and "Single Dads" as "Gender = Male", "Children Under 18 = Yes", and "Marital Status = Single, Divorced, or Widowed". See [Building Categorical Variables](crunch_creating-a-categorical-variable.html).
 
-###Personal and Shared Variables
+### Personal and Shared Variables
 If you are a viewer on the dataset, derived variables will be personal – available only to you. They will appear in the **My Variables** folder at the top of the variable accordion.
 
 Dataset editors can choose to make a derived variable available to all users on the dataset. When creating a derived variable, an editor will see the Personal/Shared toggle in the upper right.
