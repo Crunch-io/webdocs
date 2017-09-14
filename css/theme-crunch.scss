@@ -10,9 +10,23 @@ body,h1,h2,h3,h4 {
     font-style: normal;
 }
 
-h2 { font-size: $font-size-l; font-weight: $font-weight-heavy;}
-h3 { font-size: $font-size-l; font-weight: $font-weight-normal;}
-h4 { font-size: $font-size-m; font-weight: $font-weight-normal;}
+h2 { font-size: $font-size-l;
+    font-weight: $font-weight-heavy;
+    padding-top: 60px;
+    margin-top: -60px;
+}
+
+h3 { font-size: $font-size-l;
+    font-weight: $font-weight-normal;
+    padding-top: 60px;
+    margin-top: -60px;
+}
+
+h4 { font-size: $font-size-m;
+    font-weight: $font-weight-normal;
+    padding-top: 60px;
+    margin-top: -60px;
+}
 
 
 .pull-right {
@@ -138,7 +152,7 @@ body.print h4 {color: #679DCE !important; font-size:14px; font-style: italic !im
     }
 }
 
-#home-results-container {    
+#home-results-container {
     list-style: none;
     border: 1px solid #dfdfdf;
     border-top: none;
@@ -181,14 +195,14 @@ body.print h4 {color: #679DCE !important; font-size:14px; font-style: italic !im
         p {
             font-size: 17px;
         };
-        
+
         .btn {
             color: #565656;
             background: #f6f6f6;
             font-size: 13px;
             border-radius:0;
             min-width:110px;
-            
+
         };
     };
     .support-home-right {
