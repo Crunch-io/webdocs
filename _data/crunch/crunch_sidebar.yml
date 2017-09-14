@@ -377,6 +377,14 @@ entries:
       version: all
       output: web, pdf
 
+    - title: Configuring a Dashboard
+      url: /crunch/crunch_dashboards.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
     - title: Appending Data
       url: /crunch/crunch_appending-data.html
       audience: all
