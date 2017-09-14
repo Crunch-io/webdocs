@@ -17,7 +17,7 @@ In this panel you can select one of the following options:
 This is the default view – a summary of the dataset metadata configured in [dataset properties](crunch_dataset-properties.html), as seen above.
 
 ### URL
-Select **URL** to specify a custom URL that will be used as the dataset dashboard. Typically this is used to show a [Shiny Dashboard](https://rstudio.github.io/shinydashboard/) built from your dataset using Rstudio's Shiny tool, but it could also be a CrunchBox or any web-based content you host in another location.
+Select **URL** to specify a custom URL that will be loaded as the dataset dashboard. This can be used to show any web-based content you host in another location, such as a Shiny dashboard built in R and hosted by Crunch. For more information about using on using Shiny with Crunch, see the [“Crunchy” GitHub project](https://github.com/Crunch-io/crunchy) and its [instructions](https://github.com/Crunch-io/crunchy/wiki/Deploying-your-Crunchy-app).
 
 ### Deck
 Select **Deck** to choose a deck to use as a dashboard. The first four analyses saved to that deck will be displayed in a two-by-two grid.
