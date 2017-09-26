@@ -5,7 +5,7 @@ audience: all
 
 SPSS and CSV files can be imported into Crunch.
 
-CSV and SPSS files may also be contained in a Zip file. If a Zip file is provided,
+CSV and SPSS files may also be contained in Zip files. If a Zip file is provided,
 it must contain exactly one SPSS or CSV file. 
 
 To import data:
