@@ -6,11 +6,11 @@ audience: all
 SPSS and CSV files can be imported into Crunch.
 
 CSV and SPSS files may also be contained in Zip files. If a Zip file is provided,
-it must contain exactly one SPSS or CSV file. 
+it must contain exactly one SPSS or CSV file.
 
 To import data:
 
-* Go to the datasets list. This is where you will land after signing in. You can return to the datasets list at any time by clicking the Crunch logo or by closing the currently open dataset by clicking the dataset name and selecting **Close**.   
+* Go to the datasets list. This is where you will land after signing in. You can return to the datasets list at any time by clicking the Crunch logo or by closing the currently open dataset by clicking the dataset name and selecting **Close**.
 
 * Click the + at the bottom of the sidebar and select **New Dataset**. 
 
@@ -20,6 +20,10 @@ To import data:
     * To select a local file, click **Select File** and use your computer’s file selector to choose a file.
     * To import a file from a URL, enter the URL under **Enter Source URL** and click **Upload**.
 * While the dataset uploads, you can enter a name, description, and start and end dates – a default name will be provided based on the file name.
+
+**Note** that if your input data file is large (over 100 megabytes),
+it's better to upload it to a file-sharing service, like Dropbox, and
+import using a URL to the file in the service.
 
 ![](images/ImportInterface.png)
 
