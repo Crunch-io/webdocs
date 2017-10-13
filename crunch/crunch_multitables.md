@@ -37,7 +37,7 @@ You can add variables to the multitable definition by clicking them or dragging 
 
 #### Hiding Columns
 
-You may wish to hide some columns of a multitable (for example 'decline to state' or 'not asked'). You can hide a multitable column by clicking on the column title – it will turn gray. Click the column title again to unhide it. When the multitable definition is used, this column will not be displayed. At this time, when exporting to a tab book (see above), all columns will be exported, whether hidden or not – we will be improving this in a future release.
+You may wish to hide some columns of a multitable (for example 'decline to state' or 'not asked'). You can hide a multitable column while in the multitable builder by clicking on the column title – it will turn gray. Click the column title again to unhide it. When the multitable definition is used, this column will not be displayed. At this time, when exporting to a tab book (see above), all columns will be exported, whether hidden or not – we will be improving this in a future release.
 
 #### Sharing Multitable Definitions
 
