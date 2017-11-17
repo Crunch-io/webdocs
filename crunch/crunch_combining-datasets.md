@@ -55,3 +55,14 @@ Once you have selected options, click **Finish** to create the new dataset.
 The new dataset will automatically have a [Dashboard](./crunch_dashboards.html) created. It will contain the combined variable initially selected in step 1 and, if a date variable was created in step 4, a time series tracking that variable over time.
 
 ![](images/CombineDSDashboard.png)
+
+## Tips for getting the most out of the feature
+
+Currently, the system makes a number of assumptions about the input data being “clean” in a few ways. To the extent these assumptions limit how useful combine is for your particular data, we view each as an opportunity.
+
+1. Variables are matched by their “alias” across datasets. It may be necessary to use a script to re-alias in the datasets you’re trying to combine. As a best practice, we advise aliases with semantic meaning: “unaided_awareness” is a better alias than “Q1”. We are working on more flexible (some might say magic) matching, though, so the system will be able to line up Q1 and Q21 if we detect that they are actually “the same question”.
+2. Variable names and descriptions in the result are taken from the first dataset in the series.
+3. The result always has the union of categories, matched exactly by name. Because it’s common to change order  or randomize response categories in different cross-sections, category names are matched and given the ids found in the first dataset of the series. For the moment, spelling, language, and capitalization differences between datasets will result in new categories in the result. Next we plan to let you combine categories by id or code, if you trust that multilingual datasets share consistent ids. Eventually, you’ll be able to edit the detailed category mapping for each constituent dataset.
+4. In order to build a useful time or ‘wave’ variable, datasets need to have `start_date`, `end_date`, or both set in their metadata. We know that some datasets have row-level date/time variable, possibly a scalar date, but maybe even a precise collection time. The system will eventually be able to inspect those or use one as the Wave variable. Almost as often datasets encode wave information in their names, notes, or description strings — all of them reasonable approaches.
+5. *What if you could go back and edit* any of these parts of the combination “recipe”? That’s where we’re headed.
+6. *What if you pointed to a folder* of datasets and said to the system: “figure it out”? One day it will.
