@@ -3,6 +3,13 @@
 topnav:
 - title: Topnav
   subcategories:
+    - title: Go to Crunch.io
+      external_url: //crunch.io/
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web
     - title: Go to Application
       external_url: https://app.crunch.io
       audience: all

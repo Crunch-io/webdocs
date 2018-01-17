@@ -9,8 +9,10 @@
                 <span class="icon-bar"></span>
             </button>
 
-            <a class="fa fa-home fa-lg navbar-brand" href="home.html">&nbsp;<span class="projectTitle"> {{site.topnav_title}}</span></a>
-
+            <a class="navbar-brand" href="home.html">
+                <img src="images/logo.svg" alt="Crunch Logo">
+            </a>
+            
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
@@ -21,6 +23,7 @@
                 {% for entry in topnav %}
                 {% for subcategory in entry.subcategories %}
                 {% if subcategory.audience contains audience and subcategory.product contains product and subcategory.platform contains platform and subcategory.version contains version and subcategory.output contains "web" %}
+
                 {% if subcategory.external_url %}
                 <li><a href="{{subcategory.external_url}}" target="_blank">{{subcategory.title}}</a></li>
                 {% elsif page.url == subcategory.url %}
