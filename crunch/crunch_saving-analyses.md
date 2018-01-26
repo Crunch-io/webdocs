@@ -31,6 +31,15 @@ The order of the saved analyses can be changed by dragging them up and down in t
 
 Move the mouse over any item and an ✖️ will appear at its upper right; click to remove that analysis.
 
+To edit slide titles move mouse over any item and an **Edit** button will appear at its lower right; click to edit the slide’s title.
+
+![](images/EditSlide.png)
+
+Another window will slide and you will be able to edit the slide’s name. You can also add a subtitle. Click **Save**.
+
+![](images/EditSlideTitle.png)
+
+
 ### Exporting Analyses
 
 Click the export button at the bottom of the deck to export analyses saved to that deck to Excel.
