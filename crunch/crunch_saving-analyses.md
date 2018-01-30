@@ -29,13 +29,13 @@ The order of the saved analyses can be changed by dragging them up and down in t
 
 ![](images/DeckDrag.png)
 
-Move the mouse over any item and an ✖️ will appear at its upper right; click to remove that analysis.
+To remove an slide, hover over it and click the ✖️ in the upper-right corner.
 
-To edit slide titles move mouse over any item and an **Edit** button will appear at its lower right; click to edit the slide’s title.
+To edit a slide title hover over it and click **Edit** to open the title editor.
 
 ![](images/EditSlide.png)
 
-Another window will slide and you will be able to edit the slide’s name. You can also add a subtitle. Click **Save**.
+Here you can edit the slide's title and subtitle.
 
 ![](images/EditSlideTitle.png)
 
