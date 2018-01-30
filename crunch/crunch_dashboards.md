@@ -25,3 +25,7 @@ Select **Deck** to choose a deck to use as a dashboard. The first four analyses 
 ![](images/dashboard.png)
 
 The selected deck will become shared (available to all users on the dataset) when it is used as a dashboard. See [Saving, Exporting, and Sharing Analyses](crunch_saving-analyses.html) for more information about creating decks.
+
+If a deck contains no analyses and **Deck** is selected the dashboard will display the dataset summary.
+
+![](images/DashboardDeckNoAnalyses.png)
