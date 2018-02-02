@@ -11,7 +11,7 @@ Subtotals can be applied to any Categorical variable by opening the variable `Pr
 To create either headings or subtotals, first click the plus sign where you want the heading to appear in the list of categorical variables. 
 ![](images/headings2.png)
 
-If you stop here you will have created a _Heading_, which is just a label that helps organize the categories in a categorical variable. If you want to turn these headings into subtotals, drag the variable whose values you want to subtotal into the heading. 
+If you stop here you will have created a _Heading_, which is just a label that helps organize the categories in a categorical variable. If you want to turn these headings into subtotals, drag the categories whose values you want to subtotal into the heading. 
 
 ![](images/headings.gif)
 
