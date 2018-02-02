@@ -1,6 +1,8 @@
 # webdocs
 Help pages for the Crunch web application. support.crunch.io
 
+These help pages use Jekyll, to get started installing and serving follow the [Jekyl quickstart guide](https://jekyllrb.com/docs/quickstart/).
+
 #### [temp link](http://crunch-io.github.io/webdocs/crunch/home.html)
 
 ## set up support stuff here insted of joomla
