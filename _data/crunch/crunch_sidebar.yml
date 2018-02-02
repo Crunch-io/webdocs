@@ -166,7 +166,7 @@ entries:
           output: web
 
         - title: Headings and Subtotals
-          url: /crunch/headings-and-subtotals.html
+          url: /crunch/crunch_headings-and-subtotals.html
           audience: all
           platform: all
           product: all

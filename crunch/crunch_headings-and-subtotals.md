@@ -5,8 +5,8 @@ audience: all
 
 A common task in the market-research world is to take data that is essentially a scale and collapse it into a smaller number of bins. For example, if you asked people to rate their preference on a scale of 1-10 you might want to see how the people who provide a rating between 1 and 5 compare to those who rated it between 6 and 10 without recoding the data into a new variable. This goes by a number of names like _Top Box_, _Top Two Box_, or _Nets_, but in Crunch we it is called a _Subtotal_. 
 
-Subtotals can be applied to any Categorical variable by opening the variable properties menu and selecting `Headings and Subtotals`. This brings up a list of the variable categories which allows you to insert headings or subtotals in the appropriate location. 
-![](images/headings1.png).
+Subtotals can be applied to any Categorical variable by opening the variable `Properties` menu and selecting `Headings and Subtotals`. This brings up a list of the variable categories which allows you to insert headings or subtotals in the appropriate location. 
+![](images/headings1.png)
 
 To create either headings or subtotals, first click the plus sign where you want the heading to appear in the list of categorical variables. 
 ![](images/headings2.png)
