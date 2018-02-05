@@ -3,7 +3,7 @@ title: Target Population
 audience: all
 ---
 
-Market researchers are often interested in population estimates. If a survey shows that %10 of respondents fall into a particular category they might be interested in how many people that proportion represents. One simple way to do this is to just multiply the percentage of people who fell into the category by a target population number. Crunch lets you set the target population for a dataset, and see variable summaries and calculations in terms of that population. 
+Market researchers are often interested in population estimates. If a survey shows that 10% of respondents fall into a particular category they might be interested in how many people that proportion represents. One simple way to do this is to just multiply the percentage of people who fell into the category by a target population number. Crunch lets you set the target population for a dataset, and see variable summaries and calculations in terms of that population. 
 
 To set the target population, go to the dataset properties menu:
 
