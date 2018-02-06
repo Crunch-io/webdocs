@@ -165,6 +165,14 @@ entries:
           version: all
           output: web
 
+        - title: Headings and Subtotals
+          url: /crunch/crunch_headings-and-subtotals.html
+          audience: all
+          platform: all
+          product: all
+          version: all
+          output: web
+
     - title: Filtering Data
       url: /crunch/crunch_filtering-data.html
       audience: all
