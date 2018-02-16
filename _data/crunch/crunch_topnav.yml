@@ -24,6 +24,13 @@ topnav:
       product: all
       version: all
       output: web
+    - title: Status
+      external_url: http://status.crunch.io/
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web
 
 #Topnav dropdowns
 # topnav_dropdowns:
