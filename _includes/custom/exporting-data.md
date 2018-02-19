@@ -12,7 +12,7 @@ You can use the filter bar on the right side to export a filtered subset of rows
 
 ### Export options
 
-**Output Format** – Once you have determined what rows and columns to export, select a format (SPSS or CSV) from the **Format** selector. The other export options change depending on output format.
+**Output Format** – Once you have determined what rows and columns to export, select a format (SPSS or CSV) from the **Format** selector. The other export options change depending on output format. If the selected variables would result in greater than 500,000,000 cells being exported, the **SPSS** option will be disabled.
 
 #### CSV export options
 
