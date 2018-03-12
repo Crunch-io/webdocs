@@ -36,7 +36,7 @@ This guide will explain how you can import data from a file and deliver a polish
 
 It will also explain how you can share the prepared data with clients, where they can use the Crunch platform to further explore the data.
 
-## Crunch Datasets and Variables
+### Crunch Datasets and Variables
 Crunch is a platform that allows you to efficiently store, search, and manage your survey data. Data is stored in Crunch **Datasets**. A dataset is a tabular data structure in which each survey question is stored in a **Variable**, and each response is stored as a row. Each variable has a type, which allows the data to be appropriately processed and analyzed in Crunch:
 
 **Categorical** – Categorical variables are typically used for questions with a discrete set of possible answers. They are summarized with counts of the number of responses in each category.  
@@ -63,46 +63,46 @@ Crunch is a platform that allows you to efficiently store, search, and manage yo
 ![](images/mrvarsample.png)
 
 
-## Importing a dataset
+### Importing a dataset
 
 To add a dataset, click the + button and select **Add Dataset**. You can upload SPSS and CSV files to Crunch either by uploading them from your computer or by pointing the app to a URL where the file is hosted. Data can also be imported from R [using the Crunch R package](http://crunch.io/r/crunch/articles/datasets.html).
 
 ![](images/import_dataset.png)
 
 
-## Browsing and Analyzing Data
+### Browsing and Analyzing Data
 
 At this time you may wish to explore the dataset you have imported. [Getting Started with Crunch](crunch_getting-started.html) will get you started navigating the Crunch interface, including browsing variable top-lines and creating multivariate analyses with your new dataset. As you explore your new data, you may find things you want to rearrange, modify, or hide before sharing the data with clients. The discussion below will walk you through how to clean and prepare your dataset.
 
-## Preparing the data
+### Preparing the data
 These are the steps typically involved in preparing data for clients. Depending on the nature of your data, you may not always need to do all of these steps, but this should provide a checklist of actions to go through to assure your data is ready for presentation.
 
-### Drop and hide rows and columns
+#### Drop and hide rows and columns
 Often when a dataset is imported it will contain rows or columns that you do not wish to share with your clients. To that end you can:
 
 * [Hide rows using an exclusion filter](crunch_creating-exclusions-dsprops.html). You can specify a rule (or series of rules) that will completely hide these rows from all users. For example, if you had a column that indicated that a survey was not completed, you could hide all rows for which that value was true.
 * Hide or delete variables (columns). Variables can be hidden from clients or deleted entirely. For example, you may wish to hide personal identification information from data that is shared to clients. A variable can be hidden or deleted via its [Variable Properties](crunch_hide-delete-variables.html). You can also hide or delete variables in batches using the [Variable Organizer](crunch_organizing-variables.html).
 
-### Edit Variable Names, Descriptions, and Categories
+#### Edit Variable Names, Descriptions, and Categories
 Often when variables are imported their names and descriptions are not formatted for presentation to your clients. You can edit the name, description, and alias of an individual variable by opening its [Variable Properties](crunch_hide-delete-variables.html), or you can quickly edit this metadata on a single page using the [Variable Organizer](crunch_organizing-variables.html).
 
 For categorical, multiple response, or array variables, you can edit the response categories – both the category names as well as their order, in that variable’s properties.
 
-### Organize Variables into Folders
+#### Organize Variables into Folders
 Crunch lets you present your dataset to the client with an organizational structure that makes sense to them. You can order the variables as they appear in the variable sidebar, including grouping them into expandable folders, using the [Variable Organizer](crunch_organizing-variables.html). As described above, the organizer also allows you to hide or delete variables, and to edit variable metadata.
 
-### Edit Dataset Metadata
+#### Edit Dataset Metadata
 You can edit dataset metadata through the [Dataset Properties](crunch_dataset-properties.html) menu, including the name, description, and survey start and end dates. Access the properties screen by clicking the dataset name and selecting Properties from the menu.
 
-### Weight the Data
+#### Weight the Data
 Weighting a dataset allows you to bring the collected responses of a survey in line with the known distribution of a population. For example if you know that half of the population identifies as female, but only 20% of your respondents do so, then you might need to adjust the survey to get a more accurate estimate of the population. This needs to be transparent to other researchers, but can be confusing for end users.
 
 Crunch allows you to create and apply weights to a dataset. Weights can be created either by selecting  a numeric variable in the dataset as the weight (e.g. a scalar variable that was upload with the data), or by specifying the target distribution of one or more categorical variables to create a weight variable which will weight the dataset to that distribution. For more information creating and managing weights in your dataset, see [Weighting](crunch_weighting.html).
 
-### Create Multiple Response and Array Variables
+#### Create Multiple Response and Array Variables
 When data is imported, variables that are meant to be displayed as Multiple Response or Array variables may be displayed as individual Categorical variables. For example, you may want a single variable that indicates whether a user is aware of any of 10 different brands (or to rate them on a 1-to-5 scale), but after importing you have 10 separate variables that each show awareness/rating for one of the brands. Use the [Multiple Response Variable Builder](crunch_creating-a-multiple-response-variable.html) and [Array Variable Builder](crunch_creating-an-array-variable.html) to combine these into the appropriate variable type.
 
-### Create Shared Variables, Filters, Multitables, and Decks
+#### Create Shared Variables, Filters, Multitables, and Decks
 
 Crunch allows any user to create the following:
 
@@ -120,7 +120,7 @@ By default, the dataset dashboard will show the dataset summary metadata (name, 
 To do this, you can specify any deck in your dataset as the dashboard. To edit your dataset’s dashboard, click the dataset name and select **Configure Dashboard**. See Configuring a Dataset’s Dashboard for more information.
 -->
 
-## Sharing the Data
+### Sharing the Data
 Once the dataset is ready to share to clients, there are a couple of different ways it can be shared:
 
 * [Sharing Directly to a User](crunch_sharing-a-dataset.html) – Click the dataset name and select **Share** to share the dataset directly with users via email address. If any email addresses you enter are not current Crunch users, a basic account (allowing datasets to be viewed, but not edited) will be created for them automatically. A dataset shared in this manner will appear in the user’s Personal Project.
@@ -128,7 +128,7 @@ Once the dataset is ready to share to clients, there are a couple of different w
 
 See the links above for more information on both types of sharing.
 
-## Moving beyond the app
+### Moving beyond the app
 
 The Crunch web app is designed to make the work done by analysts as intuitive and quick as possible, but for complex custom tasks, we’ve designed Crunch around an accessible [API](http://docs.crunch.io/) and built [R](http://crunch.io/r/crunch/) and [Python](https://github.com/Crunch-io/pycrunch) [clients](https://github.com/Crunch-io/scrunch) for the tool. If you need to perform a complex machine learning task, manipulate your data algorithmically, or send it to a downstream process, you likely need a product which is designed to work with open-source tools. Crunch allows you to access the power and dynamism of open-source tools while while maintaining the user-friendliness of a graphical interface.
 
