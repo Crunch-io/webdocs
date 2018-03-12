@@ -9,7 +9,7 @@ audience: all
 To import a dataset, sign in to Crunch and then click the + button in the lower-left corner and select **New Dataset** (not **New Project**). You can upload SPSS and CSV files to Crunch by uploading them from your computer or by pointing the app to a URL where the file is hosted. Data can also be imported from R [using the Crunch R package](http://crunch.io/r/crunch/articles/datasets.html).
 
 ### Step 2: Clean the data
-Once your data is imported to Crunch, we recommend taking the following steps make it look more polished and more efficient to navigate. 
+Once your data is imported to Crunch, we recommend taking the following steps to make it look more polished and more efficient to navigate. 
 * [Give the dataset a friendly name](http://support.crunch.io/crunch/crunch_dataset-properties.html)
 * [Hide some variables from view (e.g. “home_address” or other personally identifying information)](http://support.crunch.io/crunch/crunch_organizing-variables.html#hiding-unhiding-and-deleting-variables)
 * [Organize variables into folders](http://support.crunch.io/crunch/crunch_organizing-variables.html)
