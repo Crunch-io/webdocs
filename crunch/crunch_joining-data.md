@@ -3,7 +3,7 @@ title: "Joining Data"
 audience: all
 ---
 
-You can extend a dataset by adding variables from another dataset that match the current one on some **key** variable (a so-called left join).
+You can extend a dataset by adding variables from another dataset that match the current one on some **key** variable (typically called a ‘left join’).
 
 To append data, click the dataset name in the upper-left and then select the **Join** tab. Navigate through the project and dataset list to find the dataset you want to join.
 
