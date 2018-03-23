@@ -401,6 +401,14 @@ entries:
       version: all
       output: web, pdf
 
+    - title: Joining Data
+      url: /crunch/crunch_joining-data.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
     - title: Creating and Publishing Drafts
       url: /crunch/crunch_draft-and-publish.html
       audience: all
