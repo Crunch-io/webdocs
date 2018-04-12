@@ -1,4 +1,4 @@
-CrunchBox is a special purpose widget that allows to embed data in any website.
+A CrunchBox are used to embed embed Crunch data in any website in an interactive widget.
 
 Create a CrunchBox by opening [Dataset Properties](crunch_dataset-properties.html) and then clicking **CrunchBox**.
 
@@ -6,17 +6,17 @@ Create a CrunchBox by opening [Dataset Properties](crunch_dataset-properties.htm
 
 ### Selecting variables
 
-The dataset’s variables are listed on the left side. You can choose to build a CrunchBox only with a subset of variables by deselecting any variables or groups that you don’t want to include.
+The dataset’s variables are listed on the left side of the CrunchBox builder. Select the variables and groups you would like to be included in the CrunchBox.
 
-### Filtering variables
+### Selecting Filters
 
-You can choose which filters to include in your CrunchBox on the right side. By default, any filters that were applied to the dataset will still be applied, and you can [add and remove filters](crunch_filtering-data.html) in the same manner as you would elsewhere.
+Choose which filters will be available to CrunchBox users on the right side. By default, any filters that were applied to the dataset will still be applied, and you can [add and remove filters](crunch_filtering-data.html) by clicking the plus to add or by clicking the **x** next to a filter to remove it. 
 
-### Building a CrunchBox
+### Building the CrunchBox
 
-Once you have determined what variables and filters you want to include, click **Build** to build a CrunchBox. You can create multiple crunchboxes with the same dataset.
+Once you have selected variables and filters you want to include, click **Build**. You can create multiple CrunchBoxes from the same dataset. Note that when a CrunchBox is built, it will take a snapshot of the current data – if further updates are made to the dataset, you should build a new CrunchBox to replace the existing one.
 
-Once your CrunchBox is built, click the **Share** icon and you will have many options to share. To get the embed code click on the **Embed** icon and now you can insert in any website.
+Once the CrunchBox is built, click the **Share** icon. To get the embed code, click on the **Embed** icon.
 
 ![](images/CrunchBoxEmbed.png)
 
