@@ -457,6 +457,14 @@ entries:
       version: all
       output: web, pdf
 
+    - title: Creating a CrunchBox
+      url: /crunch/crunch_crunchbox.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
     - title: Organizing Variables
       url: /crunch/crunch_organizing-variables-dsprops.html
       audience: all
