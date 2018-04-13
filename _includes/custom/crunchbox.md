@@ -1,4 +1,4 @@
-A CrunchBox are used to embed embed Crunch data in any website in an interactive widget.
+Use CrunchBoxed to embed Crunch data in any website in an interactive widget.
 
 Create a CrunchBox by opening [Dataset Properties](crunch_dataset-properties.html) and then clicking **CrunchBox**.
 
