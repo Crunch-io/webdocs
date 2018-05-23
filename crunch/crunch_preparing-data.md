@@ -8,6 +8,8 @@ audience: all
 ### Step 1: Import a dataset to Crunch
 To import a dataset, sign in to Crunch and then click the + button in the lower-left corner and select **New Dataset** (not **New Project**). You can upload SPSS and CSV files to Crunch by uploading them from your computer or by pointing the app to a URL where the file is hosted. Data can also be imported from R [using the Crunch R package](http://crunch.io/r/crunch/articles/datasets.html).
 
+We recommend you upload your data directly from your survey system into Crunch *first*, and then after it is uploaded, begin to edit the dataset in Crunch. There is no technological barrier to doing it the reverse, where you take the data from the survey system, process it locally, and then upload into Crunch, but that work flow invites version control problems ("data_v7_final_FINAL").
+
 ### Step 2: Clean the data
 Once your data is imported to Crunch, we recommend taking the following steps to make it look more polished and more efficient to navigate. 
 * [Give the dataset a friendly name](http://support.crunch.io/crunch/crunch_dataset-properties.html)
@@ -20,7 +22,9 @@ Once your data is imported to Crunch, we recommend taking the following steps to
 * [Create Filters](http://support.crunch.io/crunch/crunch_building-filters.html)
 * [Create Multitables (aka “banners”, “crossbreaks”, or “tabs”)](http://support.crunch.io/crunch/crunch_multitables.html)
 * [Build a dashboard showing key tables and graphs](http://support.crunch.io/crunch/crunch_dashboards.html)
+* [Build a Crunchbox to report on and analyze just select variables](http://support.crunch.io/crunch/crunch_crunchbox.html)
 * [Share the dataset with others](http://support.crunch.io/crunch/crunch_sharing-a-dataset.html)
+
 
 ## In-Depth Guide
 Crunch is designed to help you prepare and share data with your clients using an intuitive, web-based client.  The app was built with survey data in mind, and is optimized for working with very wide datasets which may have thousands of variables. Crunch also gives analysts the ability to weight datasets, efficiently store and analyze multiple-response variables, and share a single dataset with distinct clients.
@@ -66,6 +70,8 @@ Crunch is a platform that allows you to efficiently store, search, and manage yo
 ### Importing a dataset
 
 To add a dataset, click the + button and select **Add Dataset**. You can upload SPSS and CSV files to Crunch either by uploading them from your computer or by pointing the app to a URL where the file is hosted. Data can also be imported from R [using the Crunch R package](http://crunch.io/r/crunch/articles/datasets.html).
+
+We recommend you upload your data directly from your survey system into Crunch *first*, and then after it is uploaded, begin to edit the dataset in Crunch. There is no technological barrier to doing it the reverse, where you take the data from the survey system, process it locally, and then upload into Crunch, but that work flow invites version control problems ("data_v7_final_FINAL").
 
 ![](images/import_dataset.png)
 
