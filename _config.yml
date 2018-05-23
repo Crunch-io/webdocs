@@ -68,9 +68,4 @@ defaults:
 
 encoding: UTF-8
 
-plugins_dir:
-  - jekyll-analytics
-
-jekyll_analytics:
-  GoogleAnalytics:
-    id: UA-50332119-5
+google_analytics: UA-50332119-5
