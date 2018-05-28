@@ -67,3 +67,5 @@ defaults:
       tooltip: true
 
 encoding: UTF-8
+
+google_analytics: UA-50332119-5
