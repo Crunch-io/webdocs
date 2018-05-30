@@ -39,11 +39,18 @@ To delete a condition from a filter, click the X that appears in the upper right
 
 Once a filter has one or more conditions and a name it can be saved.
 
-If you are a dataset editor, you will see a personal/shared toggle in the upper right.
+### Sharing a filter
+You can change who has access to a filter using the **Shared with** dropdown in the upper right.
 
-![](images/PersonalSharedToggle.png)
+![](images/share-filter.png)
 
-Personal filters can only be seen and used by you; shared filters are available to all users on the dataset. If you are not an editor, you can only make personal filters.
+Note that this dropdown is only available if this option can be changed (if you are not on a team that can access this dataset and you are not a dataset editor, any filters you create will only be available to you).
+
+**Only me** will be selected by default, meaning that you are the only one who can see this filter. 
+
+**All dataset users** is only available to dataset editors. If set, anyone who can access this dataset will be able to see and use this filter. Other dataset editors will be able to edit or delete it.
+
+Any teams you are on that have access to this dataset will also appear in this list (i.e. **Design team** in the example above). Select a team to make the filter available to them to view, edit, or delete.
 
 After saving a filter it will be automatically applied.
 
