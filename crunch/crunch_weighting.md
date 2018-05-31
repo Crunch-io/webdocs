@@ -33,8 +33,8 @@ Name the weight by clicking on the name. The default name is **Weight**, since i
 
 An editor can set a default weight for a dataset. This is the weight that will be set when a user opens a dataset for the first time, e.g. after it is shared with them. To set the default weight, click the dataset name to open dataset properties, click the [Permissions](crunch_permissions-and-defaults.html) tab, and then choose a default weight from the dropdown.
 
-### Toggle between Weighted and Unweighted in Tables
+### Viewing Weighted or Unweighted Bases in Tables
 
-When creating a table you can choose to display **Weighted N** and/or **Unweighted N** bases in conjunction with percentages by clicking on the menu shown below. Weighted must be selected from the dropdown in the upper right corner of the interface. If you hover over **Unweighted N** from the lower left side of the table a caret will appear, click to open a dropdown menu and choose which to display.
+You can choose whether to display Weighted and/or Unweighted bases in tables by clicking the **Weighted N**/**Unweighted N** column in the lower left as shown below. This option will only be available if the data is weighted.
 
 ![](images/WeightedorUnweightedN.png)
