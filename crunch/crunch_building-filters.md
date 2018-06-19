@@ -3,7 +3,7 @@ title: "Building Filters"
 audience: all
 ---
 
-This topic covers using the filter builder to create and edit filters and using the filter organizer to change the order of shared filters. See [Filtering Data](crunch_filtering-data.html) for information about using filters with your data.
+This topic covers using the filter builder to create and edit filters and using the filter organizer to change the order of shared filters, as well as the process of creating a dichotomous variable based on a filter. See [Filtering Data](crunch_filtering-data.html) for information about using filters with your data.
 
 ### Building a Filter
 
@@ -16,6 +16,8 @@ Use the filter builder if:
 * You want to save the filter to use later.
 
 * You are a dataset editor and you want to create a filter that anyone who has access to the dataset can use.
+
+* You want to create a 2-category variable based on the filter to be used in tables and graphs.
 
 To open the filter builder, select **New filter…** from the drop-down menu.
 
@@ -46,7 +48,7 @@ You can change who has access to a filter using the **Shared with** dropdown in 
 
 Note that this dropdown is only available if this option can be changed (if you are not on a team that can access this dataset and you are not a dataset editor, any filters you create will only be available to you).
 
-**Only me** will be selected by default, meaning that you are the only one who can see this filter. 
+**Only me** will be selected by default, meaning that you are the only one who can see this filter.
 
 **All dataset users** is only available to dataset editors. If set, anyone who can access this dataset will be able to see and use this filter. Other dataset editors will be able to edit or delete it.
 
@@ -67,6 +69,20 @@ To edit a filter you can either:
 This opens the filter builder with the selected filter. When editing a filter click Delete in the lower right to delete it.
 
 You can view, but not edit, filters that are available to all users on the dataset.
+
+### Creating a Variable Based on a Filter
+
+When creating or editing a filter, the **Save as Variable** button appears to the left of the **Save** button.
+
+![](images/CreateFilterFromVariable.png)
+
+Click this button to create a new variable based on the filter definition. All rows that meet the filter criteria will be in the **Selected** category. All rows that are not missing but do not meet the filter criteria will be in the **Other** category. Missing rows will be marked as missing.
+
+![](images/VariableFromFilterExample.png)
+
+The new variable will have the same name as the filter. If the variable was created from an existing filter, this will not change the existing filter. If you started with a new filter, no filter will be created, only the variable.
+
+You can edit the variable or category names of the new variable by opening [Variable Properties](crunch_variable-properties.html).
 
 ### Organizing Filters
 
