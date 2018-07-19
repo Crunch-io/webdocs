@@ -109,14 +109,6 @@ entries:
           version: all
           output: web, pdf
 
-        - title: Cat Pictures
-          url: /crunch/crunch_cat-pictures.html
-          audience: all
-          platform: all
-          product: all
-          version: all
-          output: web, pdf
-
       - title: Analyzing Data
         audience: all
         platform: all
