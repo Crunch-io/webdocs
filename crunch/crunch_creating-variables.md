@@ -5,7 +5,7 @@ audience: all
 
 You can derive new variables based on existing variables in a dataset. The following methods are available to derive variables.
 
-* **Derive variable from filter** – You can create a dichotomous variable based on a filter – all rows that match the filter definition will be shown as **Selected**, whereas non-missing rows that do not match the definition will be shown as **Other**. This see [Building Filters](crunch_building-filters.html) for more information.
+* **Derive variable from filter** – You can create a dichotomous variable based on a filter – all rows that match the filter definition will be shown as **Selected**, whereas non-missing rows that do not match the definition will be shown as **Other**. See [Building Filters](crunch_building-filters.html) for more information.
 
 * **Combine categories** – Derive a variable by combining categories from an existing categorical, multiple response, or array variable. For example, starting with a variable that recorded people's opinions on issues on a scale from 1-10, you could derive a variable that combines the "1-3" responses into "Disagree", "4-7" into "Unsure", and "8-10" into "Agree". The type of variable created will be the same as the type of the variable it is based on. Click **New Variable** at the bottom of the variable list and select **Combine categories** to get started. See [Combining Categories](crunch_creating-a-combined-variable.html)
 
