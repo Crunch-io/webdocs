@@ -33,6 +33,8 @@ The available columns are:
 
 **Name** - The dataset name. Always enabled.
 
+**Description** - The dataset description.
+
 **Start Date/End Date** - The start and end dates for survey-based datasets.
 
 **Created** - The date the dataset was created.
