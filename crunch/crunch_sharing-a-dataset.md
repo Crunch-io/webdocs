@@ -13,7 +13,7 @@ The share panel slides out.
 
 ![](images/ShareDataset.png)
 
-Enter one or more comma-separated email addresses in the share dialog to share the dataset with other users. If they haven’t worked with data in Crunch before, they will be invited automatically.
+Enter one or more comma-separated email addresses in the share dialog to share the dataset with other users. If they haven’t worked with data in Crunch before, they will be invited automatically. You can also share datasets with teams by entering the name of the team. For more information on how to create teams go to [Sharing Data with Teams](crunch_team-management.html).
 
 If you have permission to edit the dataset, the **Manage dataset users** link will take you to [Permissions](crunch_sharing-properties.html), where you can change access and editorship of other users.
 

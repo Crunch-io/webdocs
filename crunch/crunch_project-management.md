@@ -21,6 +21,8 @@ Click the project name to change it. Optionally enter a description. You can set
 
 Enter the user names or email addresses of the users to add to the project. If you enter any email addresses that are not associated with a Crunch user, those users will be invited to Crunch. Set the **Notify new members** option to have an email sent to the users you add.
 
+You can also share projects with teams by entering the name of the team. For more information on how to create teams go to [Sharing Data with Teams](crunch_team-management.html).
+
 Once you've added some members and saved (or declined to do so by clicking **Close**), the empty project will open.
 
 ### Adding Datasets

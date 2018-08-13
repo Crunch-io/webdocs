@@ -254,6 +254,14 @@ entries:
       version: all
       output: web, pdf
 
+    - title: Sharing Data with Teams
+      url: /crunch/crunch_team-management.html
+      audience: all
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
     - title: Datasets with Multiple Editors
       url: /crunch/crunch_multiple-editors.html
       audience: all
