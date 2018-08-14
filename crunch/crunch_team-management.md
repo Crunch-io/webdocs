@@ -19,7 +19,7 @@ Click the + to add a **New Team**. This will open another panel where you can ed
 
 ![](images/NewTeamPanelMembers.png)
 
-### Sharing a Project or a Dataset with a Team
+### Sharing a Project or Dataset with a Team
 
 If you have created a team or have been added to one you're able to share a project or a dataset with this team or multiple teams.
 
