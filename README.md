@@ -1,13 +1,20 @@
 # webdocs
-Help pages for the Crunch web application. support.crunch.io
 
-These help pages use Jekyll, to get started installing and serving follow the [Jekyl quickstart guide](https://jekyllrb.com/docs/quickstart/).
+Help pages for the Crunch web application [support.crunch.io](https://support.crunch.io/). These help pages use [Jekyll](https://jekyllrb.com/).
 
 #### [temp link](http://crunch-io.github.io/webdocs/crunch/home.html)
 
-## set up support stuff here insted of joomla
+## Local installation
 
-- [x] make template work locally 
+To get started installing and serving follow the [Jekyll quickstart guide](https://jekyllrb.com/docs/quickstart/). 
+
+* `bundle install`
+* `bundle exec jekyll serve` to build the site on the preview server
+* Browse
+
+## Set up support stuff here instead of joomla
+
+- [x] make template work locally
 - [x] make template work on gh-pages
 - [x] get content from joomla
 - [x] make css tolerable
