@@ -19,6 +19,8 @@ Click the + to add a **New Team**. This will open another panel where you can ed
 
 ![](images/NewTeamPanelMembers.png)
 
+![](images/TeamUserPermission.png)
+
 Click a user’s permission to change it. Team members can be either:
 
 **Admin** – Full permission to manage the team.
