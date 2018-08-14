@@ -32,7 +32,7 @@ search: exclude
 {{subcategory.url | replace: "/crunch/","" | replace: ".html", ""}}:
   title: "{{subcategory.title}}"
   url: "{{subcategory.url | prepend: '..' }}"
-  link: "<a href='{{subcategory.url | prepend: '..'" }}'>{{subcategory.title}}</a>"
+  link: "<a href='{{subcategory.url | prepend: '..' }}'>{{subcategory.title}}</a>"
 {% endunless %}
 {% endfor %}
 {% endfor %}
