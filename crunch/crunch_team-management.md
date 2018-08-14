@@ -19,6 +19,12 @@ Click the + to add a **New Team**. This will open another panel where you can ed
 
 ![](images/NewTeamPanelMembers.png)
 
+Click a user’s permission to change it. Team members can be either:
+
+**Admin** – Full permission to manage the team.
+
+**Member** – Permission to view projects and all datasets shared with the team.
+
 ### Sharing a Project or Dataset with a Team
 
 If you have created a team or have been added to one you're able to share a project or a dataset with this team or multiple teams.
