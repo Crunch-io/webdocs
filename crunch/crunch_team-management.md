@@ -1,21 +1,27 @@
 ---
-title: Sharing Data with Teams
+title: Using Teams
 audience: all
 ---
 
-Crunch allows you to share a dataset or a project you have access to with a group of users inside a team.
+Teams let you to group users together, allowing datasets and projects to be shared with entire groups of users at once.
 
 ### Creating a Team
 
-To create a team, click the vertical ellipsis menu on the top right corner and select **Teams**.
+To create a team, click the three dots in the upper right corner and select **Teams** from the dropdown menu.
 
 ![](images/NewTeam.png)
 
-This opens a Teams panel.
+This opens the Teams panel.
 
 ![](images/NewTeamPanel.png)
 
-Click the + to add a **New Team**. This will open another panel where you can edit the name of the team and add members. Enter the name or email addresses of the users you want to add to the team. You can choose to disable suggestions or to notify new members once you’re done. If you enter any email addresses that are not associated with a Crunch user, those users will be invited to Crunch. Once you are finished, click **Save**.
+To Create a team, click the +. This will open a panel where you can edit the name of the team and add members. Enter the name or email addresses of the users you want to add to the team. If you enter any email addresses that are not associated with a Crunch user, those users will be invited to Crunch.
+
+Set **Disable suggestions** to turn off the autocomplete feature for user names (this is recommended if cutting and pasting a list of emails).
+
+Set **Notify new members** to email new team members.
+
+Once you are finished, click **Save**.
 
 ![](images/NewTeamPanelMembers.png)
 
@@ -23,12 +29,11 @@ Click the + to add a **New Team**. This will open another panel where you can ed
 
 Click a user’s permission to change it. Team members can be either:
 
-**Admin** – Full permission to manage the team. Share projects and datasets with the team.
+**Member** – Members have no special privileges.  
 
-**Member** – Permission to view projects and all datasets shared with the team.
+**Admin** – Admins can add and remove members of the team, as well as change a user's permissions on the team.
 
-### Sharing a Project or Dataset with a Team
 
-[Sharing a Dataset](crunch_sharing-a-dataset.html) - gives you information on how to share a dataset with members and teams.
+### Giving a Team Access to a Project or Dataset
 
-[Sharing Data to Multiple Users with Projects](crunch_project-management.html) - gives you information on how to share a dataset with members and teams.
+Giving a team access to a [dataset](crunch_sharing-a-dataset.html) or [project](crunch_project-management.html) is similar to sharing it with an individual. When access is granted, the team can be given view or edit privileges just like an individual, and all users on the team will be granted that level of access, though note that basic users can still only have view access even if they are granted edit access.

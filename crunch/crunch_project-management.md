@@ -19,9 +19,7 @@ Click the project name to change it. Optionally enter a description. You can set
 
 ![](images/ProjectAddMembers.png)
 
-Enter the user names or email addresses of the users to add to the project. If you enter any email addresses that are not associated with a Crunch user, those users will be invited to Crunch. Set the **Notify new members** option to have an email sent to the users you add.
-
-You can also share projects with teams by entering the name of the team. For more information on how to create teams go to [Sharing Data with Teams](crunch_team-management.html).
+Enter comma-separated user names, email addresses, or [teams](crunch_team-management.html) to add to the project. If you enter any email addresses that are not associated with a Crunch user, those users will be invited to Crunch. Set the **Notify new members** option to have an email sent to the users you add.
 
 Once you've added some members and saved (or declined to do so by clicking **Close**), the empty project will open.
 
@@ -50,6 +48,8 @@ Click a user's permission to change it. Users can be either:
 **Editor** – Full permission to edit the project and all datasets in the project.
 
 **Viewer** – Permission to view the project and all datasets in the project.
+
+Note that basic users can only view datasets, regardless of the permissions they are granted.
 
 When hovering over a user (other than yourself), an 'x' will appear on the right side of their user listing. Click this to remove them from the project. Any changes you make here will not be applied until you click **Save**.
 

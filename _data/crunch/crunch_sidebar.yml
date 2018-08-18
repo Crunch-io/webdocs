@@ -254,7 +254,7 @@ entries:
       version: all
       output: web, pdf
 
-    - title: Sharing Data with Teams
+    - title: Using Teams
       url: /crunch/crunch_team-management.html
       audience: all
       platform: all
