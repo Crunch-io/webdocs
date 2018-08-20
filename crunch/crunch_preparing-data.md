@@ -12,6 +12,7 @@ We recommend you upload your data directly from your survey system into Crunch *
 
 ### Step 2: Clean the data
 Once your data is imported to Crunch, we recommend taking the following steps to make it look more polished and more efficient to navigate. 
+* [First, take editorship of the dataset](http://support.crunch.io/crunch/crunch_multiple-editors.html)
 * [Give the dataset a friendly name](http://support.crunch.io/crunch/crunch_dataset-properties.html)
 * [Hide some variables from view (e.g. “home_address” or other personally identifying information)](http://support.crunch.io/crunch/crunch_organizing-variables.html#hiding-unhiding-and-deleting-variables)
 * [Organize variables into folders](http://support.crunch.io/crunch/crunch_organizing-variables.html)
