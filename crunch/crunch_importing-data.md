@@ -21,7 +21,7 @@ To import data:
     * To import a file from a URL, enter the URL under **Enter Source URL** and click **Upload**.
 * While the dataset uploads, you can enter a name, description, and start and end dates – a default name will be provided based on the file name.
 
-Ff your input data file is over 100 megabytes, you should use a file-hosting service and
+If your input data file is over 100 megabytes, you should use a file-hosting service and
 import using hosted URL.
 
 ![](images/ImportInterface.png)
