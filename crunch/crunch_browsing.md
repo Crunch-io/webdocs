@@ -3,11 +3,11 @@ title: Browsing Data
 audience: all
 ---
 
-When you open a dataset, the card summary view of the dataset will load. If you are in another view, you can return to card view by clicking browse icon in the view control at the top of the page:
+When you open a dataset, the dashboard of the dataset will load. You can navigate to card view by clicking the Variable Summaries icon in the view control at the top of the page:
 
 ![](images/ViewToggle.png)
 
-In this view you can browse top-line summaries of each variable in a series of cards. Each card represents a single variable — the number of cards you can see at a time will vary based on the card widths and the width of your display.
+In card view you can browse top-line summaries of each variable in a series of cards. Each card represents a single variable — the number of cards you can see at a time will vary based on the card widths and the width of your display.
 
 ![](images/Browse.png)
 
@@ -39,7 +39,7 @@ In card view, the play controller contains the following controls:
         <td><p><strong>Counts/Percents</strong> – Toggles between showing counts and percentages for categorical, array, and multiple-response variables.</p></td>
     </tr>
     <tr>
-        <td><img src="images/DisplayShowEmpty.png" /></td>
-        <td><p><strong>Show/Hide Empty</strong> – Toggles between showing and hiding categories with no valid values (e.g. if an applied filter has resulted in some categories being empty).</p></td>
+        <td><img src="images/DisplayMoreOptions.png" /></td>
+        <td><p><strong>More options</strong> – Opens a menu where you can show/hide multiple options simultaneously: Categories and Subtotals options, Show empty rows/columns, Population magnitude (Thousand, Million, Trillion) and Show means.</p></td>
     </tr>
 </table>
