@@ -15,9 +15,9 @@ When multitable view is opened, the most recently created multitable definition 
 
 To change the multitable definition, click the name in the upper left and select the definition you want to use from the dropdown menu.
 
-### Showing means in a multitable
+### Viewing means, discrete values, or ranges
 
-If you are using a numeric variable or a categorical variable that has numeric values (see [Variable Properties](crunch_variable-properties.html)), you can right click the row variable and select **Show Means** to show a single row containing the mean of the row variable in each column. Right click again and select **Show Ranges** (numeric) or **Show Categories** (categorical) to toggle back to the original view.
+If you are using a numeric variable or a categorical variable that has numeric values (see [Variable Properties](crunch_variable-properties.html)), you can open the dropdown next to the row variable to view means (a single row showing mean values), discrete values (a separate row for each values), or ranges (values automatically binned into ranges).
 
 ![](images/MultitableShowMeans.png)
 
@@ -39,14 +39,14 @@ You can add variables to the multitable definition by clicking them or dragging 
 
 You may wish to hide some columns of a multitable (for example 'decline to state' or 'not asked'). You can hide a multitable column while in the multitable builder by clicking on the column title – it will turn gray. Click the column title again to unhide it. When the multitable definition is used, this column will not be displayed. At this time, when exporting to a tab book (see above), all columns will be exported, whether hidden or not – we will be improving this in a future release.
 
-#### Sharing Multitable Definitions
+#### Sharing a Multitable
 
-If you are a dataset editor, you will see a **Personal/Shared** toggle in the upper-right corner.
+If you are a dataset editor or if you are a member of a team that has access to this dataset, you will see  the **Shared with** toggle in the upper-right corner.
 
 ![](images/PersonalSharedToggle.png)
 
-Set it to **Shared** to allow all users on the dataset to see and use this set of variables as column headers. Set to **Personal** to only make it available to yourself.
+Only dataset editors will see the **All dataset viewers** option. If you are a member of any teams that can access this dataset, they will appear in this list (e.g. *Design Team* in the example above).
 
-#### Deleting a Multitable Definition
+#### Deleting a Multitable
 
 To delete a multitable definition, edit it, click **Delete** in the lower-right corner, and confirm that you'd like to delete it.
